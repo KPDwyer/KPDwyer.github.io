@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="en">
+	<title>KPD Home</title>
+	<subtitle>Currently working as a Senior Developer in the games industry.</subtitle>
+	<link href="https://kpdwyer.github.io/feed/feed.xml" rel="self"/>
+	<link href="https://kpdwyer.github.io/"/>
+	<updated>2021-06-20T00:00:00Z</updated>
+	<id>https://kpdwyer.github.io/</id>
+	<author>
+		<name>Kyle Dwyer</name>
+		<email>kpdassets@gmail.com</email>
+	</author>
+	
+	<entry>
+		<title>Markov Jr</title>
+		<link href="https://kpdwyer.github.io/blog/markovjr/"/>
+		<updated>2021-06-20T00:00:00Z</updated>
+		<id>https://kpdwyer.github.io/blog/markovjr/</id>
+		<content type="html">&lt;p&gt;Inspired by &lt;a href=&quot;https://github.com/mxgmn/MarkovJunior&quot;&gt;mxgmn&lt;/a&gt;, I implemented a simple set of rules of Markov Jr in Godot.  Markov Jr needs some boilerplate work to make nodes operate in any nonlinear way (hiearchies, subgraphs, etc). I opted out of doing this work unless I could complete the work to make &lt;code&gt;inference&lt;/code&gt; work, which allows user to enforce constraints on a sequence to varying effects.  I never go that far, but my implementation was enough to generate mazes and flood fills.&lt;/p&gt;
+&lt;p&gt;It is my hope to revisit Markov Jr as part of the Godot port of my &lt;a href=&quot;https://kpdwyer.github.io/blog/NodeMaps&quot;&gt;Node Mapping&lt;/a&gt; project.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/x0ZNsV6urp-1226.webp 1226w&quot;&gt;&lt;img alt=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/x0ZNsV6urp-1226.png&quot; width=&quot;1226&quot; height=&quot;803&quot;&gt;&lt;/picture&gt;&lt;/td&gt;
+&lt;td&gt;A flood fill is a very simple markovjr ruleset w/ 2 rules.  see the &lt;a href=&quot;https://kpdwyer.github.io/clips/mkjr_flood.mp4&quot;&gt;video here&lt;/a&gt;.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/rBzfCifspw-1222.webp 1222w&quot;&gt;&lt;img alt=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/rBzfCifspw-1222.png&quot; width=&quot;1222&quot; height=&quot;1144&quot;&gt;&lt;/picture&gt;&lt;/td&gt;
+&lt;td&gt;With only 3 rules and no code changes, you can implement the entirety of a backtrack maze algorithm.  &lt;a href=&quot;https://kpdwyer.github.io/clips/mkjr_maze.mp4&quot;&gt;video here&lt;/a&gt;.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Wave Function Collapse</title>
+		<link href="https://kpdwyer.github.io/blog/wfc/"/>
+		<updated>2020-03-20T00:00:00Z</updated>
+		<id>https://kpdwyer.github.io/blog/wfc/</id>
+		<content type="html">&lt;p&gt;Inspired by &lt;a href=&quot;https://github.com/mxgmn/WaveFunctionCollapse&quot;&gt;mxgmn&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://twitter.com/OskSta&quot;&gt;Oskar Stålberg&lt;/a&gt;, I spent a bunch of time building out a Unity implementation for WFC using tilemaps.  This was a fun exercising in optimization, and taught me a lot about how procedural generation can still leave room for authored editing: to me, the strength of WFC is allowing both the designer and the algorithm to &amp;quot;collapse&amp;quot; any of the nodes, opening up myriad ways to collaborate with the machine.&lt;/p&gt;
+&lt;p&gt;Source for WFC is closed.  The code is not documented well enough to be of any use to anyone, but interested parties can reach out if they want to learn more.  As usual, it&#39;s worth noting that performance in these clips is often bound by screen capture / streaming, and staggered execution is an intentional choice to make the videos more interesting!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=AfUS6-QcaNw&quot;&gt;Staggered Fill on YouTube&lt;/a&gt; - In this clip, each contiguous island can be clicked on to destroy the island, and then refill via WFC.  each new island is covered based on it&#39;s center point&#39;s distance to the middle of the square.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://kpdwyer.github.io/clips/wfc_simplegen_small.gif&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/gif&quot; srcset=&quot;https://kpdwyer.github.io/img/NegFJBZqYE-414.gif 414w&quot;&gt;&lt;img alt=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/NegFJBZqYE-414.webp&quot; width=&quot;414&quot; height=&quot;458&quot;&gt;&lt;/picture&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;I started off with a simple generator using a basic pipe tileset&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/jtGb_NPhf4-400.webp 400w&quot;&gt;&lt;img alt=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/jtGb_NPhf4-400.png&quot; width=&quot;400&quot; height=&quot;400&quot;&gt;&lt;/picture&gt;&lt;/td&gt;
+&lt;td&gt;But ended up making a more complex pipes set with overpasses, endings and other features.  I fell in love with the pictures I could find in the chaos.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/pmAl6wWsOm-400.webp 400w&quot;&gt;&lt;img alt=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/pmAl6wWsOm-400.png&quot; width=&quot;400&quot; height=&quot;400&quot;&gt;&lt;/picture&gt;&lt;/td&gt;
+&lt;td&gt;I began constraining the generation within shapes by selectively allowing regions.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Which lead to interactions like the following clips, where the user could select a region manually to trigger rebuilds of the WFC.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://kpdwyer.github.io/clips/radial_sample.mp4&quot;&gt;radial_sample&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://kpdwyer.github.io/clips/gameplay_destruction.mp4&quot;&gt;gameplay_destruction&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>NodeMaps</title>
+		<link href="https://kpdwyer.github.io/blog/nodemaps/"/>
+		<updated>2020-01-03T00:00:00Z</updated>
+		<id>https://kpdwyer.github.io/blog/nodemaps/</id>
+		<content type="html">&lt;p&gt;I built a node-based mapping library for Unity, using the xNode plugin for the graph tooling.  I build a lot of grid-based games and was hoping to create a Shader-Graph-like solution for generating tile maps.  This tool is open sourced  &lt;a href=&quot;https://github.com/KPDwyer/rlbits-mapping&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;needs&quot; tabindex=&quot;-1&quot;&gt;Needs &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/nodemaps/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;When generating maps in a code-driven way, you often need to layer and combine noise patterns in a variety of ways, testing and tweaking as you go.  This iterative process can be slow when changing code every test - or time consuming and unwieldy to expose all of the appropriate elements to the inspector.  Compounding this is that rather than a singular result, you are often building something robust that can be generated in a multitude of ways, so each iteration needs to be tested with some set of changing parameters: often &lt;code&gt;seed&lt;/code&gt;, but also &lt;code&gt;map_size&lt;/code&gt; and other elements.&lt;/p&gt;
+&lt;h2 id=&quot;solution&quot; tabindex=&quot;-1&quot;&gt;Solution &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/nodemaps/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The Node Graph workflow lends itself well to these needs: you can preview your map generator at multiple steps in the generation, as well as across multiple seeds.  Live Preview can be made to react to scrubbing of value, and pieces of the genreator can be detached from others to isolate elements that need fixing.&lt;/p&gt;
+&lt;h2 id=&quot;present-and-future&quot; tabindex=&quot;-1&quot;&gt;Present &amp;amp; Future &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/nodemaps/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The tool is open sourced &lt;a href=&quot;https://github.com/KPDwyer/rlbits-mapping&quot;&gt;here&lt;/a&gt;.  I intend to rebuild it in Godot 4, as a &lt;code&gt;GraphEdit&lt;/code&gt; and &lt;code&gt;Noise&lt;/code&gt; refactor are slated to be refactored.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://kpdwyer.github.io/clips/nodemap_noisecell.mp4&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/gif&quot; srcset=&quot;https://kpdwyer.github.io/img/7F_2_FHGZr-2014.gif 2014w&quot;&gt;&lt;img alt=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/7F_2_FHGZr-2014.webp&quot; width=&quot;2014&quot; height=&quot;1204&quot;&gt;&lt;/picture&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Another strength of this tool is combining procedural methods from different domains: like experiementing with cellular automation applied to the ouput of traditional perlin noise&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://kpdwyer.github.io/clips/nodemap_shapetweaks.gif&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/gif&quot; srcset=&quot;https://kpdwyer.github.io/img/2hPG_-rccL-1995.gif 1995w&quot;&gt;&lt;img alt=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/2hPG_-rccL-1995.webp&quot; width=&quot;1995&quot; height=&quot;1580&quot;&gt;&lt;/picture&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;You can tweak how a Minimum Spanning Tree is connected, but also how the tool stores and renders that data.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://kpdwyer.github.io/clips/nodemap_scrubmaze.gif&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/gif&quot; srcset=&quot;https://kpdwyer.github.io/img/K2fuXtqFcx-964.gif 964w&quot;&gt;&lt;img alt=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/K2fuXtqFcx-964.webp&quot; width=&quot;964&quot; height=&quot;964&quot;&gt;&lt;/picture&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Quick gif that shows how scrubbing the &lt;code&gt;seed&lt;/code&gt; param allows you to view many outputs of a graph&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/uUZvvh03EB-1620.webp 1620w&quot;&gt;&lt;img alt=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/uUZvvh03EB-1620.png&quot; width=&quot;1620&quot; height=&quot;1525&quot;&gt;&lt;/picture&gt; &lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/stRJEKGz3A-3840.webp 3840w&quot;&gt;&lt;img alt=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/stRJEKGz3A-3840.jpeg&quot; width=&quot;3840&quot; height=&quot;1830&quot;&gt;&lt;/picture&gt; &lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/R8h2aczhs2-1620.webp 1620w&quot;&gt;&lt;img alt=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/R8h2aczhs2-1620.jpeg&quot; width=&quot;1620&quot; height=&quot;1525&quot;&gt;&lt;/picture&gt;&lt;/td&gt;
+&lt;td&gt;I wrote a couple of different consumers for the output, including a 3d terrain plugin.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Autotile Pipeline</title>
+		<link href="https://kpdwyer.github.io/blog/autotilepipeline/autotile/"/>
+		<updated>2019-04-18T00:00:00Z</updated>
+		<id>https://kpdwyer.github.io/blog/autotilepipeline/autotile/</id>
+		<content type="html">&lt;h1 id=&quot;overview-quick-start&quot; tabindex=&quot;-1&quot;&gt;Overview + Quick Start &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/autotilepipeline/autotile/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;I created some tools to reduce the friction of importing AutoTile assets into Unity.  If the art is made in a specific format (in this case RPGMaker&#39;s A2 sheet), using one of these tools will remove all or most of the user interaction required to make a RuleTile for use in your game.&lt;/p&gt;
+&lt;p&gt;The easiest starting point is &lt;a href=&quot;https://github.com/KPDwyer/FullsizedAutoTIle&quot;&gt;Implementation 1 - Fullsized Tiles&lt;/a&gt;, so if all you want is what I&#39;ve described, check out the Github README for basic usage.&lt;/p&gt;
+&lt;p&gt;However, if you find that The Fullsized Tiles generate a bit too many textures for your liking, take a look at &lt;a href=&quot;https://github.com/KPDwyer/SubTileAutoTile&quot;&gt;Implementation 2 - Subtiles&lt;/a&gt;, which perhaps requires a bit more effort to setup, but won&#39;t generate any textures beyond the source asset.&lt;/p&gt;
+&lt;p&gt;If you&#39;re interested in the project as a whole: Take a look at the &lt;a href=&quot;https://github.com/KPDwyer/AutoTileImporter&quot;&gt;Working Project&lt;/a&gt;, and read on.&lt;/p&gt;
+&lt;h1 id=&quot;goal&quot; tabindex=&quot;-1&quot;&gt;Goal &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/autotilepipeline/autotile/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;RPG Maker has a real nice &amp;quot;auto tile&amp;quot; system, whereby you load in a fairly simple asset and when you use the tile generated by that asset to draw on the Tilemap, it automatically renders each tile such that it is aware of its local neighbors.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/HjQkysD_er-1126.webp 1126w&quot;&gt;&lt;img alt=&quot;On Left, A2 Source Asset.  On right, the output in tilemap editor&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/HjQkysD_er-1126.png&quot; width=&quot;1126&quot; height=&quot;560&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;This is generally known as AutoTiling, and will be referred to as such in this article.&lt;/p&gt;
+&lt;p&gt;I set out to duplicate the functionality of RPGMaker&#39;s AutoTiling - specifically what is commonly known as their A2 sheet, shown above.  I was surprised to find that while Unity accommodates the creation of these AutoTiles, a few layers of complexity prevent it from being as smooth as RPGMaker&#39;s UX.&lt;/p&gt;
+&lt;p&gt;My goal was to familiarize myself with the Tilemap pipeline by making it as low-effort as possible to convert an RPG Maker A2 Tileset PNG into a Unity RuleTile.&lt;/p&gt;
+&lt;h1 id=&quot;obstacles&quot; tabindex=&quot;-1&quot;&gt;Obstacles &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/autotilepipeline/autotile/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id=&quot;obstacle-1-2d-extras&quot; tabindex=&quot;-1&quot;&gt;Obstacle 1: 2D-Extras &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/autotilepipeline/autotile/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Unity introduced its 2D Tilemap system some time ago, and it comes with very customizable tiles and brushes.  It&#39;s a great system, but it doesn&#39;t come with everything out of the box - you have to find their &lt;code&gt;2D-extras&lt;/code&gt; &lt;a href=&quot;https://github.com/Unity-Technologies/2d-extras&quot;&gt;repository on GitHub&lt;/a&gt; to really dig in to the common use cases for the flexibility it provides.  This is a pain, as it seems like most of the demos of this system I&#39;ve seen have centered around the RuleTile, which isn&#39;t even in the core feature set. Odd.&lt;/p&gt;
+&lt;h2 id=&quot;obstacle-2-ruletile-s-interface&quot; tabindex=&quot;-1&quot;&gt;Obstacle 2: RuleTile&#39;s Interface &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/autotilepipeline/autotile/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/WQ1Dwwj61p-400.webp 400w&quot;&gt;&lt;img alt=&quot;Vanilla RuleTile inspector&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/WQ1Dwwj61p-400.png&quot; width=&quot;400&quot; height=&quot;689&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;This is an obstacle I expected to find.  Based on previous reading, I knew that to use Unity&#39;s RuleTile meant to use their custom inspector.  While the inspector is very pretty, manually creating each rule takes an unreasonable amount of time - there are 256 possible combinations with 2 states in 8 directions.  That assumes we are using 2 states (we are!) but Unity throws a curve ball by adding a &amp;quot;don&#39;t care&amp;quot; state on top! The total possible permutations rises to 6561.  We only care about 2 states, but even 256 permutations is too many:  RPGMaker&#39;s AutoTiler only actually cares about 48 of these permutations.&lt;/p&gt;
+&lt;p&gt;Once those rules are set, we need to assign a sprite to each rule. That means having a folder of several sprites, and manually dragging them to the Sprite Field on the inspector.  This is a lot of friction between &lt;code&gt;finishing the art&lt;/code&gt; and &lt;code&gt;being able to paint tiles with the art&lt;/code&gt;, and it must be done for each unique Tileset.  The crux of this exercise was, given a known Tileset layout, remove all of the friction of turning a Tileset into a RuleTile.&lt;/p&gt;
+&lt;p&gt;If you&#39;re interested in reading further about how AutoTiling works, check out these links: &lt;a href=&quot;http://www.angryfishstudios.com/2011/04/adventures-in-bitmasking/&quot;&gt;Adventures in Bitmasking&lt;/a&gt;  and &lt;a href=&quot;https://gamedevelopment.tutsplus.com/tutorials/how-to-use-tile-bitmasking-to-auto-tile-your-level-layouts--cms-25673&quot;&gt;How to Use Tile Bitmasking to Auto Tile Your Level Layouts&lt;/a&gt;.  There is a lot of literature on the bit masking involved in AutoTiling, but this exercise pertains specifically to replicating RPGMaker&#39;s functionality in Unity.&lt;/p&gt;
+&lt;h2 id=&quot;obstacle-3-rpgmaker-s-filthy-lies&quot; tabindex=&quot;-1&quot;&gt;Obstacle 3: RPGMaker&#39;s Filthy Lies &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/autotilepipeline/autotile/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/VrAwe4Z4gJ-256.webp 256w&quot;&gt;&lt;img alt=&quot;A2 Source Asset&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/VrAwe4Z4gJ-256.png&quot; width=&quot;256&quot; height=&quot;384&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;Keen readers may have already perceived 6 tiles total on the A2 sheet, yet the AutoTile process calls for 48 unique tiles!  RPGMaker is doing something fishy here...  I used a sample Tileset - what appears to be 6 32x32 tiles in a 2x3 grid (thus a resolution of 64x96).  Note the highlighted Tile in the example screenshot.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/PBglhI036K-1126.webp 1126w&quot;&gt;&lt;img alt=&quot;A Nefarious Tile&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/PBglhI036K-1126.png&quot; width=&quot;1126&quot; height=&quot;560&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;The highlighted tile doesn&#39;t actually exist in the base atlas! Now, I don&#39;t know the implementation details of how RPGMaker actually performs this, but my mental model suggests that while the UX + Source asset of RPGMaker treats these tiles as 32x32, the tiling engine actually paints them as 16x16 tiles - each full-sized tile is actually 4 Subtiles.  I refer to these with cardinal shorthand - NW,NE,SW,SE.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/d-CYOJRHCX-575.webp 575w&quot;&gt;&lt;img alt=&quot;A TileQuad&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/d-CYOJRHCX-575.png&quot; width=&quot;575&quot; height=&quot;339&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;This means the A2 Tileset actually generates 48 usable full-size tiles from a pool of 20 subtiles.  The top left full-size tile is actually just a preview for RPGMaker&#39;s palette window, it remains unused in the actual tile painting and rendering at runtime as it&#39;s 4 subtiles are contained within the bottom 4 tiles.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/O9NEdiLx7Z-256.webp 256w&quot;&gt;&lt;img alt=&quot;A TileQuad&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/O9NEdiLx7Z-256.png&quot; width=&quot;256&quot; height=&quot;384&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;I knew early on I&#39;d have to manually assign the quads to each rule, as there are too many layers in the translation to do it smoothly / mathematically.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/oKBun4Zd-S-512.webp 512w&quot;&gt;&lt;img alt=&quot;SubTile Indices + TilingEdges&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/oKBun4Zd-S-512.png&quot; width=&quot;512&quot; height=&quot;385&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;I also discovered that the tiling edges matter: in the first tile set shown above, there is no discernible difference between Subtiles 9,10,5 &amp;amp; 6.  However if you simply cut the four of them out of the set and used them like that, it would be fail to adhere to the tiling edges.  In the case of this example, the carpet may line up, but the flagstones in the other set would fail to align correctly.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/Lvve5U01Ib-600.webp 600w&quot;&gt;&lt;img alt=&quot;Subtile edges&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/Lvve5U01Ib-600.png&quot; width=&quot;600&quot; height=&quot;192&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;Subtiles 5 &amp;amp; 6 should be at the Top Right and Top Left respectively of any tile they are a part of, and the same goes for 9 &amp;amp; 10 on the bottom Right and Bottom Left respectively.  If we are listing them clockwise from the NW, &lt;code&gt;[9,10,5,6]&lt;/code&gt; should actually be rendered as &lt;code&gt;[6,5,10,9]&lt;/code&gt;. The blue lines help visualize the outward facing edges of each subtile.&lt;/p&gt;
+&lt;p&gt;Since we know each subtile needs to appear in its target tile in the same local quadrant it occupies in the Tileset atlas, we can simplify the mapping to the following for the sake of manually assigning quads.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/kC_IodFR0u-256.webp 256w&quot;&gt;&lt;img alt=&quot;Tile Indices&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/kC_IodFR0u-256.png&quot; width=&quot;256&quot; height=&quot;384&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;Now that we understand the functionality reasonably well, the most straightforward solution presents itself to us:  lets generate these 48 full-sized tiles from our pool of 20 subtiles.&lt;/p&gt;
+&lt;h1 id=&quot;implementation-1-full-sized-tiles&quot; tabindex=&quot;-1&quot;&gt;Implementation 1: Full-sized Tiles &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/autotilepipeline/autotile/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id=&quot;target-output&quot; tabindex=&quot;-1&quot;&gt;Target Output &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/autotilepipeline/autotile/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The Ideal result of the full-sized tiles implementation is that a developer should be able to perform a single action (ideally a right-click menu item) on an A2 PNG and immediately be served a RuleTile generated from that asset.  Spoilers: I did it.  Double Spoilers: I hate it.&lt;/p&gt;
+&lt;h2 id=&quot;step-by-step&quot; tabindex=&quot;-1&quot;&gt;Step by Step &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/autotilepipeline/autotile/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The first step for any of these solutions is simply to generate the rules for the RuleTile.  This is sort of an inversion of the standard AutoTiling bit mask:  while looping through 0-255, given an integer value, which tiles should be occupied for this rule?  We have some real ugly code for removing the rules we don&#39;t care about, but code elegance is just a small cost for reducing our total rule count by over 200 redundant rules.  This is the &lt;code&gt;GetRule(int neighbourMask)&lt;/code&gt; function in &lt;code&gt;ImportAutotile.cs&lt;/code&gt;, and it is used in both implementations.&lt;/p&gt;
+&lt;p&gt;We then need to generate a sprite for each rule, using a lookup table.  I&#39;ve made my lookup tables ScriptableObjects for a few reasons - most importantly, a custom inspector ensures I can make the job of setting up the subtile indices as painless as possible.  Ultimately, the actual object is just an array of integers for subtile indices and a list of TilingRules for nicely visualizing what rule + quad each indices belongs too.  Users of this tool for an A2 Tileset don&#39;t need to edit this ScriptableObject at all, but if you were to make a lookup table for a different style of Tileset, it may be handy.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/5hQ0mZZK5_-270.webp 270w&quot;&gt;&lt;img alt=&quot;AutoTile Inspector&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/5hQ0mZZK5_-270.png&quot; width=&quot;270&quot; height=&quot;521&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;So as we generate a sprite for each rule (see &lt;code&gt;GenerateSprite(int neighbourMask, int res, Texture2D source, AutoTileLookup lookup, string folderPath)&lt;/code&gt; in &lt;code&gt;ImportAutotile.cs&lt;/code&gt;), we grab the values from our lookup table, convert them from Tile indices to Subtile indices based on their quadrant, then we generate a new Texture2D, grab the pixels from the appropriate quads and use &lt;code&gt;SetPixels&lt;/code&gt; to write the new texture. we save this texture with the mask value in the filename.&lt;/p&gt;
+&lt;p&gt;We do a quick save and refresh of our asset datatbase to be sure the files are imported correctly and have their metadata populated, then we simply iterate through the rules, loading the sprite we generated based on the tilemask for each rule.  Once we&#39;ve assigned the sprites to the rules we save the RuleTile and voila! - a functioning RuleTile from our source atlas.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://kpdwyer.github.io/clips/autotile/10_Fullsized.gif&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/gif&quot; srcset=&quot;https://kpdwyer.github.io/img/jDQ77i1EqP-483.gif 483w&quot;&gt;&lt;img alt=&quot;Fullsized&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/jDQ77i1EqP-483.webp&quot; width=&quot;483&quot; height=&quot;268&quot;&gt;&lt;/picture&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;problems&quot; tabindex=&quot;-1&quot;&gt;Problems &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/autotilepipeline/autotile/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;usage&quot; tabindex=&quot;-1&quot;&gt;Usage &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/autotilepipeline/autotile/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;First of all, you&#39;ll notice this operation is performed upon a PNG but also requires the lookup table data.  The nature of my role as someone who will have to make a few different lookup tables meant I didn&#39;t want to make this a simple &lt;code&gt;Right Click -&amp;gt; Generate Autotile&lt;/code&gt; script, as I want to provide 2 pieces of information to the function: the actual PNG, and the lookup table.  Thus, I actually trigger the operation with a Sprite Field on the lookup table&#39;s ScriptableObject which then triggers the function when you drag a sprite to it.  This is a minor detail though, and should require very little legwork to make it work with a right click.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/ZggkLQ0qqe-820.webp 820w&quot;&gt;&lt;img alt=&quot;ScriptableObject Interface&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/ZggkLQ0qqe-820.png&quot; width=&quot;820&quot; height=&quot;386&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;h3 id=&quot;texture-memory&quot; tabindex=&quot;-1&quot;&gt;Texture Memory &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/autotilepipeline/autotile/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;This is the big con.  At best, this method results in a new 256x256 texture atlas full of all 48 fullsize tiles.  This is a lot larger than the 64x96 atlas we started with.  It also means we need to do something with this smaller source asset we used to generate all these tiles.  It irked me to delete this smaller source file once i had generated the behemoth atlas used to drive this RuleTile.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/R0ljZ23qeQ-600.webp 600w&quot;&gt;&lt;img alt=&quot;Fullsized Atlas&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/R0ljZ23qeQ-600.png&quot; width=&quot;600&quot; height=&quot;415&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;Surely, I thought, there must be a better way.  if this giant atlas came from these 32x32 tiles generated from a smaller atlas&#39; 16x16 subtiles, couldn&#39;t we use the same source atlas to drive our AutoTile?&lt;/p&gt;
+&lt;h1 id=&quot;implementation-2-subtiles&quot; tabindex=&quot;-1&quot;&gt;Implementation 2: Subtiles &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/autotilepipeline/autotile/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id=&quot;target-output-1&quot; tabindex=&quot;-1&quot;&gt;Target Output &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/autotilepipeline/autotile/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Rather than view the solution through the lens of the full-sized tiles that we perceive, what if we saw the solution through the lens of the smaller subtiles that we actually use in our implementation?  if we could somehow paint each subtile individually while conforming to the rules + position needs of the full-sized tiles, we&#39;d have nearly the same functionality without generating a large atlas - in fact, we could use the source asset.&lt;br&gt;
+Our goal for this implementation is to generate a brush at subtile scale - in this case that&#39;s a 16x16 tile - that gives us the same visual output as the initial implementation without generating any new textures.&lt;/p&gt;
+&lt;h2 id=&quot;step-by-step-1&quot; tabindex=&quot;-1&quot;&gt;Step by Step &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/autotilepipeline/autotile/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;First of all, if we aren&#39;t generating new textures, we need to import the source texture properly. we do this in &lt;code&gt;ProcessSubtileTexture(Texture2D _texture, AutoTileLookup _lookup)&lt;/code&gt; of &lt;code&gt;ImportAutotile.cs&lt;/code&gt;.  we make sure to import the Texture2D as containing multiple sprites, then use our known measurement to slice the sprite in code based on the size of the Subtiles.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/mmUD0AU6CO-2885.webp 2885w&quot;&gt;&lt;img alt=&quot;Fullsized Atlas&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/mmUD0AU6CO-2885.png&quot; width=&quot;2885&quot; height=&quot;1252&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;In this case I name them based on which Quadrant they are in and their Subtile ID.  After assigning the sliced metadata to the sprite sheet of the Texture2D, I re-import the whole thing and use &lt;code&gt;LoadAllAssetsAtPath(path)&lt;/code&gt; to make sure I load the individual Sprite assets at that path. I sort them by name because the naming scheme used above means each subtile will be stored in it&#39;s own part of the list, from lowest Subtile ID to highest. I then generate the RuleTile and it&#39;s TilingRules exactly as was done previously.&lt;/p&gt;
+&lt;p&gt;Each Rule now needs 4 tiles, though: one for each Quadrant.  At this point I realized I hadn&#39;t thought this through at all, but remembered that the RuleTIle supports multiple sprites for animation, or random placement.  poking into the source code for &lt;code&gt;RuleTile.cs&lt;/code&gt; in the &lt;code&gt;2d-extras&lt;/code&gt; repository, I discovered &lt;code&gt;SpriteOutput&lt;/code&gt;, an enum that you can use to determine which tile in the List of Sprites gets placed for each rule.  Since &lt;code&gt;GetTileData(Vector3Int position, ITilemap Tilemap, ref TileData tileData)&lt;/code&gt; receives the tile&#39;s &lt;code&gt;world&lt;/code&gt; position, we can return which ever tile we want dependent on world position.  using a couple of &lt;code&gt;mod&lt;/code&gt; operations, we can sample from the list of tiles based on whether the world grid index is even or not.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/clPnaPbXZF-1766.webp 1766w&quot;&gt;&lt;img alt=&quot;Mod Grid World&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/clPnaPbXZF-1766.png&quot; width=&quot;1766&quot; height=&quot;998&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;So we throw some custom inspectors in there, and now each TilingRule in our RuleTile accepts 4 images: SW, SE, NW, NE.  With these additions to the &lt;code&gt;RuleTile.cs&lt;/code&gt; (and some niceties in &lt;code&gt;RuleTileEditor.cs&lt;/code&gt;), we can create and paint with a Modulo &lt;code&gt;SpriteOutput&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Now our &lt;code&gt;AddSpritesToRule(ref RuleTile.TilingRule _rule, List&amp;lt;Sprite&amp;gt; _sprites, int _ruleID, AutoTileLookup _lookup)&lt;/code&gt; merely has to transform its tile indices to subtile indices based on which quadrant of the TilingRule it applies too.  We add these TilingRules to our RuleTile, and woosh! - processing an A2 PNG file slices the atlas for you and generates a RuleTile ready to be used on a subtile-scale grid.&lt;/p&gt;
+&lt;h2 id=&quot;problems-1&quot; tabindex=&quot;-1&quot;&gt;Problems &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/autotilepipeline/autotile/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;usage-1&quot; tabindex=&quot;-1&quot;&gt;Usage &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/autotilepipeline/autotile/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;This is the same as Implementation 1.  First of all, you&#39;ll notice this operation is performed upon a PNG but also requires the lookup table data.  The nature of my role as someone who will have to make a few different lookup tables meant I didn&#39;t want to make this a simple &lt;code&gt;Right Click -&amp;gt; Generate Autotile&lt;/code&gt; script, as I want to provide 2 pieces of information to the function: the actual PNG, and the lookup table.  Thus, I actually trigger the operation with a Sprite Field on the lookup table&#39;s ScriptableObject which then triggers the function when you drag a sprite to it.  This is a minor detail though, and should require very little legwork to make it work with a right click.&lt;/p&gt;
+&lt;h3 id=&quot;setup&quot; tabindex=&quot;-1&quot;&gt;Setup &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/autotilepipeline/autotile/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;There&#39;s a minor bit of friction when setting up, your Tilemap needs to have half-scale tiles - so if your pixel-per-unit is 32 and your tiles are 32, then you&#39;ll need your Grid Component&#39;s cell size to be 0.5.&lt;/p&gt;
+&lt;h3 id=&quot;painting-the-autotile&quot; tabindex=&quot;-1&quot;&gt;Painting the AutoTile &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/autotilepipeline/autotile/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Initially, this adds some operational friction to the act of actually painting with the RuleTile.  Namely, you&#39;d be able to paint a quarter, half or three-quarter fractional tile that will look terrible, as it&#39;s meant to be painted alongside its entire tile.  Since the Tilemap is at subtile resolution, painting is at subtile resolution as well.  Also, even when painting with full tiles, you need to make sure you are not painting offset to the global modulo grid.  That is too say, if you are trying to place a NW or SW tile at an odd global grid index, it will try to paint the NE or SE variant of that tile&#39;s current rule. See the gif below for some of the problem one might run into.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://kpdwyer.github.io/clips/autotile/15_PaintingSubtiles.gif&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/gif&quot; srcset=&quot;https://kpdwyer.github.io/img/U_uUJJTpoS-483.gif 483w&quot;&gt;&lt;img alt=&quot;Subtile painting&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/U_uUJJTpoS-483.webp&quot; width=&quot;483&quot; height=&quot;268&quot;&gt;&lt;/picture&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Luckily, Unity&#39;s Tilemaps also let you write custom brushes, so it&#39;s minimal work to write a brush that forces the tiles you paint to adhere to the modulo grid as if you were painting fullscale tiles rather than subtiles.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://kpdwyer.github.io/clips/autotile/17_PaintingModulo.gif&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/gif&quot; srcset=&quot;https://kpdwyer.github.io/img/i8-hECdoAk-483.gif 483w&quot;&gt;&lt;img alt=&quot;Painting Modulo&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/i8-hECdoAk-483.webp&quot; width=&quot;483&quot; height=&quot;268&quot;&gt;&lt;/picture&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Having the tilemap at half res has runtime concerns though, especially for games with things like destructible terrain.  The other flaw here is that using the modulo brush means you can&#39;t use other types of brushes (unless you make a modulo version...).  Likewise for the RuleTile&#39;s Modulo SpriteOutput, which prevents you from painting with &lt;code&gt;Random&lt;/code&gt; or &lt;code&gt;Animated&lt;/code&gt; Tiles (Again, unless you write a modulo variant of these).&lt;/p&gt;
+&lt;p&gt;I thought I had these problems solved as well, but Unity&#39;s &lt;code&gt;Sprite&lt;/code&gt; implementation lacks a critical feature.&lt;/p&gt;
+&lt;h1 id=&quot;failed-attempt-the-impossible-dream&quot; tabindex=&quot;-1&quot;&gt;Failed Attempt: The Impossible Dream &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/autotilepipeline/autotile/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id=&quot;target-output-2&quot; tabindex=&quot;-1&quot;&gt;Target Output &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/autotilepipeline/autotile/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I&#39;d assume it is possible to generate a single Sprite that contains a mesh, split into four quads, that each sample from the source texture as necessary - this way we can paint at full-size resolution without generating a ton of texture bloat. We know that Unity&#39;s Sprites support some level of custom mesh, because you can edit it in the editor,  so I thought this would be the ideal solution.&lt;/p&gt;
+&lt;h2 id=&quot;custom-mesh&quot; tabindex=&quot;-1&quot;&gt;Custom Mesh &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/autotilepipeline/autotile/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This seems doable: Unity&#39;s Sprite documentation shows a function called &lt;code&gt;OverrideGeometry(Vector2[] vertices, ushort[] triangles)&lt;/code&gt;, which should allow us to set up the mesh as we need. However, a line in &lt;a href=&quot;https://docs.unity3d.com/ScriptReference/Sprite.OverrideGeometry.html&quot;&gt;The Documentation&lt;/a&gt; scared me: &lt;code&gt;Sprite UV&#39;s are calculated automatically by mapping the provided geometry onto the sprite texture.&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/a6D_zVbKA2-512.webp 512w&quot;&gt;&lt;img alt=&quot;The Impossible Dream&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/a6D_zVbKA2-512.png&quot; width=&quot;512&quot; height=&quot;384&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;h2 id=&quot;custom-uvs&quot; tabindex=&quot;-1&quot;&gt;Custom UVs &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/autotilepipeline/autotile/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I had hoped that those auto-generated UVs could be overridden somewhere, but it seems that they can&#39;t.  Without custom UVs on the Sprites custom geometry, this idea is sort of a dead end - barring some custom shader work that I wanted to avoid.&lt;/p&gt;
+&lt;h1 id=&quot;in-closing&quot; tabindex=&quot;-1&quot;&gt;In Closing &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/autotilepipeline/autotile/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;I&#39;m not super jazzed about any of this, really.  It seems like we should be able to feed our own UVs into a Sprite&#39;s mesh to manually sample from the atlas in a more flexible way, but here we are:  2 solutions for rapid AutoTile generation in Unity.  One favors simplicity, and one favors texture memory.  Thanks for reading!  Thanks &lt;a href=&quot;https://mastodon.gamedev.place/@macktimus&quot;&gt;Mack&lt;/a&gt;, for proofreading + editing!&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Frame-based Animator Generator</title>
+		<link href="https://kpdwyer.github.io/blog/PixelAnimator/"/>
+		<updated>2019-01-17T00:00:00Z</updated>
+		<id>https://kpdwyer.github.io/blog/PixelAnimator/</id>
+		<content type="html">&lt;p&gt;I finished off writing a basic animation generator, given a very specific folder layout:&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/T0qhVgHNY5-1200.webp 1200w&quot;&gt;&lt;img alt=&quot;File Structure&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/T0qhVgHNY5-1200.jpeg&quot; width=&quot;1200&quot; height=&quot;423&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;This layout (and most of the code in this this gist) is simply set up the way that it is because it fits my current process.  None of this is meant to be universal or overly generic, but it&#39;s a good starting point if you&#39;re looking for something similar.&lt;/p&gt;
+&lt;p&gt;The tool can generate animator controllers + clips, or just clips from a folder or selection.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/nmFsBTbl42-946.webp 946w&quot;&gt;&lt;img alt=&quot;Menu Hierarchy&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/nmFsBTbl42-946.jpeg&quot; width=&quot;946&quot; height=&quot;364&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;I left in fairly basic &lt;code&gt;Debug.Log()&lt;/code&gt; messages tracking (useful to track what has been done, rather than actual progress).&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/L5iSQPZf3D-1198.webp 1198w&quot;&gt;&lt;img alt=&quot;Log Output&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/L5iSQPZf3D-1198.jpeg&quot; width=&quot;1198&quot; height=&quot;578&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;And it does it&#39;s best to organize the resulting Animator Controller - in my game the art is along 4 cardinal directions, so it places the output in columns of 4 States for the sake of organization.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/TB5QKGZK9B-748.webp 748w&quot;&gt;&lt;img alt=&quot;Controller Output&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/TB5QKGZK9B-748.jpeg&quot; width=&quot;748&quot; height=&quot;778&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;Obviously there&#39;s still a lot of work involved (timing individual frames, setting up transitions + parameters, etc), but this saves some time - especially if the default method of dragging batches of sprites onto a animation clip doesn&#39;t quite cover your bases.&lt;/p&gt;
+&lt;script src=&quot;https://gist.github.com/KPDwyer/1c4a490e5d4e8eef7bbe0272126a2f20.js&quot;&gt;&lt;/script&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>beholdin</title>
+		<link href="https://kpdwyer.github.io/blog/beholdin/"/>
+		<updated>2019-01-01T00:00:00Z</updated>
+		<id>https://kpdwyer.github.io/blog/beholdin/</id>
+		<content type="html">&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/Lb0RI-yQ_V-1036.webp 1036w&quot;&gt;&lt;img alt=&quot;Screenshot from beholdin&#39; featuring gravity zones and shields.&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/Lb0RI-yQ_V-1036.png&quot; width=&quot;1036&quot; height=&quot;584&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;beholdin&#39; is a coffee break twin stick shooter; a daily challenge score chaser that rewards the risky and creative players.  You can &lt;a href=&quot;https://kpdwyer.itch.io/beholdin&quot;&gt;find it on itch&lt;/a&gt;.  I finished the game around 2018 after about 1.5 years of commutes.  Call it 10 hours a week, about 70 weeks to be generous, that&#39;s 700 hours.  Its rough around the edges, but I &lt;strong&gt;love&lt;/strong&gt; it and will probably dedicate some time to making it more robust in the future.  I kept a &lt;a href=&quot;https://kpdwyer.itch.io/beholdin/devlog&quot;&gt;devlog&lt;/a&gt; alongside releases that some parties might find interesting.  Oddly enough, the best visual story of the game&#39;s development is probably this &lt;a href=&quot;https://twitter.com/i/events/1037127521270157312&quot;&gt;moment on Twitter&lt;/a&gt; (for now - still migrating everything!).&lt;/p&gt;
+&lt;h2 id=&quot;features&quot; tabindex=&quot;-1&quot;&gt;Features &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/beholdin/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;a single procedurally generated level every day.&lt;/li&gt;
+&lt;li&gt;a unique level skin (biome?) for each day of the week.&lt;/li&gt;
+&lt;li&gt;a unique combination of enemies &amp;amp; mechanics for each day of the week.&lt;/li&gt;
+&lt;li&gt;in each room, every wave triggered increases your multiplier, each hit you take decreases it.&lt;/li&gt;
+&lt;li&gt;player-paced risk vs reward: break each crystal one at a time to deal with each wave in isolation, or break &#39;em all at once and hope you can handle it for max score.&lt;/li&gt;
+&lt;li&gt;leaderboards, for bragging rights.&lt;/li&gt;
+&lt;li&gt;Reflective walls, gravity wells, shields, lasers, bombs &amp;amp; turrets: all the classics make an appearance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;technical-notes&quot; tabindex=&quot;-1&quot;&gt;Technical Notes &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/beholdin/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Lasers are ray-marched so they could be reflected by reflectors, but also get their trajectory bent by gravity wells (push &amp;amp; pull)&lt;/li&gt;
+&lt;li&gt;all of the gameplay art was made in-unity with custom tools to make meshes out of polygons.&lt;/li&gt;
+&lt;li&gt;each vertex of the art meshes stores a UV lookup value into a gradient palette that you can swap as you please (try hitting space while you&#39;re playing the game!)&lt;/li&gt;
+&lt;li&gt;the game was made almost entirely on my train commute to and from work.  GameSparks &amp;amp; Playfab integration required some evening work.&lt;/li&gt;
+&lt;li&gt;each audio track was made in Gadget on my iPad.  elements of the songs are ducked in and out based on whether a room has unbroken crystals, active combat, if a room has a boss, and more.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/LhxuTPXnCI-1038.webp 1038w&quot;&gt;&lt;img alt=&quot;Screenshot from beholdin&#39; showing reflective surfaces and tanks.&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/LhxuTPXnCI-1038.jpeg&quot; width=&quot;1038&quot; height=&quot;582&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+</content>
+	</entry>
+</feed>

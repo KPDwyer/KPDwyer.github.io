@@ -1,0 +1,589 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Autotile Pipeline</title>
+		<meta name="description" content="Currently working as a Senior Developer in the games industry.">
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="KPD Home">
+		<link rel="alternate" href="/feed/feed.json" type="application/json" title="KPD Home">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+* { box-sizing: border-box; }
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #362f2e;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #9e836d;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #eb8e77;
+	--text-color-link-visited: #eb8e77;
+
+	--code-color:#211c1b;
+	--code-background-color: #C0C0C0;
+
+	--syntax-tab-size: 2;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #362f2e;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #9e836d;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #dd745b;
+		--text-color-link-active: #eb8e77;
+		--text-color-link-visited: #eb8e77;
+
+		--background-color: #211c1b;
+
+		--code-color:#93cea9;
+		--code-background-color: #2b2524;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 40em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	list-style: none;
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+	color:var(--code-color);
+  background-color: var(--code-background-color);
+
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Direct Links / Markdown Headers */
+.header-anchor {
+	text-decoration: none;
+	font-style: normal;
+	font-size: 1em;
+	margin-left: .1em;
+}
+a[href].header-anchor,
+a[href].header-anchor:visited {
+	color: transparent;
+}
+a[href].header-anchor:focus,
+a[href].header-anchor:hover {
+	text-decoration: underline;
+}
+a[href].header-anchor:focus,
+:hover > a[href].header-anchor {
+	color: #aaa;
+}
+
+h2 + .header-anchor {
+	font-size: 1.5em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/" class="home-link">KPD Home</a>
+			<nav>
+				<h2 class="visually-hidden">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/">Home</a></li>
+					<li class="nav-item"><a href="/blog/">Archive</a></li>
+					<li class="nav-item"><a href="/about/">About Me</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			
+<h1>Autotile Pipeline</h1>
+
+<ul class="post-metadata">
+	<li><time datetime="2019-04-18">18 April 2019</time></li>
+	<li><a href="/tags/projects/" class="post-tag">projects</a>, </li>
+	<li><a href="/tags/experiments/" class="post-tag">experiments</a>, </li>
+	<li><a href="/tags/unity/" class="post-tag">unity</a></li>
+</ul>
+
+<h1 id="overview-quick-start" tabindex="-1">Overview + Quick Start <a class="header-anchor" href="#overview-quick-start">#</a></h1>
+<p>I created some tools to reduce the friction of importing AutoTile assets into Unity.  If the art is made in a specific format (in this case RPGMaker's A2 sheet), using one of these tools will remove all or most of the user interaction required to make a RuleTile for use in your game.</p>
+<p>The easiest starting point is <a href="https://github.com/KPDwyer/FullsizedAutoTIle">Implementation 1 - Fullsized Tiles</a>, so if all you want is what I've described, check out the Github README for basic usage.</p>
+<p>However, if you find that The Fullsized Tiles generate a bit too many textures for your liking, take a look at <a href="https://github.com/KPDwyer/SubTileAutoTile">Implementation 2 - Subtiles</a>, which perhaps requires a bit more effort to setup, but won't generate any textures beyond the source asset.</p>
+<p>If you're interested in the project as a whole: Take a look at the <a href="https://github.com/KPDwyer/AutoTileImporter">Working Project</a>, and read on.</p>
+<h1 id="goal" tabindex="-1">Goal <a class="header-anchor" href="#goal">#</a></h1>
+<p>RPG Maker has a real nice &quot;auto tile&quot; system, whereby you load in a fairly simple asset and when you use the tile generated by that asset to draw on the Tilemap, it automatically renders each tile such that it is aware of its local neighbors.</p>
+<p><picture><source type="image/webp" srcset="/img/HjQkysD_er-1126.webp 1126w"><img alt="On Left, A2 Source Asset.  On right, the output in tilemap editor" loading="lazy" decoding="async" src="/img/HjQkysD_er-1126.png" width="1126" height="560"></picture></p>
+<p>This is generally known as AutoTiling, and will be referred to as such in this article.</p>
+<p>I set out to duplicate the functionality of RPGMaker's AutoTiling - specifically what is commonly known as their A2 sheet, shown above.  I was surprised to find that while Unity accommodates the creation of these AutoTiles, a few layers of complexity prevent it from being as smooth as RPGMaker's UX.</p>
+<p>My goal was to familiarize myself with the Tilemap pipeline by making it as low-effort as possible to convert an RPG Maker A2 Tileset PNG into a Unity RuleTile.</p>
+<h1 id="obstacles" tabindex="-1">Obstacles <a class="header-anchor" href="#obstacles">#</a></h1>
+<h2 id="obstacle-1-2d-extras" tabindex="-1">Obstacle 1: 2D-Extras <a class="header-anchor" href="#obstacle-1-2d-extras">#</a></h2>
+<p>Unity introduced its 2D Tilemap system some time ago, and it comes with very customizable tiles and brushes.  It's a great system, but it doesn't come with everything out of the box - you have to find their <code>2D-extras</code> <a href="https://github.com/Unity-Technologies/2d-extras">repository on GitHub</a> to really dig in to the common use cases for the flexibility it provides.  This is a pain, as it seems like most of the demos of this system I've seen have centered around the RuleTile, which isn't even in the core feature set. Odd.</p>
+<h2 id="obstacle-2-ruletile-s-interface" tabindex="-1">Obstacle 2: RuleTile's Interface <a class="header-anchor" href="#obstacle-2-ruletile-s-interface">#</a></h2>
+<p><picture><source type="image/webp" srcset="/img/WQ1Dwwj61p-400.webp 400w"><img alt="Vanilla RuleTile inspector" loading="lazy" decoding="async" src="/img/WQ1Dwwj61p-400.png" width="400" height="689"></picture></p>
+<p>This is an obstacle I expected to find.  Based on previous reading, I knew that to use Unity's RuleTile meant to use their custom inspector.  While the inspector is very pretty, manually creating each rule takes an unreasonable amount of time - there are 256 possible combinations with 2 states in 8 directions.  That assumes we are using 2 states (we are!) but Unity throws a curve ball by adding a &quot;don't care&quot; state on top! The total possible permutations rises to 6561.  We only care about 2 states, but even 256 permutations is too many:  RPGMaker's AutoTiler only actually cares about 48 of these permutations.</p>
+<p>Once those rules are set, we need to assign a sprite to each rule. That means having a folder of several sprites, and manually dragging them to the Sprite Field on the inspector.  This is a lot of friction between <code>finishing the art</code> and <code>being able to paint tiles with the art</code>, and it must be done for each unique Tileset.  The crux of this exercise was, given a known Tileset layout, remove all of the friction of turning a Tileset into a RuleTile.</p>
+<p>If you're interested in reading further about how AutoTiling works, check out these links: <a href="http://www.angryfishstudios.com/2011/04/adventures-in-bitmasking/">Adventures in Bitmasking</a>  and <a href="https://gamedevelopment.tutsplus.com/tutorials/how-to-use-tile-bitmasking-to-auto-tile-your-level-layouts--cms-25673">How to Use Tile Bitmasking to Auto Tile Your Level Layouts</a>.  There is a lot of literature on the bit masking involved in AutoTiling, but this exercise pertains specifically to replicating RPGMaker's functionality in Unity.</p>
+<h2 id="obstacle-3-rpgmaker-s-filthy-lies" tabindex="-1">Obstacle 3: RPGMaker's Filthy Lies <a class="header-anchor" href="#obstacle-3-rpgmaker-s-filthy-lies">#</a></h2>
+<p><picture><source type="image/webp" srcset="/img/VrAwe4Z4gJ-256.webp 256w"><img alt="A2 Source Asset" loading="lazy" decoding="async" src="/img/VrAwe4Z4gJ-256.png" width="256" height="384"></picture></p>
+<p>Keen readers may have already perceived 6 tiles total on the A2 sheet, yet the AutoTile process calls for 48 unique tiles!  RPGMaker is doing something fishy here...  I used a sample Tileset - what appears to be 6 32x32 tiles in a 2x3 grid (thus a resolution of 64x96).  Note the highlighted Tile in the example screenshot.</p>
+<p><picture><source type="image/webp" srcset="/img/PBglhI036K-1126.webp 1126w"><img alt="A Nefarious Tile" loading="lazy" decoding="async" src="/img/PBglhI036K-1126.png" width="1126" height="560"></picture></p>
+<p>The highlighted tile doesn't actually exist in the base atlas! Now, I don't know the implementation details of how RPGMaker actually performs this, but my mental model suggests that while the UX + Source asset of RPGMaker treats these tiles as 32x32, the tiling engine actually paints them as 16x16 tiles - each full-sized tile is actually 4 Subtiles.  I refer to these with cardinal shorthand - NW,NE,SW,SE.</p>
+<p><picture><source type="image/webp" srcset="/img/d-CYOJRHCX-575.webp 575w"><img alt="A TileQuad" loading="lazy" decoding="async" src="/img/d-CYOJRHCX-575.png" width="575" height="339"></picture></p>
+<p>This means the A2 Tileset actually generates 48 usable full-size tiles from a pool of 20 subtiles.  The top left full-size tile is actually just a preview for RPGMaker's palette window, it remains unused in the actual tile painting and rendering at runtime as it's 4 subtiles are contained within the bottom 4 tiles.</p>
+<p><picture><source type="image/webp" srcset="/img/O9NEdiLx7Z-256.webp 256w"><img alt="A TileQuad" loading="lazy" decoding="async" src="/img/O9NEdiLx7Z-256.png" width="256" height="384"></picture></p>
+<p>I knew early on I'd have to manually assign the quads to each rule, as there are too many layers in the translation to do it smoothly / mathematically.</p>
+<p><picture><source type="image/webp" srcset="/img/oKBun4Zd-S-512.webp 512w"><img alt="SubTile Indices + TilingEdges" loading="lazy" decoding="async" src="/img/oKBun4Zd-S-512.png" width="512" height="385"></picture></p>
+<p>I also discovered that the tiling edges matter: in the first tile set shown above, there is no discernible difference between Subtiles 9,10,5 &amp; 6.  However if you simply cut the four of them out of the set and used them like that, it would be fail to adhere to the tiling edges.  In the case of this example, the carpet may line up, but the flagstones in the other set would fail to align correctly.</p>
+<p><picture><source type="image/webp" srcset="/img/Lvve5U01Ib-600.webp 600w"><img alt="Subtile edges" loading="lazy" decoding="async" src="/img/Lvve5U01Ib-600.png" width="600" height="192"></picture></p>
+<p>Subtiles 5 &amp; 6 should be at the Top Right and Top Left respectively of any tile they are a part of, and the same goes for 9 &amp; 10 on the bottom Right and Bottom Left respectively.  If we are listing them clockwise from the NW, <code>[9,10,5,6]</code> should actually be rendered as <code>[6,5,10,9]</code>. The blue lines help visualize the outward facing edges of each subtile.</p>
+<p>Since we know each subtile needs to appear in its target tile in the same local quadrant it occupies in the Tileset atlas, we can simplify the mapping to the following for the sake of manually assigning quads.</p>
+<p><picture><source type="image/webp" srcset="/img/kC_IodFR0u-256.webp 256w"><img alt="Tile Indices" loading="lazy" decoding="async" src="/img/kC_IodFR0u-256.png" width="256" height="384"></picture></p>
+<p>Now that we understand the functionality reasonably well, the most straightforward solution presents itself to us:  lets generate these 48 full-sized tiles from our pool of 20 subtiles.</p>
+<h1 id="implementation-1-full-sized-tiles" tabindex="-1">Implementation 1: Full-sized Tiles <a class="header-anchor" href="#implementation-1-full-sized-tiles">#</a></h1>
+<h2 id="target-output" tabindex="-1">Target Output <a class="header-anchor" href="#target-output">#</a></h2>
+<p>The Ideal result of the full-sized tiles implementation is that a developer should be able to perform a single action (ideally a right-click menu item) on an A2 PNG and immediately be served a RuleTile generated from that asset.  Spoilers: I did it.  Double Spoilers: I hate it.</p>
+<h2 id="step-by-step" tabindex="-1">Step by Step <a class="header-anchor" href="#step-by-step">#</a></h2>
+<p>The first step for any of these solutions is simply to generate the rules for the RuleTile.  This is sort of an inversion of the standard AutoTiling bit mask:  while looping through 0-255, given an integer value, which tiles should be occupied for this rule?  We have some real ugly code for removing the rules we don't care about, but code elegance is just a small cost for reducing our total rule count by over 200 redundant rules.  This is the <code>GetRule(int neighbourMask)</code> function in <code>ImportAutotile.cs</code>, and it is used in both implementations.</p>
+<p>We then need to generate a sprite for each rule, using a lookup table.  I've made my lookup tables ScriptableObjects for a few reasons - most importantly, a custom inspector ensures I can make the job of setting up the subtile indices as painless as possible.  Ultimately, the actual object is just an array of integers for subtile indices and a list of TilingRules for nicely visualizing what rule + quad each indices belongs too.  Users of this tool for an A2 Tileset don't need to edit this ScriptableObject at all, but if you were to make a lookup table for a different style of Tileset, it may be handy.</p>
+<p><picture><source type="image/webp" srcset="/img/5hQ0mZZK5_-270.webp 270w"><img alt="AutoTile Inspector" loading="lazy" decoding="async" src="/img/5hQ0mZZK5_-270.png" width="270" height="521"></picture></p>
+<p>So as we generate a sprite for each rule (see <code>GenerateSprite(int neighbourMask, int res, Texture2D source, AutoTileLookup lookup, string folderPath)</code> in <code>ImportAutotile.cs</code>), we grab the values from our lookup table, convert them from Tile indices to Subtile indices based on their quadrant, then we generate a new Texture2D, grab the pixels from the appropriate quads and use <code>SetPixels</code> to write the new texture. we save this texture with the mask value in the filename.</p>
+<p>We do a quick save and refresh of our asset datatbase to be sure the files are imported correctly and have their metadata populated, then we simply iterate through the rules, loading the sprite we generated based on the tilemask for each rule.  Once we've assigned the sprites to the rules we save the RuleTile and voila! - a functioning RuleTile from our source atlas.</p>
+<p><a href="../../../clips/autotile/10_Fullsized.gif"><picture><source type="image/gif" srcset="/img/jDQ77i1EqP-483.gif 483w"><img alt="Fullsized" loading="lazy" decoding="async" src="/img/jDQ77i1EqP-483.webp" width="483" height="268"></picture></a></p>
+<h2 id="problems" tabindex="-1">Problems <a class="header-anchor" href="#problems">#</a></h2>
+<h3 id="usage" tabindex="-1">Usage <a class="header-anchor" href="#usage">#</a></h3>
+<p>First of all, you'll notice this operation is performed upon a PNG but also requires the lookup table data.  The nature of my role as someone who will have to make a few different lookup tables meant I didn't want to make this a simple <code>Right Click -&gt; Generate Autotile</code> script, as I want to provide 2 pieces of information to the function: the actual PNG, and the lookup table.  Thus, I actually trigger the operation with a Sprite Field on the lookup table's ScriptableObject which then triggers the function when you drag a sprite to it.  This is a minor detail though, and should require very little legwork to make it work with a right click.</p>
+<p><picture><source type="image/webp" srcset="/img/ZggkLQ0qqe-820.webp 820w"><img alt="ScriptableObject Interface" loading="lazy" decoding="async" src="/img/ZggkLQ0qqe-820.png" width="820" height="386"></picture></p>
+<h3 id="texture-memory" tabindex="-1">Texture Memory <a class="header-anchor" href="#texture-memory">#</a></h3>
+<p>This is the big con.  At best, this method results in a new 256x256 texture atlas full of all 48 fullsize tiles.  This is a lot larger than the 64x96 atlas we started with.  It also means we need to do something with this smaller source asset we used to generate all these tiles.  It irked me to delete this smaller source file once i had generated the behemoth atlas used to drive this RuleTile.</p>
+<p><picture><source type="image/webp" srcset="/img/R0ljZ23qeQ-600.webp 600w"><img alt="Fullsized Atlas" loading="lazy" decoding="async" src="/img/R0ljZ23qeQ-600.png" width="600" height="415"></picture></p>
+<p>Surely, I thought, there must be a better way.  if this giant atlas came from these 32x32 tiles generated from a smaller atlas' 16x16 subtiles, couldn't we use the same source atlas to drive our AutoTile?</p>
+<h1 id="implementation-2-subtiles" tabindex="-1">Implementation 2: Subtiles <a class="header-anchor" href="#implementation-2-subtiles">#</a></h1>
+<h2 id="target-output-1" tabindex="-1">Target Output <a class="header-anchor" href="#target-output-1">#</a></h2>
+<p>Rather than view the solution through the lens of the full-sized tiles that we perceive, what if we saw the solution through the lens of the smaller subtiles that we actually use in our implementation?  if we could somehow paint each subtile individually while conforming to the rules + position needs of the full-sized tiles, we'd have nearly the same functionality without generating a large atlas - in fact, we could use the source asset.<br>
+Our goal for this implementation is to generate a brush at subtile scale - in this case that's a 16x16 tile - that gives us the same visual output as the initial implementation without generating any new textures.</p>
+<h2 id="step-by-step-1" tabindex="-1">Step by Step <a class="header-anchor" href="#step-by-step-1">#</a></h2>
+<p>First of all, if we aren't generating new textures, we need to import the source texture properly. we do this in <code>ProcessSubtileTexture(Texture2D _texture, AutoTileLookup _lookup)</code> of <code>ImportAutotile.cs</code>.  we make sure to import the Texture2D as containing multiple sprites, then use our known measurement to slice the sprite in code based on the size of the Subtiles.</p>
+<p><picture><source type="image/webp" srcset="/img/mmUD0AU6CO-2885.webp 2885w"><img alt="Fullsized Atlas" loading="lazy" decoding="async" src="/img/mmUD0AU6CO-2885.png" width="2885" height="1252"></picture></p>
+<p>In this case I name them based on which Quadrant they are in and their Subtile ID.  After assigning the sliced metadata to the sprite sheet of the Texture2D, I re-import the whole thing and use <code>LoadAllAssetsAtPath(path)</code> to make sure I load the individual Sprite assets at that path. I sort them by name because the naming scheme used above means each subtile will be stored in it's own part of the list, from lowest Subtile ID to highest. I then generate the RuleTile and it's TilingRules exactly as was done previously.</p>
+<p>Each Rule now needs 4 tiles, though: one for each Quadrant.  At this point I realized I hadn't thought this through at all, but remembered that the RuleTIle supports multiple sprites for animation, or random placement.  poking into the source code for <code>RuleTile.cs</code> in the <code>2d-extras</code> repository, I discovered <code>SpriteOutput</code>, an enum that you can use to determine which tile in the List of Sprites gets placed for each rule.  Since <code>GetTileData(Vector3Int position, ITilemap Tilemap, ref TileData tileData)</code> receives the tile's <code>world</code> position, we can return which ever tile we want dependent on world position.  using a couple of <code>mod</code> operations, we can sample from the list of tiles based on whether the world grid index is even or not.</p>
+<p><picture><source type="image/webp" srcset="/img/clPnaPbXZF-1766.webp 1766w"><img alt="Mod Grid World" loading="lazy" decoding="async" src="/img/clPnaPbXZF-1766.png" width="1766" height="998"></picture></p>
+<p>So we throw some custom inspectors in there, and now each TilingRule in our RuleTile accepts 4 images: SW, SE, NW, NE.  With these additions to the <code>RuleTile.cs</code> (and some niceties in <code>RuleTileEditor.cs</code>), we can create and paint with a Modulo <code>SpriteOutput</code>.</p>
+<p>Now our <code>AddSpritesToRule(ref RuleTile.TilingRule _rule, List&lt;Sprite&gt; _sprites, int _ruleID, AutoTileLookup _lookup)</code> merely has to transform its tile indices to subtile indices based on which quadrant of the TilingRule it applies too.  We add these TilingRules to our RuleTile, and woosh! - processing an A2 PNG file slices the atlas for you and generates a RuleTile ready to be used on a subtile-scale grid.</p>
+<h2 id="problems-1" tabindex="-1">Problems <a class="header-anchor" href="#problems-1">#</a></h2>
+<h3 id="usage-1" tabindex="-1">Usage <a class="header-anchor" href="#usage-1">#</a></h3>
+<p>This is the same as Implementation 1.  First of all, you'll notice this operation is performed upon a PNG but also requires the lookup table data.  The nature of my role as someone who will have to make a few different lookup tables meant I didn't want to make this a simple <code>Right Click -&gt; Generate Autotile</code> script, as I want to provide 2 pieces of information to the function: the actual PNG, and the lookup table.  Thus, I actually trigger the operation with a Sprite Field on the lookup table's ScriptableObject which then triggers the function when you drag a sprite to it.  This is a minor detail though, and should require very little legwork to make it work with a right click.</p>
+<h3 id="setup" tabindex="-1">Setup <a class="header-anchor" href="#setup">#</a></h3>
+<p>There's a minor bit of friction when setting up, your Tilemap needs to have half-scale tiles - so if your pixel-per-unit is 32 and your tiles are 32, then you'll need your Grid Component's cell size to be 0.5.</p>
+<h3 id="painting-the-autotile" tabindex="-1">Painting the AutoTile <a class="header-anchor" href="#painting-the-autotile">#</a></h3>
+<p>Initially, this adds some operational friction to the act of actually painting with the RuleTile.  Namely, you'd be able to paint a quarter, half or three-quarter fractional tile that will look terrible, as it's meant to be painted alongside its entire tile.  Since the Tilemap is at subtile resolution, painting is at subtile resolution as well.  Also, even when painting with full tiles, you need to make sure you are not painting offset to the global modulo grid.  That is too say, if you are trying to place a NW or SW tile at an odd global grid index, it will try to paint the NE or SE variant of that tile's current rule. See the gif below for some of the problem one might run into.</p>
+<p><a href="../../../clips/autotile/15_PaintingSubtiles.gif"><picture><source type="image/gif" srcset="/img/U_uUJJTpoS-483.gif 483w"><img alt="Subtile painting" loading="lazy" decoding="async" src="/img/U_uUJJTpoS-483.webp" width="483" height="268"></picture></a></p>
+<p>Luckily, Unity's Tilemaps also let you write custom brushes, so it's minimal work to write a brush that forces the tiles you paint to adhere to the modulo grid as if you were painting fullscale tiles rather than subtiles.</p>
+<p><a href="../../../clips/autotile/17_PaintingModulo.gif"><picture><source type="image/gif" srcset="/img/i8-hECdoAk-483.gif 483w"><img alt="Painting Modulo" loading="lazy" decoding="async" src="/img/i8-hECdoAk-483.webp" width="483" height="268"></picture></a></p>
+<p>Having the tilemap at half res has runtime concerns though, especially for games with things like destructible terrain.  The other flaw here is that using the modulo brush means you can't use other types of brushes (unless you make a modulo version...).  Likewise for the RuleTile's Modulo SpriteOutput, which prevents you from painting with <code>Random</code> or <code>Animated</code> Tiles (Again, unless you write a modulo variant of these).</p>
+<p>I thought I had these problems solved as well, but Unity's <code>Sprite</code> implementation lacks a critical feature.</p>
+<h1 id="failed-attempt-the-impossible-dream" tabindex="-1">Failed Attempt: The Impossible Dream <a class="header-anchor" href="#failed-attempt-the-impossible-dream">#</a></h1>
+<h2 id="target-output-2" tabindex="-1">Target Output <a class="header-anchor" href="#target-output-2">#</a></h2>
+<p>I'd assume it is possible to generate a single Sprite that contains a mesh, split into four quads, that each sample from the source texture as necessary - this way we can paint at full-size resolution without generating a ton of texture bloat. We know that Unity's Sprites support some level of custom mesh, because you can edit it in the editor,  so I thought this would be the ideal solution.</p>
+<h2 id="custom-mesh" tabindex="-1">Custom Mesh <a class="header-anchor" href="#custom-mesh">#</a></h2>
+<p>This seems doable: Unity's Sprite documentation shows a function called <code>OverrideGeometry(Vector2[] vertices, ushort[] triangles)</code>, which should allow us to set up the mesh as we need. However, a line in <a href="https://docs.unity3d.com/ScriptReference/Sprite.OverrideGeometry.html">The Documentation</a> scared me: <code>Sprite UV's are calculated automatically by mapping the provided geometry onto the sprite texture.</code></p>
+<p><picture><source type="image/webp" srcset="/img/a6D_zVbKA2-512.webp 512w"><img alt="The Impossible Dream" loading="lazy" decoding="async" src="/img/a6D_zVbKA2-512.png" width="512" height="384"></picture></p>
+<h2 id="custom-uvs" tabindex="-1">Custom UVs <a class="header-anchor" href="#custom-uvs">#</a></h2>
+<p>I had hoped that those auto-generated UVs could be overridden somewhere, but it seems that they can't.  Without custom UVs on the Sprites custom geometry, this idea is sort of a dead end - barring some custom shader work that I wanted to avoid.</p>
+<h1 id="in-closing" tabindex="-1">In Closing <a class="header-anchor" href="#in-closing">#</a></h1>
+<p>I'm not super jazzed about any of this, really.  It seems like we should be able to feed our own UVs into a Sprite's mesh to manually sample from the atlas in a more flexible way, but here we are:  2 solutions for rapid AutoTile generation in Unity.  One favors simplicity, and one favors texture memory.  Thanks for reading!  Thanks <a href="https://mastodon.gamedev.place/@macktimus">Mack</a>, for proofreading + editing!</p>
+
+<ul class="links-nextprev"><li>Previous: <a href="/blog/PixelAnimator/">Frame-based Animator Generator</a></li><li>Next: <a href="/blog/nodemaps/">NodeMaps</a></li>
+</ul>
+
+		</main>
+
+		<footer></footer>
+
+		<!-- Current page: /blog/autotilepipeline/autotile/ -->
+	</body>
+</html>
