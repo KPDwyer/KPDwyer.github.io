@@ -4,12 +4,223 @@
 	<subtitle>Currently working as a Senior Developer in the games industry.</subtitle>
 	<link href="https://kpdwyer.github.io/feed/feed.xml" rel="self"/>
 	<link href="https://kpdwyer.github.io/"/>
-	<updated>2021-06-20T00:00:00Z</updated>
+	<updated>2023-09-12T00:00:00Z</updated>
 	<id>https://kpdwyer.github.io/</id>
 	<author>
 		<name>Kyle Dwyer</name>
 		<email>kpdassets@gmail.com</email>
 	</author>
+	
+	<entry>
+		<title>Art Dump</title>
+		<link href="https://kpdwyer.github.io/blog/art/2023-09-12/art2023-09-12/"/>
+		<updated>2023-09-12T00:00:00Z</updated>
+		<id>https://kpdwyer.github.io/blog/art/2023-09-12/art2023-09-12/</id>
+		<content type="html">&lt;p&gt;Trying to make this website the first place I post things, but daily art posts would be a bit much, so here&#39;s the first art dump.  not necessarily recent work, just the stuff I like.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/YFPmRnlb7t-1305.webp 1305w&quot;&gt;&lt;img alt=&quot;Lizard&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/YFPmRnlb7t-1305.png&quot; width=&quot;1305&quot; height=&quot;1305&quot;&gt;&lt;/picture&gt;
+&lt;em&gt;Dual Wielding Lizard, Procreate&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/CXmTcu0fsD-512.webp 512w&quot;&gt;&lt;img alt=&quot;astroman&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/CXmTcu0fsD-512.png&quot; width=&quot;512&quot; height=&quot;512&quot;&gt;&lt;/picture&gt;
+&lt;em&gt;Astronaut from unfinished jam game, Pixaki&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/O_LSN4XuGM-1440.webp 1440w&quot;&gt;&lt;img alt=&quot;bugmanconcept&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/O_LSN4XuGM-1440.png&quot; width=&quot;1440&quot; height=&quot;1440&quot;&gt;&lt;/picture&gt;
+&lt;a href=&quot;https://kpdwyer.github.io/clips/art/september2023/buganim.mp4&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/j0PF78ISn9-1008.webp 1008w&quot;&gt;&lt;img alt=&quot;bugmanrig&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/j0PF78ISn9-1008.png&quot; width=&quot;1008&quot; height=&quot;1737&quot;&gt;&lt;/picture&gt;&lt;/a&gt;
+&lt;em&gt;Bugman concept, rig &amp;amp; animation (click last image).  Krita, Blender.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://kpdwyer.github.io/clips/art/september2023/spaceship.mp4&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/8eHMrG7rCP-398.webp 398w&quot;&gt;&lt;img alt=&quot;beholdin ship&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/8eHMrG7rCP-398.png&quot; width=&quot;398&quot; height=&quot;293&quot;&gt;&lt;/picture&gt;&lt;/a&gt;
+&lt;em&gt;spaceship model &amp;amp; eye rig (click for clip)&lt;/em&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Sword&#39;s End 2023 Outlook</title>
+		<link href="https://kpdwyer.github.io/blog/swordsend/2023/"/>
+		<updated>2023-01-15T00:00:00Z</updated>
+		<id>https://kpdwyer.github.io/blog/swordsend/2023/</id>
+		<content type="html">&lt;h1 id=&quot;cursed-sword-roguelike-2023&quot; tabindex=&quot;-1&quot;&gt;Cursed Sword Roguelike 2023 &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/swordsend/2023/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;originally posted on Reddit in the r/roguelikedev subreddit&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sword&#39;s End (Previously &amp;quot;Unnamed Cursed Sword Roguelike&amp;quot;)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Sword&#39;s End has a proper name now, and I&#39;ve been slowly building it up for just over a year now.  it is a hobby project, and I allow myself to get distracted prematurely optimizing or exploring other projects quite a bit.  That said, 2022 was great!  I got into more formal project management on Github, better planning and note taking in Obsidian MD, and &lt;em&gt;lots&lt;/em&gt; of development work &amp;amp; experiments.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2022 Retrospective&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Looking at my git commits, I did the majority of systems work in 2022: FoV, Pathfinding, Aspect system, Logger, &lt;a href=&quot;https://mastodon.gamedev.place/@KPD/109424618812008050&quot;&gt;Peek View&lt;/a&gt;, Combat, &lt;a href=&quot;https://mastodon.gamedev.place/@KPD/109594918221039157&quot;&gt;Undos&lt;/a&gt;.  I&#39;m pretty proud of making all of this work, work together nicely, and hopefully be easy enough to transfer to another project as needed (7DRL soon :)).&lt;/p&gt;
+&lt;p&gt;I keep trying to figure out how I want the art to work, and did some tests: prerendered 3D from blender, as well as downscaled 2D illustration tests.  Overall, I love experimenting with the art pipeline to find something bearable (want lots of code work &amp;amp; design iteration without tons of art &amp;amp; effort).  Ultimately, neither result ended up filling me with joy, and both of them are meaningfully more work than my current low-fidelity pixel work.  I bought an asset pack for abilities (maybe just for dev, maybe permanently, not sure) and have been messing around with palette cycling &amp;amp; indexed sprites for recoloring.  All signs point to keeping with the current aesthetic in the game view for a while.&lt;/p&gt;
+&lt;p&gt;One outcome of the art experiments is that the game allows entity sprites to be any size (they&#39;ll get scaled appropriately on load).  This is a meaningful step towards loading all my assets from other sources and allowing visual mods, though that light is still at the end of a very long tunnel.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2023 Outlook&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This year I&#39;m hoping to get a very simple vertical slice up and running for my close friends in the first half, and fully flesh out my planned meta after wards.  the map generating needs a big overhaul: I want to refactor a lot of it, but the system I want to implement relies on Godot&#39;s graphedit functionality, which appears to be in flux in 4.0.  on that note, will be porting the game to 4.0 whenever its out of beta, so that will slow me down a bit (but I&#39;m hoping to benefit from the GDScript 2.0 changes in a big way).  I may also rewrite some of my more taxing code in C#: none of it is a deal breaker yet, but there&#39;s some obvious optimizations to be had.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Links&lt;/strong&gt;
+&lt;a href=&quot;https://mastodon.gamedev.place/@KPD&quot;&gt;Mastodon&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Sword&#39;s End r/roguelikedev 11</title>
+		<link href="https://kpdwyer.github.io/blog/swordsend/30-12-2022archive/"/>
+		<updated>2022-12-30T00:00:00Z</updated>
+		<id>https://kpdwyer.github.io/blog/swordsend/30-12-2022archive/</id>
+		<content type="html">&lt;h1 id=&quot;unnamed-cursed-sword-rl-11&quot; tabindex=&quot;-1&quot;&gt;Unnamed Cursed Sword RL #11 &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/swordsend/30-12-2022archive/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;originally posted on Reddit in the r/roguelikedev subreddit&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Hello,&lt;/p&gt;
+&lt;p&gt;Still hacking away at Sword&#39;s End!  I&#39;m not 100% on the name, but I&#39;ll lock it in soon I suspect.  I&#39;ve burned through my combat milestone over December, so the game has health, damage, heals, death and resurrection (all undoable).  I&#39;ve also built a couple of more involved abilities like...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Charge: charge in a straight line towards an enemy, dealing 1 damage per tile travelled.&lt;/li&gt;
+&lt;li&gt;Headbutt: deal 4 damage to an adjacent target, take 2 damage&lt;/li&gt;
+&lt;li&gt;Pinch: deal 2 damage to an adjacent.  Double the damage if the target is to the left or right.
+and more.  Here&#39;s a &lt;a href=&quot;https://mastodon.gamedev.place/@KPD/109600542593786415&quot;&gt;clip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;On player death, I&#39;ve added a simple &amp;quot;undo 1 turn&amp;quot; button which was basically free (implementation wise), but showed me a handful of bugs around death/resurrection undos, undoing over-heals, clamping health after taking damage, etc.  All cleaned up now.  Here&#39;s a different &lt;a href=&quot;https://mastodon.gamedev.place/@KPD/109594918221039157&quot;&gt;clip&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hope everyone has a great week!&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Sword&#39;s End r/roguelikedev 10</title>
+		<link href="https://kpdwyer.github.io/blog/swordsend/10-12-2022archive/"/>
+		<updated>2022-12-10T00:00:00Z</updated>
+		<id>https://kpdwyer.github.io/blog/swordsend/10-12-2022archive/</id>
+		<content type="html">&lt;h1 id=&quot;unnamed-cursed-sword-rl-10&quot; tabindex=&quot;-1&quot;&gt;Unnamed Cursed Sword RL #10 &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/swordsend/10-12-2022archive/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;originally posted on Reddit in the r/roguelikedev subreddit&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Hello,&lt;/p&gt;
+&lt;p&gt;Still chipping away at it in my sparse free time!  since &lt;a href=&quot;https://www.reddit.com/r/roguelikedev/comments/xsez9j/comment/iqnxcxi/?utm_source=reddit&amp;amp;utm_medium=web2x&amp;amp;context=3&quot;&gt;my last post&lt;/a&gt;, I finished implementing my new UI, the new Turn Order Bar, optimized the heck out of some pathfinding, refactored some shaky code and developed most of my &amp;quot;inspect&amp;quot; feature.&lt;/p&gt;
+&lt;p&gt;Inspect: You can inspect any cell to get info about what you can see on it.  the Logger also &amp;quot;hyperlinks&amp;quot; to the inspect funtionality if you click on an entity name or ability name.  the inspector can show info about entities, aspects (my game&#39;s class system) and abilities (with cell localtion coming soon).  An entity&#39;s Inspect panel might show a list of its abilities, as well as each of the aspects that makes up the entity.  these can be clicked on to inspect each, with &amp;quot;back&amp;quot; and &amp;quot;forward&amp;quot; functionality.  kind of a built-in wiki.  the game highlights the selected entity by outlining it, so there was some simple shader work involved as well.  its not 100% yet (about 90%), but I&#39;m happy with what I&#39;ve got.&lt;/p&gt;
+&lt;p&gt;I also added the energy impact of the selected ability to the Turn Order Bar, so you can see how an ability&#39;s energy cost affects your turn order.&lt;/p&gt;
+&lt;p&gt;Current best name idea: At Sword&#39;s End (or @ Swords End ;))&lt;/p&gt;
+&lt;p&gt;Hope everyone has a great week!&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Sword&#39;s End r/roguelikedev 9</title>
+		<link href="https://kpdwyer.github.io/blog/swordsend/01-10-2022archive/"/>
+		<updated>2022-10-01T00:00:00Z</updated>
+		<id>https://kpdwyer.github.io/blog/swordsend/01-10-2022archive/</id>
+		<content type="html">&lt;h1 id=&quot;unnamed-cursed-sword-rl-9&quot; tabindex=&quot;-1&quot;&gt;Unnamed Cursed Sword RL #9 &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/swordsend/01-10-2022archive/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;originally posted on Reddit in the r/roguelikedev subreddit&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Hello,&lt;/p&gt;
+&lt;p&gt;Still chipping away a this project intermittently.  since my last post, I&#39;ve fixed a ton of bugs, moved some pathfinding to Dijkstra maps, finish my UI mock and started implementing it in-engine and got undo/redo working.  I also wrote some simple save data stuff to help me reproduce bugs in specific generation seeds.&lt;/p&gt;
+&lt;p&gt;My UI Implementation is not 100% yet, but I&#39;m pretty happy with it so far.  here&#39;s a clip of the turn order bar in action. (Editor&#39;s Note: Lost to Time)&lt;/p&gt;
+&lt;p&gt;I&#39;ve got a handful of smaller bugs to clean up in the coming week, and I&#39;d like to get the turn order bar to preview how your selected skill will affect all entity&#39;s energy levels.&lt;/p&gt;
+&lt;p&gt;Hope everyone has a great week!&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Sword&#39;s End r/roguelikedev 8</title>
+		<link href="https://kpdwyer.github.io/blog/swordsend/13-08-2022archive/"/>
+		<updated>2022-08-13T00:00:00Z</updated>
+		<id>https://kpdwyer.github.io/blog/swordsend/13-08-2022archive/</id>
+		<content type="html">&lt;h1 id=&quot;unnamed-cursed-sword-rl-8&quot; tabindex=&quot;-1&quot;&gt;Unnamed Cursed Sword RL #8 &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/swordsend/13-08-2022archive/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;originally posted on Reddit in the r/roguelikedev subreddit&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Hello!  spent a week messing with upscaling my game from 16 by 16 tiles to 128 by 128 just for kicks.  it worked fine, but I&#39;m going to stick to pixel art for now to keep the project code-centric, rather than art- and pipeline-centric. here&#39;s some screenshots anyways! https://imgur.com/a/ommFj7Z https://imgur.com/a/9K8W253&lt;/p&gt;
+&lt;p&gt;Otherwise I chipped away at a new UI mock, thats here. https://imgur.com/a/ommFj7Z&lt;/p&gt;
+&lt;p&gt;In the coming week, I&#39;m hoping to start taking a chunk out of one of the larger features on my list: Auto-Explore or round replay.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Sword&#39;s End r/roguelikedev 7</title>
+		<link href="https://kpdwyer.github.io/blog/swordsend/30-07-2022archive/"/>
+		<updated>2022-07-30T00:00:00Z</updated>
+		<id>https://kpdwyer.github.io/blog/swordsend/30-07-2022archive/</id>
+		<content type="html">&lt;h1 id=&quot;unnamed-cursed-sword-rl-7&quot; tabindex=&quot;-1&quot;&gt;Unnamed Cursed Sword RL #7 &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/swordsend/30-07-2022archive/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;originally posted on Reddit in the r/roguelikedev subreddit&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Hey friends!  its been six months but I&#39;m back at it with my little Godot Cursed Sword Roguelike.  I refactored the entire turn manager &amp;amp; ability system to work with a command queue, and now every turn can be undone visually.  Here&#39;s a clip: (Editor&#39;s Note: Lost to time).  There&#39;s a bit more work to do to get run replays working, but the end is in sight.  As an aside, I also ended up writing my save/load for Game Settings, so I can save and load specific generations to help with testing.&lt;/p&gt;
+&lt;p&gt;I&#39;d like to get replays working, and I have a plan to store multiple abilities under each ability slot soon.  I&#39;d also like to get some UI cleaned up and make a few non-movement abilities before I dig into combat.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Sword&#39;s End r/roguelikedev 6</title>
+		<link href="https://kpdwyer.github.io/blog/swordsend/28-01-2022archive/"/>
+		<updated>2022-01-28T00:00:00Z</updated>
+		<id>https://kpdwyer.github.io/blog/swordsend/28-01-2022archive/</id>
+		<content type="html">&lt;h1 id=&quot;unnamed-cursed-sword-rl-6&quot; tabindex=&quot;-1&quot;&gt;Unnamed Cursed Sword RL #6 &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/swordsend/28-01-2022archive/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;originally posted on Reddit in the r/roguelikedev subreddit&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Hey there! Another slow week for me, but I got the abilities clickable from the console window via Godot&#39;s BBCode URL tags.  Eventually I&#39;d like it to be built out so that you can clcik on key words (abilities, effects, stats) etc to get all the info you need with minimal effort.  there&#39;s a clip in my twitter thread here. (Editor&#39;s Note: Lost to time)&lt;/p&gt;
+&lt;p&gt;I&#39;ve got to start chipping away at combat soon, but there&#39;s always lots of other stuff to work on!  and refactoring to happen.  Just taking it a day at a time.  Super inspired by everyone else&#39;s progress!&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Sword&#39;s End 2022 Outlook</title>
+		<link href="https://kpdwyer.github.io/blog/swordsend/2022/"/>
+		<updated>2022-01-15T00:00:00Z</updated>
+		<id>https://kpdwyer.github.io/blog/swordsend/2022/</id>
+		<content type="html">&lt;h1 id=&quot;cursed-sword-roguelike-2022&quot; tabindex=&quot;-1&quot;&gt;Cursed Sword Roguelike 2022 &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/swordsend/2022/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;originally posted on Reddit in the r/roguelikedev subreddit&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Unnamed Cursed Sword Roguelike&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Unnamed Cursed Sword Roguelike is a game I&#39;ve been building to learn Godot &amp;amp; to explore some code architecture.  In the game, you&#39;re a cursed sword that can possess different entites, trying to uncover the truth about your origins.  I&#39;m excited about the ideas I have to mix and match ability sets, possess entities &amp;amp; introduce other cursed weapons.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2021 Retrospective&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I started in 2021!  My son spent a lot of time learning Godot, so I joined in.  I&#39;ve been using Unity full time for more than 10 years and just wanted to do some professional development that felt less like work.  I&#39;m pretty happy with what I&#39;ve done so far, but I&#39;m also aware the project has involved a lot of refactors as I play with architecture and learn about Godot.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2022 Outlook&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This year, I&#39;m aiming to tie off the gameplay loop and have something playable.  I&#39;d also love to get it running and playable with controllers, and on touch.&lt;/p&gt;
+&lt;p&gt;Another concept I&#39;m interested in pursuing is being able to load custom tilesets &amp;amp; sprites for gameplay.  this is a bit more far fetched with how everything is built right now, but I may take a chunk of time to give it a real test and see if it&#39;ll slow down content cadence.&lt;/p&gt;
+&lt;p&gt;On the topic of distractions, I&#39;m excited about making something where the design mentality is a little bit less about elegance and more about the kitchen sink.  Even if I get distracted by other projects I&#39;m going to try and have my other distractions orbit around the world and game I&#39;m trying to build.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Sword&#39;s End r/roguelikedev 6</title>
+		<link href="https://kpdwyer.github.io/blog/swordsend/08-01-2022archive/"/>
+		<updated>2022-01-08T00:00:00Z</updated>
+		<id>https://kpdwyer.github.io/blog/swordsend/08-01-2022archive/</id>
+		<content type="html">&lt;h1 id=&quot;unnamed-cursed-sword-rl-6&quot; tabindex=&quot;-1&quot;&gt;Unnamed Cursed Sword RL #6 &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/swordsend/08-01-2022archive/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;originally posted on Reddit in the r/roguelikedev subreddit&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Hey there!  I didn&#39;t have a ton of time this week, but I managed to do a bunch of refactoring I needed to prep the game for generating entities.  I needed to move a lot of logic-related code out of the Node objects (visuals).  I had written the generic random data table system (defining functional loot tables from the inspector) months ago, and it was nice to just shove my entity aspects into it without much fuss and have it work.  There was a quick post last night of some progress in these regards.&lt;/p&gt;
+&lt;h2 id=&quot;what-are-aspects&quot; tabindex=&quot;-1&quot;&gt;What are Aspects? &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/swordsend/08-01-2022archive/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Aspects are the building blocks of the game&#39;s entities.  each Entity is composed of 2 or more aspects (just 2 right now).  Each aspect has a list of Primary, Secondary and Static abilities, which will be granted to an entity depending on whether its a primary or secondary Aspect of the entity.  I call them Aspects because it leaves it open to be classes, races or even weirder stuff that wouldn&#39;t conform to a category as such.&lt;/p&gt;
+&lt;p&gt;An aspect&#39;s visuals are the Primary Aspect&#39;s icon, palette swapped with the color set from the secondary aspect.  each Aspect has 2 strings: a name and a descriptor.  so a Crab and a Human could generate both a &lt;code&gt;Chitinous Human&lt;/code&gt; and a &lt;code&gt;Fleshy Crab&lt;/code&gt;, depending on which is primary.&lt;/p&gt;
+&lt;p&gt;The Aspect system is inspired by Solitairica&#39;s deck system, and I&#39;m hoping the generated enemies give the player an abundance of options when choosing whether to engage, possess or avoid certain entities.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Sword&#39;s End r/roguelikedev 4</title>
+		<link href="https://kpdwyer.github.io/blog/swordsend/01-01-2022archive/"/>
+		<updated>2022-01-01T00:00:00Z</updated>
+		<id>https://kpdwyer.github.io/blog/swordsend/01-01-2022archive/</id>
+		<content type="html">&lt;h1 id=&quot;unnamed-cursed-sword-rl-4&quot; tabindex=&quot;-1&quot;&gt;Unnamed Cursed Sword RL #4 &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/swordsend/01-01-2022archive/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;originally posted on Reddit in the r/roguelikedev subreddit&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Happy New Year folks! This week I rewrote my BSP map generation and broke my map generation into discrete, standalone steps in hopes to ease the eventual implementation of unique area &amp;amp; generation settings. It was a somewhat boring first step to getting the entity sleep / combat states set up.  Some new gifs of the map generation work on the twitter thread here.(editor&#39;s note: lost to time)&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Sword&#39;s End r/roguelikedev 3</title>
+		<link href="https://kpdwyer.github.io/blog/swordsend/25-12-2021archive/"/>
+		<updated>2021-12-25T00:00:00Z</updated>
+		<id>https://kpdwyer.github.io/blog/swordsend/25-12-2021archive/</id>
+		<content type="html">&lt;h1 id=&quot;unnamed-cursed-sword-rl-3&quot; tabindex=&quot;-1&quot;&gt;Unnamed Cursed Sword RL #3 &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/swordsend/25-12-2021archive/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;originally posted on Reddit in the r/roguelikedev subreddit&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Happy Holidays folks!  I threw most of my locomotion abilities onto the dev-slime entity and got abilitity swapping running.   Quick gif of that at the tail end of the twitter thread here. (editor&#39;s note: lost to time)&lt;/p&gt;
+&lt;p&gt;I cleared out some warnings and fixed a very-edge-case room generation bug.&lt;/p&gt;
+&lt;p&gt;I also wrote the tiniest shader for 2-tone palette swapping on godot sprites - I work as a Technical Artist so I really have to reign in the desire to add tons of flashiness to everything.  I&#39;m trying to keep the effort cost of creating new things (abilities, entities, etc) as low as possible for now.&lt;/p&gt;
+&lt;p&gt;Also got the AI taking turns, but in a really dumb way (walk down unless you can&#39;t, then walk up).  I&#39;m really hoping to add &lt;code&gt;auto-explore&lt;/code&gt; &amp;amp; &lt;code&gt;combat&lt;/code&gt; states to the player, and &lt;code&gt;sleep&lt;/code&gt; and &lt;code&gt;combat&lt;/code&gt; states to the AI entities.  Aiming to start from a system similar to the Mystery Dungeon games. That&#39;s probably next.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Sword&#39;s End r/roguelikedev 2</title>
+		<link href="https://kpdwyer.github.io/blog/swordsend/18-12-2021archive/"/>
+		<updated>2021-12-18T00:00:00Z</updated>
+		<id>https://kpdwyer.github.io/blog/swordsend/18-12-2021archive/</id>
+		<content type="html">&lt;h1 id=&quot;unnamed-cursed-sword-rl-2&quot; tabindex=&quot;-1&quot;&gt;Unnamed Cursed Sword RL #2 &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/swordsend/18-12-2021archive/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;originally posted on Reddit in the r/roguelikedev subreddit&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Hello again! I finished off most of my Selector work, upscaled existing art (there&#39;s not much yet) from 8_8 to 16_16, and cleaned up a lot of movement code - there&#39;s step (4-directional, distance 1), dash(any square within 4 single steps), blink (any square within 5 steps, line of sight not needed, can blink through walls) and knight (l-shape, like a knight from chess).&lt;/p&gt;
+&lt;p&gt;Every character will have step I think, but many will have unique locomotion skills or traits, so it seemed worth tackling the handful of implementation differences I know I&#39;ll need.&lt;/p&gt;
+&lt;p&gt;I&#39;ll try to make sure I have some visuals for next time, and will link to them. Hoping to get started on ability UI and AI entities shortly.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Sword&#39;s End r/roguelikedev 1</title>
+		<link href="https://kpdwyer.github.io/blog/swordsend/11-12-2021archive/"/>
+		<updated>2021-12-11T00:00:00Z</updated>
+		<id>https://kpdwyer.github.io/blog/swordsend/11-12-2021archive/</id>
+		<content type="html">&lt;h1 id=&quot;unnamed-cursed-sword-rl-1&quot; tabindex=&quot;-1&quot;&gt;Unnamed Cursed Sword RL #1 &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/swordsend/11-12-2021archive/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;originally posted on Reddit in the r/roguelikedev subreddit&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Hello!  I&#39;ve been lurking for a while, first time posting.  I&#39;m building a roguelike about a cursed sword in Godot!  Originally I was just learning Godot &amp;amp; more complex design patterns, but I&#39;ve fallen into a pretty good rhythm working on it. I&#39;ve got some designs for its future, so here I am on sharing Saturday.&lt;/p&gt;
+&lt;p&gt;Cursed Sword RL (temp name) is a graphical roguelike in Godot with a focus on accessibility.  I&#39;ve got a lot of notes in my actual code, but I keep an external digital notebook, which can be handy when i can&#39;t see the forest for the trees.  I&#39;m still working on finding a good home for sharing progress on the game, but I&#39;ve got a twitter thread &lt;a href=&quot;https://mastodon.gamedev.place/@KPD/109741771388549456&quot;&gt;here&lt;/a&gt;. (Editing note: my twitter is deleted. link should lead to a random Sword&#39;s End mastodon post)&lt;/p&gt;
+&lt;p&gt;This week I&#39;ve been working on UX.  I want mouse, keyboard and controller support and I&#39;m trying to build it from the ground up with what I&#39;ve called Selectors, which are spawned as needed with locations, neighbours (for selecting via directional input), shortcut labels and clickable buttons.  I&#39;m about halfway through and it looks like this right now.&lt;/p&gt;
+&lt;p&gt;Thanks for taking a look, and will post less next time.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Markov Jr</title>
