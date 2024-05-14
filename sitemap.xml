@@ -167,6 +167,16 @@
 	</url>
 	
 	<url>
+		<loc>https://kpdwyer.github.io/tags/jams/</loc>
+		<lastmod>2023-08-20</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://kpdwyer.github.io/tags/real-life/</loc>
+		<lastmod>2023-08-20</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://kpdwyer.github.io/tags/inktober/</loc>
 		<lastmod>2023-08-20</lastmod>
 	</url>
@@ -189,5 +199,10 @@
 	<url>
 		<loc>https://kpdwyer.github.io/blog/art/2024-01-26/art2024-01-26/</loc>
 		<lastmod>2024-01-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://kpdwyer.github.io/blog/events/tojam-2024/</loc>
+		<lastmod>2024-05-13</lastmod>
 	</url>
 </urlset>
