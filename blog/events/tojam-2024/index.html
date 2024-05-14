@@ -1,0 +1,572 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>TOJam 2024</title>
+		<meta name="description" content="Currently working as a Senior Developer in the games industry.">
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="KPD Home">
+		<link rel="alternate" href="/feed/feed.json" type="application/json" title="KPD Home">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+* { box-sizing: border-box; }
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #362f2e;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #9e836d;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #eb8e77;
+	--text-color-link-visited: #eb8e77;
+
+	--code-color:#211c1b;
+	--code-background-color: #C0C0C0;
+
+	--syntax-tab-size: 2;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #362f2e;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #9e836d;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #dd745b;
+		--text-color-link-active: #eb8e77;
+		--text-color-link-visited: #eb8e77;
+
+		--background-color: #211c1b;
+
+		--code-color:#93cea9;
+		--code-background-color: #2b2524;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 40em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	list-style: none;
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+	color:var(--code-color);
+  background-color: var(--code-background-color);
+
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Direct Links / Markdown Headers */
+.header-anchor {
+	text-decoration: none;
+	font-style: normal;
+	font-size: 1em;
+	margin-left: .1em;
+}
+a[href].header-anchor,
+a[href].header-anchor:visited {
+	color: transparent;
+}
+a[href].header-anchor:focus,
+a[href].header-anchor:hover {
+	text-decoration: underline;
+}
+a[href].header-anchor:focus,
+:hover > a[href].header-anchor {
+	color: #aaa;
+}
+
+h2 + .header-anchor {
+	font-size: 1.5em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/" class="home-link">KPD Home</a>
+			<nav>
+				<h2 class="visually-hidden">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/">Home</a></li>
+					<li class="nav-item"><a href="/blog/">Archive</a></li>
+					<li class="nav-item"><a href="/about/">About Me</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			
+<h1>TOJam 2024</h1>
+
+<ul class="post-metadata">
+	<li><time datetime="2024-05-13">13 May 2024</time></li>
+	<li><a href="/tags/jams/" class="post-tag">jams</a>, </li>
+	<li><a href="/tags/blender/" class="post-tag">blender</a>, </li>
+	<li><a href="/tags/real-life/" class="post-tag">real-life</a>, </li>
+	<li><a href="/tags/godot/" class="post-tag">godot</a></li>
+</ul>
+
+<p>TOJam is the name of the Toronto Game jam, a jam that happens at some point in May pretty much every year.  I was pretty consistent in attending in my early career years, but covid broke the streak and it never really recovered - 3 days in the city is a tall ask with little kiddos running around at home.  Last year it didn't shake out for Landen and I so we vowed to make it work this time around.</p>
+<h2 id="prework" tabindex="-1">Prework <a class="header-anchor" href="#prework">#</a></h2>
+<p>I had prepared a Local Multiplayer lobby ahead of time a few weeks ago, because I've done Local MP in a jam before and nobody wants to be writing UI at the eleventh hour and mapping Device IDs to Player IDs with time crunch.</p>
+<p>We finished architecting how the match data gets populated from the menus on the Train ride to the venue, which also served as a quick git primer for Landen who - as far as I can tell - only uses git when he works with me.  he'll learn!</p>
+<blockquote>
+<p><em>this includes a check in our GameManager class which checks for match data - if it exists, it uses that to set up the game, but if it doesn't it generates a debug match data.  this way we can run the game from the gameplay scene without configuring multiple controllers / going through the local multiplayer lobby every time.</em></p>
+</blockquote>
+<p>We also knew we were making a boat game, so we nabbed Kenney's boat assets.  My hope was to avoid animations and have lots of small things, rather than highly detailed &quot;hero art&quot; or similar.</p>
+<hr>
+<h2 id="day-1" tabindex="-1">Day 1 <a class="header-anchor" href="#day-1">#</a></h2>
+<p>We sat down with a rough plan -&gt; Local Multiplayer fishing with a dash of Vampire Survivors.  Basically the hordes of enemies become hordes of fish and each player drags a fishing bobber around behind their boat to hit the fish, thus catching them and levelling up in some way.</p>
+<p>The first step was getting the bobber to chase the ship.  We ended up spending a couple of hours debugging Godot's 6DOF Physics joint, which I suppose was not up for our task because the ultimate solution was for me to write a made-for-purpose implementation of Hooke's Law so the bobber chases an ideal point behind the ship (with a deadone).  Physics is not Godot's specialty.</p>
+<p><picture><source type="image/webp" srcset="/img/f36kinIUbn-906.webp 906w"><img alt="Grey Screen with blue boat and visible collision shapes" loading="lazy" decoding="async" src="/img/f36kinIUbn-906.png" width="906" height="596"></picture>
+<em><em>It did not feel great to have only this after the first few hours...</em></em></p>
+<p>I took a few minutes to wander the halls of TOJam and find some friends.  Mostly folks I haven't seen (in person) for 5 years or longer!</p>
+<p>I then started focusing on fish - I wanted the fish to be visually simple but move in the organized chaos you see in flocks of birds.  most of the time this would call for a flocking implementation, but worrying about performance I just set up a Fish Manager. The Fish manager generates a few schools of fish, and moves the fish towards an occasionally changing target.  Since all the fish just rotate left or right (via the right vector's dot product with the target's position) and always swim forward, they always move in tandem(ish).</p>
+<blockquote>
+<p>I didn't need them to collide with each other - i guess they could be at different depths? it's not really gameplay relevant either way.  Thus, there was no reason to worry about local avoidance within the schools/flocks.</p>
+</blockquote>
+<p>somewhere in here, we took our pre-packed lunches to Sugar Beach for lunch, chatting through design ideas</p>
+<p>While I had been solving fish, Landen bounced around tweaking the boat controls, getting score working and wiring up our initial UI - everything from design through implementation.</p>
+<p>Once we merged our work together, we had a fairly gnarly looking prototype - and a lead on a music floater who was interested in making some tunes for us.</p>
+<p>we were feeling a bit sluggish so nabbed an early dinner and walk.  That was a great decision, because it felt like we had a surge of motivation.  I managed to finalized the fish visuals &amp; the Bobber, while Landen took time to plan a dynamic camera, build out the rocks around the body of water and square away more UI.  Things were looking up.</p>
+<p><a href="../../../clips/events/tojam-2024/clip.mp4">a clip we captured after finalizing the fish for the WIP channel on the TOJam discord.</a></p>
+<p>with the opening ceremonies delayed, and both of us keenly aware of the next 2 days of bus rides and jamming, we decided to bail a bit earlier than planned, hoping to retain some energy for the days to come.</p>
+<p><picture><source type="image/webp" srcset="/img/UWZHpyHvxN-960.webp 960w"><img alt="Blue water and rocks, a blue boat floats near some fish." loading="lazy" decoding="async" src="/img/UWZHpyHvxN-960.png" width="960" height="540"></picture>
+<em><em>A quick end of day screen capture.</em></em></p>
+<hr>
+<h2 id="day-2" tabindex="-1">Day 2 <a class="header-anchor" href="#day-2">#</a></h2>
+<p>Once again, Landen and I sat down with a rough plan:  I would lay down the architecture that would enable us to add <em>artifacts</em> to the game, while Landen put in most of the game loop - such as the results screen &amp; title.</p>
+<p>We also managed to pick up another audio floater, Kate, to help us out with whatever simple SFX we could think of, and some ambience for our menus.  More work to implement later!</p>
+<p>I was hoping to have artifacts running by the end of day with a few artifacts, but it was fairly slow going, as my UI updates would often conflict with Landen's.  correctly packing each UI piece into its own scene helped us navigate this a lot, but we still stepped on each others toeas a few times.</p>
+<p>by the end of the day you could level up and select an artifact, but we only had one, so it felt a bit sparse.  hopefully more artifacts tomorrow!</p>
+<p>Landen did manage to get the game flow working: from Splash Screen -&gt; Title -&gt; Lobby -&gt; Gameplay -&gt; Results and back to Title.  This involved a lot of UI, and Landen stopped and added shaders and polish as he went.</p>
+<p>At the end of the day we played a round with our composer Wilfred and decided to rework some core gameplay while we layered on game diversity via artifacts on day 3.</p>
+<p>Or so we thought!  Landen was mega motivated and tackled some simple hanging tasks on the bus ride home and at night.  we had credits, better looking water, and tons of tiny touchups.</p>
+<p><picture><source type="image/webp" srcset="/img/H4nR04_73u-1621.webp 1621w"><img alt="Blue water and rocks, three different boats float near some fish." loading="lazy" decoding="async" src="/img/H4nR04_73u-1621.png" width="1621" height="895"></picture>
+<em><em>A quick end of day screen capture.</em></em></p>
+<hr>
+<h2 id="day-3" tabindex="-1">Day 3 <a class="header-anchor" href="#day-3">#</a></h2>
+<p>The plan for day 3 was Audio, Artifacts and Arcade.  AAA gaming!</p>
+<p>In the morning I started getting the &quot;multiple bobber&quot; artifacts working, alongside the &quot;Bobber Growth&quot; artifacts.  it turns out there are some wild gotchas around <code>duplicate()</code> and physics stuff in Godot, so it was a bigger rework than I planned.  but eventually we got 5 new artifacts that add bobbers in different &quot;slots&quot;, and 2 artifacts to scale the bobber up.</p>
+<p>Landen tackled some tutorial images and player boat selection in our multiplayer lobby.  It was really moving!</p>
+<p><picture><source type="image/webp" srcset="/img/cn2IZItiwh-1920.webp 1920w"><img alt="Boat Selection screen for players." loading="lazy" decoding="async" src="/img/cn2IZItiwh-1920.png" width="1920" height="1080"></picture>
+<em><em>people spent a lot of time choosing boats!</em></em></p>
+<p>Landen and I sat down for a lunch away from our screens and discussed the game.  The biggest take away was Landen convincing me to cut the entire &quot;Artifact Selection&quot; process, whereby each player levels up independently, and replace it with a global artifact system, where we introduce global gameplay twists as the game progresses.  I was wary about ditching something we had put the effort into, but realized it would be better for the game to push harder into the &quot;Party&quot; genre, away from providing more &quot;build agency&quot; like you'd see in a roguelike.</p>
+<p>So we got back from lunch, and replaced the Player Artifact system with a Global Artifact system.  All 7 artifacts just had to be updated to act on all players instead of whichever player they belonged to.  Since our seven artifacts were just 2 scripts with different instance data, this was minor.</p>
+<p>In this time, Landen tackled the UI upgrades needed to change the artifact system, which he did in isolation pretty quickly.  We wrestled with a few git and Godot related mishaps while we were in this final mad dash.</p>
+<p>I left to get my mind on other things by helping out another Godot team with some code issues, and when I got back Landen had added his own artifacts to the game and it was looking great!</p>
+<p>Kate &amp; Wilfred were both around, so I also did a pass at updating all the music &amp; getting most of our sound effects in.  when we bailed for dinner at 5:30, we had played a match with Kate and Wilfred, and had a very minor set of bugs to fix up before the closing ceremony at 6!</p>
+<p><picture><source type="image/webp" srcset="/img/wNExHs7gvb-1920.webp 1920w"><img alt="Some boats surrounded by swarms of fish" loading="lazy" decoding="async" src="/img/wNExHs7gvb-1920.png" width="1920" height="1080"></picture>
+<em><em>Still very happy with my schools of fish</em></em></p>
+<h2 id="the-arcade" tabindex="-1">The Arcade <a class="header-anchor" href="#the-arcade">#</a></h2>
+<p>At the end of TOJam, everybody sets up their game to be playable in a big room and we all host players &amp; browse the games.  Our first 2 or three games with people showed us a few big flaws:</p>
+<ul>
+<li>the dynamic camera zoom was a bit too wide / tight with different player counts</li>
+<li>the timer was a bit too long</li>
+<li>players earned 6 or 7 levels very rapidly, then spent a minute or two progressing through the next.</li>
+</ul>
+<p>Luckily all of these were fixable with some number tweaks, so we shut down our game a few times, tweaked some numbers and kicked out new builds.  this was very quick to do with Godot!</p>
+<p>We had a great time playing the game with a bunch of people, and we were on the big screen for a long time!  The game sounded great pumping through the room's speakers.</p>
+<h2 id="gallery" tabindex="-1">Gallery <a class="header-anchor" href="#gallery">#</a></h2>
+<p>Here are some pictures I've sourced from attendees.  I've blurred the faces for the sake of things like AI and general privacy - I've got no real defense against those things on this site.</p>
+<p><picture><source type="image/webp" srcset="/img/Ed5YdsV2JK-4080.webp 4080w"><img alt="Some folks playing the game on the big screen at the arcade" loading="lazy" decoding="async" src="/img/Ed5YdsV2JK-4080.jpeg" width="4080" height="3072"></picture>
+<em><em>Some folks playing the game on the big screen at the arcade</em></em></p>
+<p><picture><source type="image/webp" srcset="/img/rz8VWgeuA3-1600.webp 1600w"><img alt="me explaining the game to an onlooker while other folks play" loading="lazy" decoding="async" src="/img/rz8VWgeuA3-1600.jpeg" width="1600" height="1200"></picture>
+<em><em>me explaining the game to an onlooker while other folks play.  Photo from Kate Tavasoli.</em></em></p>
+<p><picture><source type="image/webp" srcset="/img/0OBxweiJcH-1600.webp 1600w"><img alt="some people playing the game on the big screen, close up." loading="lazy" decoding="async" src="/img/0OBxweiJcH-1600.jpeg" width="1600" height="1200"></picture>
+<em><em>some people playing the game on the big screen, close up. Photo from Kate Tavasoli.</em></em></p>
+
+<ul class="links-nextprev"><li>Previous: <a href="/blog/art/2024-01-26/art2024-01-26/">Art Dump II</a></li>
+</ul>
+
+		</main>
+
+		<footer></footer>
+
+		<!-- Current page: /blog/events/tojam-2024/ -->
+	</body>
+</html>
