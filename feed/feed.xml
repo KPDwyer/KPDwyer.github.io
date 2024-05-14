@@ -17,6 +17,7 @@
 		<updated>2024-05-13T00:00:00Z</updated>
 		<id>https://kpdwyer.github.io/blog/events/tojam-2024/</id>
 		<content type="html">&lt;p&gt;TOJam is the name of the Toronto Game jam, a jam that happens at some point in May pretty much every year.  I was pretty consistent in attending in my early career years, but covid broke the streak and it never really recovered - 3 days in the city is a tall ask with little kiddos running around at home.  Last year it didn&#39;t shake out for Landen and I so we vowed to make it work this time around.&lt;/p&gt;
+&lt;p&gt;If you don&#39;t care about the process, thats cool - get some friends &amp;amp; controllers &amp;amp; you can play the game on my itch page right &lt;a href=&quot;https://kpdwyer.itch.io/fishin-mission&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&quot;prework&quot; tabindex=&quot;-1&quot;&gt;Prework &lt;a class=&quot;header-anchor&quot; href=&quot;https://kpdwyer.github.io/blog/events/tojam-2024/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;I had prepared a Local Multiplayer lobby ahead of time a few weeks ago, because I&#39;ve done Local MP in a jam before and nobody wants to be writing UI at the eleventh hour and mapping Device IDs to Player IDs with time crunch.&lt;/p&gt;
 &lt;p&gt;We finished architecting how the match data gets populated from the menus on the Train ride to the venue, which also served as a quick git primer for Landen who - as far as I can tell - only uses git when he works with me.  he&#39;ll learn!&lt;/p&gt;
