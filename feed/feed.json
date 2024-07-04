@@ -1,15 +1,23 @@
 {
 	"version": "https://jsonfeed.org/version/1.1",
-	"title": "KPD Home",
+	"title": "KPD",
 	"language": "en",
 	"home_page_url": "https://kpdwyer.github.io/",
 	"feed_url": "https://kpdwyer.github.io/feed/feed.json",
 	"description": "Currently working as a Senior Developer in the games industry.",
 	"author": {
 		"name": "Kyle Dwyer",
-		"url": "https://example.com/about-me/"
+		"url": "https://kpdwyer.github.io/"
 	},
 	"items": [
+		{
+			"id": "https://kpdwyer.github.io/blog/art/2024-07-03/art2024-07-03/",
+			"url": "https://kpdwyer.github.io/blog/art/2024-07-03/art2024-07-03/",
+			"title": "Art Dump III",
+			"content_html": "<p>Art Dump July!  The family has been sick off and on all year, but really thats no excuse for the lack of art.  Work has been busy too?  these excuses are lame, here's the art!</p>\n<p><picture><source type=\"image/webp\" srcset=\"https://kpdwyer.github.io/img/8PDIy8lfN8-2209.webp 2209w\"><img alt=\"Car Doodle\" loading=\"lazy\" decoding=\"async\" src=\"https://kpdwyer.github.io/img/8PDIy8lfN8-2209.jpeg\" width=\"2209\" height=\"3435\"></picture>\n<em>Some warmup exercises and an illustration of my wife scuba diving.  Drawn in a moving vehicle! Pen on paper.</em></p>\n<hr>\n<p><picture><source type=\"image/webp\" srcset=\"https://kpdwyer.github.io/img/chr-j_JGp--2132.webp 2132w\"><img alt=\"Kids Doodles\" loading=\"lazy\" decoding=\"async\" src=\"https://kpdwyer.github.io/img/chr-j_JGp--2132.jpeg\" width=\"2132\" height=\"3656\"></picture>\n<em>Illustration of my son with a pickle hat, and my daughter with rabbit ears.  Drawn in a moving vehicle! Pen on paper.</em></p>\n<hr>\n<p><picture><source type=\"image/webp\" srcset=\"https://kpdwyer.github.io/img/LAt-3GEI95-628.webp 628w\"><img alt=\"Krita pencils\" loading=\"lazy\" decoding=\"async\" src=\"https://kpdwyer.github.io/img/LAt-3GEI95-628.png\" width=\"628\" height=\"661\"></picture>\n<em>quick doodles as I tweak a brush in Krita to work like a real life pencil.  Krita.</em></p>\n<hr>\n<p><picture><source type=\"image/webp\" srcset=\"https://kpdwyer.github.io/img/FRfO_XXMLu-2103.webp 2103w\"><img alt=\"em's rough\" loading=\"lazy\" decoding=\"async\" src=\"https://kpdwyer.github.io/img/FRfO_XXMLu-2103.jpeg\" width=\"2103\" height=\"3118\"></picture>\n<picture><source type=\"image/webp\" srcset=\"https://kpdwyer.github.io/img/1pl_S2NKpR-2116.webp 2116w\"><img alt=\"my interpretation\" loading=\"lazy\" decoding=\"async\" src=\"https://kpdwyer.github.io/img/1pl_S2NKpR-2116.jpeg\" width=\"2116\" height=\"3436\"></picture>\n<em>A piece by my son Emery, and then my interpretation of it.  Markers on paper.</em></p>\n<hr>\n<p><picture><source type=\"image/webp\" srcset=\"https://kpdwyer.github.io/img/xN_vgJfCqX-2898.webp 2898w\"><img alt=\"Objects found in dungeon\" loading=\"lazy\" decoding=\"async\" src=\"https://kpdwyer.github.io/img/xN_vgJfCqX-2898.jpeg\" width=\"2898\" height=\"3190\"></picture>\n<em>assorted objects found in dungeon.  Pen on paper.</em></p>\n<hr>\n<img alt=\"Pixel Rats\" loading=\"lazy\" decoding=\"async\" src=\"https://kpdwyer.github.io/img/1rASXEK8CP-256.png\" width=\"256\" height=\"256\">\n_Pixel Rats.  Pixsquare._\n<hr>\n",
+			"date_published": "2024-07-03T00:00:00Z"
+		}
+		,
 		{
 			"id": "https://kpdwyer.github.io/blog/events/tojam-2024/",
 			"url": "https://kpdwyer.github.io/blog/events/tojam-2024/",

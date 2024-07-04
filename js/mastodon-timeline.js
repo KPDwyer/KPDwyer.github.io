@@ -19,7 +19,7 @@ window.addEventListener("load", () => {
 
     // Your user ID on Mastodon instance. Leave empty if you didn't choose 'profile' as type of timeline
     user_id: "108194439213833558",
-		//
+    //
 
     // Your user name on Mastodon instance. Leave empty if you didn't choose 'profile' as type of timeline
     profile_name: "@KPD",
@@ -148,7 +148,7 @@ MastodonApi.prototype.getToots = function () {
           } else {
             // Format and append toots
             appendToot.call(mapi, jsonData[i], i);
-						break; //KPD added this for single post from selected set
+            break; //KPD added this for single post from selected set
           }
         }
       }

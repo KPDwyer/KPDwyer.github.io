@@ -5,8 +5,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Frame-based Animator Generator</title>
 		<meta name="description" content="Currently working as a Senior Developer in the games industry.">
-		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="KPD Home">
-		<link rel="alternate" href="/feed/feed.json" type="application/json" title="KPD Home">
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="KPD">
+		<link rel="alternate" href="/feed/feed.json" type="application/json" title="KPD">
+		<meta name="generator" content="Eleventy v2.0.1">
 		
 		<style>/**
  * okaidia theme for JavaScript, CSS and HTML
@@ -183,6 +184,8 @@ pre[class*="language-diff-"] {
 	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
 }
 
+
+
 /* Theme colors */
 :root {
 	--color-gray-20: #362f2e;
@@ -196,15 +199,15 @@ pre[class*="language-diff-"] {
 	--text-color-link-active: #eb8e77;
 	--text-color-link-visited: #eb8e77;
 
-	--code-color:#211c1b;
+	--code-color: #211c1b;
 	--code-background-color: #C0C0C0;
 
 	--syntax-tab-size: 2;
 }
 
 img {
-  width: 100%;
-  height: auto;
+	width: 80%;
+	height: auto;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -220,7 +223,7 @@ img {
 
 		--background-color: #211c1b;
 
-		--code-color:#93cea9;
+		--code-color: #93cea9;
 		--code-background-color: #2b2524;
 	}
 }
@@ -239,9 +242,11 @@ body {
 	color: var(--text-color);
 	background-color: var(--background-color);
 }
+
 html {
 	overflow-y: scroll;
 }
+
 body {
 	max-width: 40em;
 }
@@ -260,6 +265,7 @@ body {
 p:last-child {
 	margin-bottom: 0;
 }
+
 p {
 	line-height: 1.5;
 }
@@ -271,9 +277,11 @@ li {
 a[href] {
 	color: var(--text-color-link);
 }
+
 a[href]:visited {
 	color: var(--text-color-link-visited);
 }
+
 a[href]:hover,
 a[href]:active {
 	color: var(--text-color-link-active);
@@ -282,6 +290,7 @@ a[href]:active {
 main {
 	padding: 1rem;
 }
+
 main :first-child {
 	margin-top: 0;
 }
@@ -289,6 +298,7 @@ main :first-child {
 header {
 	border-bottom: 1px dashed var(--color-gray-20);
 }
+
 header:after {
 	content: "";
 	display: table;
@@ -304,6 +314,7 @@ header:after {
 table {
 	margin: 1em 0;
 }
+
 table td,
 table th {
 	padding-right: 1em;
@@ -312,13 +323,15 @@ table th {
 pre,
 code {
 	font-family: var(--font-family-monospace);
-	color:var(--code-color);
-  background-color: var(--code-background-color);
+	color: var(--code-color);
+	background-color: var(--code-background-color);
 
 }
+
 pre:not([class*="language-"]) {
 	margin: .5em 0;
-	line-height: 1.375; /* 22px /16 */
+	line-height: 1.375;
+	/* 22px /16 */
 	-moz-tab-size: var(--syntax-tab-size);
 	-o-tab-size: var(--syntax-tab-size);
 	tab-size: var(--syntax-tab-size);
@@ -330,8 +343,9 @@ pre:not([class*="language-"]) {
 	white-space: pre;
 	word-spacing: normal;
 	word-break: normal;
-	
+
 }
+
 code {
 	word-break: break-all;
 }
@@ -344,11 +358,14 @@ header {
 	align-items: center;
 	padding: 1em;
 }
+
 .home-link {
-	font-size: 1em; /* 16px /16 */
+	font-size: 1em;
+	/* 16px /16 */
 	font-weight: 700;
 	margin-right: 2em;
 }
+
 .home-link:link:not(:hover) {
 	text-decoration: none;
 }
@@ -360,13 +377,16 @@ header {
 	margin: 0;
 	list-style: none;
 }
+
 .nav-item {
 	display: inline-block;
 	margin-right: 1em;
 }
+
 .nav-item a[href]:not(:hover) {
 	text-decoration: none;
 }
+
 .nav a[href][aria-current="page"] {
 	text-decoration: underline;
 }
@@ -377,6 +397,7 @@ header {
 	padding: 0;
 	padding-left: 1.5rem;
 }
+
 .postlist-item {
 	display: flex;
 	flex-wrap: wrap;
@@ -384,6 +405,7 @@ header {
 	counter-increment: start-from -1;
 	margin-bottom: 1em;
 }
+
 .postlist-item:before {
 	display: inline-block;
 	pointer-events: none;
@@ -392,16 +414,21 @@ header {
 	text-align: right;
 	margin-left: -1.5rem;
 }
+
 .postlist-date,
 .postlist-item:before {
-	font-size: 0.8125em; /* 13px /16 */
+	font-size: 0.8125em;
+	/* 13px /16 */
 	color: var(--color-gray-90);
 }
+
 .postlist-date {
 	word-spacing: -0.5px;
 }
+
 .postlist-link {
-	font-size: 1.1875em; /* 19px /16 */
+	font-size: 1.1875em;
+	/* 19px /16 */
 	font-weight: 700;
 	flex-basis: calc(100% - 1.5rem);
 	padding-left: .25em;
@@ -410,6 +437,7 @@ header {
 	text-underline-offset: 0;
 	text-decoration-thickness: 1px;
 }
+
 .postlist-item-active .postlist-link {
 	font-weight: bold;
 }
@@ -422,7 +450,8 @@ header {
 	text-transform: capitalize;
 	font-style: italic;
 }
-.postlist-item > .post-tag {
+
+.postlist-item>.post-tag {
 	align-self: center;
 }
 
@@ -435,6 +464,7 @@ header {
 	padding: 0;
 	margin: 0;
 }
+
 .post-metadata time {
 	margin-right: 1em;
 }
@@ -446,20 +476,23 @@ header {
 	font-size: 1em;
 	margin-left: .1em;
 }
+
 a[href].header-anchor,
 a[href].header-anchor:visited {
 	color: transparent;
 }
+
 a[href].header-anchor:focus,
 a[href].header-anchor:hover {
 	text-decoration: underline;
 }
+
 a[href].header-anchor:focus,
-:hover > a[href].header-anchor {
+:hover>a[href].header-anchor {
 	color: #aaa;
 }
 
-h2 + .header-anchor {
+h2+.header-anchor {
 	font-size: 1.5em;
 }</style>
 	</head>
@@ -467,7 +500,7 @@ h2 + .header-anchor {
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
 
 		<header>
-			<a href="/" class="home-link">KPD Home</a>
+			<a href="/" class="home-link">KPD</a>
 			<nav>
 				<h2 class="visually-hidden">Top level navigation menu</h2>
 				<ul class="nav">

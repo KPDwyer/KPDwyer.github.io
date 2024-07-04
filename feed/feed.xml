@@ -1,15 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="en">
-	<title>KPD Home</title>
+	<title>KPD</title>
 	<subtitle>Currently working as a Senior Developer in the games industry.</subtitle>
 	<link href="https://kpdwyer.github.io/feed/feed.xml" rel="self"/>
 	<link href="https://kpdwyer.github.io/"/>
-	<updated>2024-05-13T00:00:00Z</updated>
+	<updated>2024-07-03T00:00:00Z</updated>
 	<id>https://kpdwyer.github.io/</id>
 	<author>
 		<name>Kyle Dwyer</name>
 		<email>kpdassets@gmail.com</email>
 	</author>
+	
+	<entry>
+		<title>Art Dump III</title>
+		<link href="https://kpdwyer.github.io/blog/art/2024-07-03/art2024-07-03/"/>
+		<updated>2024-07-03T00:00:00Z</updated>
+		<id>https://kpdwyer.github.io/blog/art/2024-07-03/art2024-07-03/</id>
+		<content type="html">&lt;p&gt;Art Dump July!  The family has been sick off and on all year, but really thats no excuse for the lack of art.  Work has been busy too?  these excuses are lame, here&#39;s the art!&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/8PDIy8lfN8-2209.webp 2209w&quot;&gt;&lt;img alt=&quot;Car Doodle&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/8PDIy8lfN8-2209.jpeg&quot; width=&quot;2209&quot; height=&quot;3435&quot;&gt;&lt;/picture&gt;
+&lt;em&gt;Some warmup exercises and an illustration of my wife scuba diving.  Drawn in a moving vehicle! Pen on paper.&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/chr-j_JGp--2132.webp 2132w&quot;&gt;&lt;img alt=&quot;Kids Doodles&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/chr-j_JGp--2132.jpeg&quot; width=&quot;2132&quot; height=&quot;3656&quot;&gt;&lt;/picture&gt;
+&lt;em&gt;Illustration of my son with a pickle hat, and my daughter with rabbit ears.  Drawn in a moving vehicle! Pen on paper.&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/LAt-3GEI95-628.webp 628w&quot;&gt;&lt;img alt=&quot;Krita pencils&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/LAt-3GEI95-628.png&quot; width=&quot;628&quot; height=&quot;661&quot;&gt;&lt;/picture&gt;
+&lt;em&gt;quick doodles as I tweak a brush in Krita to work like a real life pencil.  Krita.&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/FRfO_XXMLu-2103.webp 2103w&quot;&gt;&lt;img alt=&quot;em&#39;s rough&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/FRfO_XXMLu-2103.jpeg&quot; width=&quot;2103&quot; height=&quot;3118&quot;&gt;&lt;/picture&gt;
+&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/1pl_S2NKpR-2116.webp 2116w&quot;&gt;&lt;img alt=&quot;my interpretation&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/1pl_S2NKpR-2116.jpeg&quot; width=&quot;2116&quot; height=&quot;3436&quot;&gt;&lt;/picture&gt;
+&lt;em&gt;A piece by my son Emery, and then my interpretation of it.  Markers on paper.&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://kpdwyer.github.io/img/xN_vgJfCqX-2898.webp 2898w&quot;&gt;&lt;img alt=&quot;Objects found in dungeon&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/xN_vgJfCqX-2898.jpeg&quot; width=&quot;2898&quot; height=&quot;3190&quot;&gt;&lt;/picture&gt;
+&lt;em&gt;assorted objects found in dungeon.  Pen on paper.&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;img alt=&quot;Pixel Rats&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://kpdwyer.github.io/img/1rASXEK8CP-256.png&quot; width=&quot;256&quot; height=&quot;256&quot;&gt;
+_Pixel Rats.  Pixsquare._
+&lt;hr&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>TOJam 2024</title>
