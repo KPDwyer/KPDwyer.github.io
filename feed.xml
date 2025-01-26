@@ -3,12 +3,87 @@
     <title>KPD</title>
     <link href="https://kpdwyer.github.io/feed.xml" rel="self" />
     <link href="https://kpdwyer.github.io" />
-    <updated>2025-01-26T14:13:41-05:00</updated>
+    <updated>2025-01-26T14:55:59-05:00</updated>
     <author>
         <name>Kyle Dwyer</name>
     </author>
     <id>https://kpdwyer.github.io</id>
 
+    <entry>
+        <title>Social Media</title>
+        <author>
+            <name>Kyle Dwyer</name>
+        </author>
+        <link href="https://kpdwyer.github.io/social-media.html"/>
+        <id>https://kpdwyer.github.io/social-media.html</id>
+            <category term="social media"/>
+            <category term="posts"/>
+            <category term="meta"/>
+            <category term="blog"/>
+
+        <updated>2025-01-26T14:55:59-05:00</updated>
+            <summary>
+                <![CDATA[
+                    <p>At some point in the last ten years - call it 2017 or 2018 - I reduced all of my social media use.  Mostly Twitter, but arguably that's where I did most of my posting.  I learned a ton from the folks on Twitter in the early 2010s, but at some point I noticed that Twitter wasn't what it once was.  Thousands of cuts seemed to have taken it from an information-dense firehose of select people's thoughts, to an information-sparse firehose of thoughts deemed most pertinent to me.  Deemed pertinent by whom, though?</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>At some point in the last ten years - call it 2017 or 2018 - I reduced all of my social media use.  Mostly Twitter, but arguably that's where I did most of my posting.  I learned a ton from the folks on Twitter in the early 2010s, but at some point I noticed that Twitter wasn't what it once was.  Thousands of cuts seemed to have taken it from an information-dense firehose of select people's thoughts, to an information-sparse firehose of thoughts deemed most pertinent to me.  Deemed pertinent by whom, though?</p>
+
+<p>If you used Twitter in this era, you may think I'm blaming one of the following:</p>
+<ul>
+<li>Chronological Feed is no longer default</li>
+<li>Ads</li>
+<li>Verified Status</li>
+<li>Engagement farming gains prevalence</li>
+<li>Chronological feed no longer even exists</li>
+<li>Users that are not logged in can no longer view tweets</li>
+<li>I'm sure I'll think of more and add them later</li>
+</ul>
+<p>Well, you're right (at least, to some degree.  there's a whole ton of reasons to get off these platforms these days).  I don't love Twitter's new owner &amp; what he's done with the place, but I also checked out long before he took it over. <em>Admittedly, I did not delete my account until well after, but that's neither here nor there</em>.  Some of this is Twitter-specific, but a lot of it is actually internet-specific.  </p>
+<p>Consider:</p>
+<ul>
+<li>Instagram
+<ul>
+<li>was a handy way to keep a public &amp; shareable photo gallery</li>
+<li>Ephemeral "Reels" or "Stories" or "TV" are now clearly the primary focus</li>
+<li>People who are not logged in can not access a users page any more</li>
+<li>The quality of images seems to be reduced past a certain date</li>
+<li>Users can not link out from a post - only from their profile</li>
+</ul>
+</li>
+<li>Google
+<ul>
+<li>used to be a great way to search for knowledge</li>
+<li>Top billing now goes to an AI blurb that can not guarantee truthiness</li>
+<li>Next best billing goes towards whichever ad is deemed most relevant/profitable</li>
+<li>After the AI slop &amp; ads you might find a result (that hasn't been paid for) from another website, but that site's war to stay relevant in Google's indexing of the web means:
+<ul>
+<li>They started writing lists instead of articles (easier to digest for humans and machines)</li>
+<li>They've pivoted to video to appease what seemed like a more promising monetization avenue (*harder* to digest for machines, but more time consuming for humans = more advertisment surface)</li>
+<li>They're using AI to write articles to keep up with the brutal cadence needed to be considered "actively updated" by the algorithm</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>You can tell I'm getting emotional when I'm indenting my lists 3 layers deep.</p>
+</blockquote>
+<p>I could keep going (Facebook, the IOS App Store), but why bother?  If you're reading this post and it's mildly relevant, you lived through the same enshittification I have.<br>I'm not old enough to remember the dawn of computing.  But I did have dial-up!  I was a teenager at the exact right time to be a wiz at typing out text messages on a numpad - and being blown away by <a href="https://en.wikipedia.org/wiki/T9_(predictive_text)" target="_blank" rel="noopener noreferrer">T9</a> when it became usable!  As a nerdy, tech loving kiddo that grew up exploring <a href="https://en.wikipedia.org/wiki/Encarta">Encarta</a>, the internet represented endless opportunity to connect with &amp; learn from others.  We got to grow up in a very singular time:  during the explosion of the internet.</p>
+<p>I believe we are living through another singular time: the collapse of the internet.  This is <a href="https://en.wikipedia.org/wiki/Enshittification">not a new or novel concept</a>, but I believe this - subconsiously - is what caused me to pull back from social media back in 2017.  These services were controlled by entities that wanted me to engage with them in a way that was counter to how the services originally presented themselves.  I <em>really did </em>just want to keep a little photo album on the web, not create short-form content to drive engagement so I could sell products via paid promotion.  I <em>really did</em> want to know the passing thoughts of people that interested me,  reaching out to chat about ideas that sparked.  Instead, Twitter was optimised for engagement farming, maximizing the impact users had on the internet as a whole rather than just chatting with the 8 other people who cared about generating mazes</p>
+<blockquote>
+<p>*NOTE: there are way more than 8 people who think about mazes on the internet, trust me*</p>
+</blockquote>
+<p>Anyways, I used to tell people I was "just busy with stuff" - and I was - but now I know I was trying to merely exist on these services.  While these platforms allow for mere existence, the tiny adjustments they make to funnel users into desired behaviours makes it difficult to even be visible on them. And if merely existing on these platforms is inconvenient, why would I even bother?</p>
+<p>Ultimately, I'm slowly moving to federated platforms. <a href="https://mastodon.gamedev.place/@KPD">Mastodon</a> replaced Twitter long  ago for me, I'll shift to Pixelfed shortly and nuke my Instagram.  My Facebook is already out of use - I see no reason to replace it.  This year I'll deactivate it, although the amount of people using Messenger gives me pause.  Facebook is the prime example of <a href="https://en.wikipedia.org/wiki/Network_effect">The Network Effect</a> for me.  The only thing keeping me there is everyone else.</p>
+<p>Gradually I'll get this site out from under the Microsoft umbrella (hosted on GitHub right now.  I'll likely spin up a Hetzner instance.), and I'll reach a position where even if I rely on (mostly corporate) entities to host the platforms I use, I'll at least have the flexibility to simply leave when they eventually let me down.</p>
+<p>Thanks for taking the time to read.<br><br><br></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Art Dump July 2024</title>
         <author>
@@ -604,7 +679,54 @@
         <content type="html">
             <![CDATA[
                     <p><img src="https://kpdwyer.github.io/media/posts/9/Screen-Shot-2019-04-16-at-8.18.19-AM.png" class="type:primaryImage" alt="" /></p>
-                <h1>Overview + Quick Start</h1>
+                <h1 id="mcetoc_1iii1kg375e">Overview + Quick Start</h1>
+<div class="post__toc">
+<h3>Table of Contents</h3>
+<ul>
+<li><a href="#mcetoc_1iii1kg375e">Overview + Quick Start</a></li>
+<li><a href="#mcetoc_1iii1kg375f">Goal</a></li>
+<li><a href="#mcetoc_1iii1kg375g">Obstacles</a>
+<ul>
+<li><a href="#mcetoc_1iii1kg375h">Obstacle 1: 2D-Extras</a></li>
+<li><a href="#mcetoc_1iii1kg375i">Obstacle 2: RuleTile's Interface</a></li>
+<li><a href="#mcetoc_1iii1kg375j">Obstacle 3: RPGMaker's Filthy Lies</a></li>
+</ul>
+</li>
+<li><a href="#mcetoc_1iii1kg375k">Implementation 1: Full-sized Tiles</a>
+<ul>
+<li><a href="#mcetoc_1iii1kg375l">Target Output</a></li>
+<li><a href="#mcetoc_1iii1kg375m">Step by Step</a></li>
+<li><a href="#mcetoc_1iii1kg375n">Problems</a>
+<ul>
+<li><a href="#mcetoc_1iii1kg375o">Usage</a></li>
+<li><a href="#mcetoc_1iii1kg375p">Texture Memory</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#mcetoc_1iii1kg375q">Implementation 2: Subtiles</a>
+<ul>
+<li><a href="#mcetoc_1iii1kg375r">Target Output</a></li>
+<li><a href="#mcetoc_1iii1kg375s">Step by Step</a></li>
+<li><a href="#mcetoc_1iii1kg375t">Problems</a>
+<ul>
+<li><a href="#mcetoc_1iii1kg375u">Usage</a></li>
+<li><a href="#mcetoc_1iii1kg375v">Setup</a></li>
+<li><a href="#mcetoc_1iii1kg3760">Painting the AutoTile</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#mcetoc_1iii1kg3761">Failed Attempt: The Impossible Dream</a>
+<ul>
+<li><a href="#mcetoc_1iii1kg3762">Target Output</a></li>
+<li><a href="#mcetoc_1iii1kg3763">Custom Mesh</a></li>
+<li><a href="#mcetoc_1iii1kg3764">Custom UVs</a></li>
+</ul>
+</li>
+<li><a href="#mcetoc_1iii1kg3765">In Closing</a></li>
+</ul>
+</div>
 <div> </div>
 <div>I created some tools to reduce the friction of importing AutoTile assets into Unity. If the art is made in a specific format (in this case RPGMaker's A2 sheet), using one of these tools will remove all or most of the user interaction required to make a RuleTile for use in your game.</div>
 <p> </p>
@@ -613,7 +735,7 @@
 <div>However, if you find that The Fullsized Tiles generate a bit too many textures for your liking, take a look at <a href="https://github.com/KPDwyer/SubTileAutoTile">Implementation 2 - Subtiles</a>, which perhaps requires a bit more effort to setup, but won't generate any textures beyond the source asset.</div>
 <p> </p>
 <div>If you're interested in the project as a whole: Take a look at the <a href="https://github.com/KPDwyer/AutoTileImporter">Working Project</a> and read on.</div>
-<h1>Goal</h1>
+<h1 id="mcetoc_1iii1kg375f">Goal</h1>
 <div> </div>
 <div>RPG Maker has a real nice "auto tile" system, whereby you load in a fairly simple asset and when you use the tile generated by that asset to draw on the Tilemap, it automatically renders each tile such that it is aware of its local neighbors.</div>
 <div>
@@ -624,11 +746,11 @@
 <div>I set out to duplicate the functionality of RPGMaker's AutoTiling - specifically what is commonly known as their A2 sheet, shown above. I was surprised to find that while Unity accommodates the creation of these AutoTiles, a few layers of complexity prevent it from being as smooth as RPGMaker's UX.</div>
 <p> </p>
 <div>My goal was to familiarize myself with the Tilemap pipeline by making it as low-effort as possible to convert an RPG Maker A2 Tileset PNG into a Unity RuleTile.</div>
-<h1>Obstacles</h1>
-<h2>Obstacle 1: 2D-Extras</h2>
+<h1 id="mcetoc_1iii1kg375g">Obstacles</h1>
+<h2 id="mcetoc_1iii1kg375h">Obstacle 1: 2D-Extras</h2>
 <div> </div>
 <div>Unity introduced its 2D Tilemap system some time ago, and it comes with very customizable tiles and brushes. It's a great system, but it doesn't come with everything out of the box - you have to find their `2D-extras` <a href="https://github.com/Unity-Technologies/2d-extras">repository on GitHub</a> to really dig in to the common use cases for the flexibility it provides. This is a pain, as it seems like most of the demos of this system I've seen have centered around the RuleTile, which isn't even in the core feature set. Odd.</div>
-<h2>Obstacle 2: RuleTile's Interface</h2>
+<h2 id="mcetoc_1iii1kg375i">Obstacle 2: RuleTile's Interface</h2>
 <div>
 <figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/9/02_RuleTile_Inspector.png" alt="" width="400" height="689" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://kpdwyer.github.io/media/posts/9/responsive/02_RuleTile_Inspector-xs.png 320w ,https://kpdwyer.github.io/media/posts/9/responsive/02_RuleTile_Inspector-sm.png 480w ,https://kpdwyer.github.io/media/posts/9/responsive/02_RuleTile_Inspector-md.png 768w ,https://kpdwyer.github.io/media/posts/9/responsive/02_RuleTile_Inspector-xl.png 1024w"><figcaption>Vanilla RuleTile inspector</figcaption></figure>
 </div>
@@ -637,7 +759,7 @@
 <div>Once those rules are set, we need to assign a sprite to each rule. That means having a folder of several sprites, and manually dragging them to the Sprite Field on the inspector. This is a lot of friction between `finishing the art` and `being able to paint tiles with the art`, and it must be done for each unique Tileset. The crux of this exercise was, given a known Tileset layout, remove all of the friction of turning a Tileset into a RuleTile.</div>
 <p> </p>
 <div>If you're interested in reading further about how AutoTiling works, check out these links: <a href="http://www.angryfishstudios.com/2011/04/adventures-in-bitmasking/">Adventures in Bitmasking</a> and <a href="https://gamedevelopment.tutsplus.com/tutorials/how-to-use-tile-bitmasking-to-auto-tile-your-level-layouts--cms-25673">How to Use Tile Bitmasking to Auto Tile Your Level Layouts</a>. There is a lot of literature on the bit masking involved in AutoTiling, but this exercise pertains specifically to replicating RPGMaker's functionality in Unity.</div>
-<h2>Obstacle 3: RPGMaker's Filthy Lies</h2>
+<h2 id="mcetoc_1iii1kg375j">Obstacle 3: RPGMaker's Filthy Lies</h2>
 <p> </p>
 <div>{% image "./03_A2.png", " %}</div>
 <div>
@@ -674,11 +796,11 @@
 </div>
 <div>Now that we understand the functionality reasonably well, the most straightforward solution presents itself to us: lets generate these 48 full-sized tiles from our pool of 20 subtiles.</div>
 <p> </p>
-<h1>Implementation 1: Full-sized Tiles</h1>
-<h2>Target Output</h2>
+<h1 id="mcetoc_1iii1kg375k">Implementation 1: Full-sized Tiles</h1>
+<h2 id="mcetoc_1iii1kg375l">Target Output</h2>
 <div>The Ideal result of the full-sized tiles implementation is that a developer should be able to perform a single action (ideally a right-click menu item) on an A2 PNG and immediately be served a RuleTile generated from that asset. Spoilers: I did it. Double Spoilers: I hate it.</div>
 <p> </p>
-<h2>Step by Step</h2>
+<h2 id="mcetoc_1iii1kg375m">Step by Step</h2>
 <div>The first step for any of these solutions is simply to generate the rules for the RuleTile. This is sort of an inversion of the standard AutoTiling bit mask: while looping through 0-255, given an integer value, which tiles should be occupied for this rule? We have some real ugly code for removing the rules we don't care about, but code elegance is just a small cost for reducing our total rule count by over 200 redundant rules. This is the `GetRule(int neighbourMask)` function in `ImportAutotile.cs`, and it is used in both implementations.</div>
 <p> </p>
 <div>We then need to generate a sprite for each rule, using a lookup table. I've made my lookup tables ScriptableObjects for a few reasons - most importantly, a custom inspector ensures I can make the job of setting up the subtile indices as painless as possible. Ultimately, the actual object is just an array of integers for subtile indices and a list of TilingRules for nicely visualizing what rule + quad each indices belongs too. Users of this tool for an A2 Tileset don't need to edit this ScriptableObject at all, but if you were to make a lookup table for a different style of Tileset, it may be handy.</div>
@@ -692,24 +814,24 @@
 <div>
 <figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/9/10_Fullsized.gif" alt="" width="483" height="268"><figcaption>Caption</figcaption></figure>
 </div>
-<h2>Problems</h2>
-<h3>Usage</h3>
+<h2 id="mcetoc_1iii1kg375n">Problems</h2>
+<h3 id="mcetoc_1iii1kg375o">Usage</h3>
 <div>First of all, you'll notice this operation is performed upon a PNG but also requires the lookup table data. The nature of my role as someone who will have to make a few different lookup tables meant I didn't want to make this a simple `Right Click -&gt; Generate Autotile` script, as I want to provide 2 pieces of information to the function: the actual PNG, and the lookup table. Thus, I actually trigger the operation with a Sprite Field on the lookup table's ScriptableObject which then triggers the function when you drag a sprite to it. This is a minor detail though, and should require very little legwork to make it work with a right click.</div>
 <div>
 <figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/9/11_ScriptableAsset.png" alt="" width="820" height="386" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://kpdwyer.github.io/media/posts/9/responsive/11_ScriptableAsset-xs.png 320w ,https://kpdwyer.github.io/media/posts/9/responsive/11_ScriptableAsset-sm.png 480w ,https://kpdwyer.github.io/media/posts/9/responsive/11_ScriptableAsset-md.png 768w ,https://kpdwyer.github.io/media/posts/9/responsive/11_ScriptableAsset-xl.png 1024w"><figcaption>ScriptableObject Inspector</figcaption></figure>
 </div>
-<h3>Texture Memory</h3>
+<h3 id="mcetoc_1iii1kg375p">Texture Memory</h3>
 <div>This is the big con. At best, this method results in a new 256x256 texture atlas full of all 48 fullsize tiles. This is a lot larger than the 64x96 atlas we started with. It also means we need to do something with this smaller source asset we used to generate all these tiles. It irked me to delete this smaller source file once i had generated the behemoth atlas used to drive this RuleTile.</div>
 <div>
 <figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/9/12_FullsizedAtlas.png" alt="" width="600" height="415" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://kpdwyer.github.io/media/posts/9/responsive/12_FullsizedAtlas-xs.png 320w ,https://kpdwyer.github.io/media/posts/9/responsive/12_FullsizedAtlas-sm.png 480w ,https://kpdwyer.github.io/media/posts/9/responsive/12_FullsizedAtlas-md.png 768w ,https://kpdwyer.github.io/media/posts/9/responsive/12_FullsizedAtlas-xl.png 1024w"><figcaption>FullSized Atlas</figcaption></figure>
 </div>
 <div>Surely, I thought, there must be a better way. if this giant atlas came from these 32x32 tiles generated from a smaller atlas' 16x16 subtiles, couldn't we use the same source atlas to drive our AutoTile?</div>
 <p> </p>
-<h1>Implementation 2: Subtiles</h1>
-<h2>Target Output</h2>
+<h1 id="mcetoc_1iii1kg375q">Implementation 2: Subtiles</h1>
+<h2 id="mcetoc_1iii1kg375r">Target Output</h2>
 <div>Rather than view the solution through the lens of the full-sized tiles that we perceive, what if we saw the solution through the lens of the smaller subtiles that we actually use in our implementation? if we could somehow paint each subtile individually while conforming to the rules + position needs of the full-sized tiles, we'd have nearly the same functionality without generating a large atlas - in fact, we could use the source asset.</div>
 <div>Our goal for this implementation is to generate a brush at subtile scale - in this case that's a 16x16 tile - that gives us the same visual output as the initial implementation without generating any new textures.</div>
-<h2>Step by Step</h2>
+<h2 id="mcetoc_1iii1kg375s">Step by Step</h2>
 <div>First of all, if we aren't generating new textures, we need to import the source texture properly. we do this in `ProcessSubtileTexture(Texture2D _texture, AutoTileLookup _lookup)` of `ImportAutotile.cs`. we make sure to import the Texture2D as containing multiple sprites, then use our known measurement to slice the sprite in code based on the size of the Subtiles.</div>
 <p> </p>
 <div>{% image "./13_Sliced.png", "Fullsized Atlas" %}</div>
@@ -726,14 +848,14 @@
 <p> </p>
 <div>Now our `AddSpritesToRule(ref RuleTile.TilingRule _rule, List&lt;Sprite&gt; _sprites, int _ruleID, AutoTileLookup _lookup)` merely has to transform its tile indices to subtile indices based on which quadrant of the TilingRule it applies too. We add these TilingRules to our RuleTile, and woosh! - processing an A2 PNG file slices the atlas for you and generates a RuleTile ready to be used on a subtile-scale grid.</div>
 <p> </p>
-<h2>Problems</h2>
-<h3>Usage</h3>
+<h2 id="mcetoc_1iii1kg375t">Problems</h2>
+<h3 id="mcetoc_1iii1kg375u">Usage</h3>
 <div>This is the same as Implementation 1. First of all, you'll notice this operation is performed upon a PNG but also requires the lookup table data. The nature of my role as someone who will have to make a few different lookup tables meant I didn't want to make this a simple `Right Click -&gt; Generate Autotile` script, as I want to provide 2 pieces of information to the function: the actual PNG, and the lookup table. Thus, I actually trigger the operation with a Sprite Field on the lookup table's ScriptableObject which then triggers the function when you drag a sprite to it. This is a minor detail though, and should require very little legwork to make it work with a right click.</div>
 <p> </p>
-<h3>Setup</h3>
+<h3 id="mcetoc_1iii1kg375v">Setup</h3>
 <div>There's a minor bit of friction when setting up, your Tilemap needs to have half-scale tiles - so if your pixel-per-unit is 32 and your tiles are 32, then you'll need your Grid Component's cell size to be 0.5.</div>
 <p> </p>
-<h3>Painting the AutoTile</h3>
+<h3 id="mcetoc_1iii1kg3760">Painting the AutoTile</h3>
 <div>Initially, this adds some operational friction to the act of actually painting with the RuleTile. Namely, you'd be able to paint a quarter, half or three-quarter fractional tile that will look terrible, as it's meant to be painted alongside its entire tile. Since the Tilemap is at subtile resolution, painting is at subtile resolution as well. Also, even when painting with full tiles, you need to make sure you are not painting offset to the global modulo grid. That is too say, if you are trying to place a NW or SW tile at an odd global grid index, it will try to paint the NE or SE variant of that tile's current rule. See the gif below for some of the problem one might run into.</div>
 <div> </div>
 <div>
@@ -748,65 +870,18 @@
 <div> </div>
 <div>I thought I had these problems solved as well, but Unity's `Sprite` implementation lacks a critical feature.</div>
 <div> </div>
-<h1>Failed Attempt: The Impossible Dream</h1>
-<h2>Target Output</h2>
+<h1 id="mcetoc_1iii1kg3761">Failed Attempt: The Impossible Dream</h1>
+<h2 id="mcetoc_1iii1kg3762">Target Output</h2>
 <div>I'd assume it is possible to generate a single Sprite that contains a mesh, split into four quads, that each sample from the source texture as necessary - this way we can paint at full-size resolution without generating a ton of texture bloat. We know that Unity's Sprites support some level of custom mesh, because you can edit it in the editor, so I thought this would be the ideal solution.</div>
-<h2>Custom Mesh</h2>
+<h2 id="mcetoc_1iii1kg3763">Custom Mesh</h2>
 <div>This seems doable: Unity's Sprite documentation shows a function called `OverrideGeometry(Vector2[] vertices, ushort[] triangles)`, which should allow us to set up the mesh as we need. However, a line in [The Documentation](https://docs.unity3d.com/ScriptReference/Sprite.OverrideGeometry.html) scared me: `Sprite UV's are calculated automatically by mapping the provided geometry onto the sprite texture.`</div>
 <div>
 <figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/9/16_impossible.png" alt="" width="512" height="384" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://kpdwyer.github.io/media/posts/9/responsive/16_impossible-xs.png 320w ,https://kpdwyer.github.io/media/posts/9/responsive/16_impossible-sm.png 480w ,https://kpdwyer.github.io/media/posts/9/responsive/16_impossible-md.png 768w ,https://kpdwyer.github.io/media/posts/9/responsive/16_impossible-xl.png 1024w"><figcaption>Impossible Dream<br><br></figcaption></figure>
 </div>
-<h2>Custom UVs</h2>
+<h2 id="mcetoc_1iii1kg3764">Custom UVs</h2>
 <div>I had hoped that those auto-generated UVs could be overridden somewhere, but it seems that they can't. Without custom UVs on the Sprites custom geometry, this idea is sort of a dead end - barring some custom shader work that I wanted to avoid.</div>
-<h1>In Closing</h1>
+<h1 id="mcetoc_1iii1kg3765">In Closing</h1>
 <div>I'm not super jazzed about any of this, really. It seems like we should be able to feed our own UVs into a Sprite's mesh to manually sample from the atlas in a more flexible way, but here we are: 2 solutions for rapid AutoTile generation in Unity. One favors simplicity, and one favors texture memory. Thanks for reading! Thanks <a href="https://mastodon.gamedev.place/@macktimus">Mack</a>, for proofreading + editing!</div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Pixel Animation Importer</title>
-        <author>
-            <name>Kyle Dwyer</name>
-        </author>
-        <link href="https://kpdwyer.github.io/pixel-animation-importer.html"/>
-        <id>https://kpdwyer.github.io/pixel-animation-importer.html</id>
-        <media:content url="https://kpdwyer.github.io/media/posts/4/animgenerator_controller-2.jpg" medium="image" />
-            <category term="unity"/>
-            <category term="tooling"/>
-            <category term="projects"/>
-            <category term="posts"/>
-            <category term="experiments"/>
-
-        <updated>2019-01-17T20:58:00-05:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://kpdwyer.github.io/media/posts/4/animgenerator_controller-2.jpg" alt="" />
-                    I finished off writing a basic animation generator, given a very specific&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://kpdwyer.github.io/media/posts/4/animgenerator_controller-2.jpg" class="type:primaryImage" alt="" /></p>
-                <div>I finished off writing a basic animation generator, given a very specific folder layout:</div>
-<div>
-<figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/4/animgenerator_files.jpg" alt="File Layout" width="1200" height="423" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://kpdwyer.github.io/media/posts/4/responsive/animgenerator_files-xs.jpg 320w ,https://kpdwyer.github.io/media/posts/4/responsive/animgenerator_files-sm.jpg 480w ,https://kpdwyer.github.io/media/posts/4/responsive/animgenerator_files-md.jpg 768w ,https://kpdwyer.github.io/media/posts/4/responsive/animgenerator_files-xl.jpg 1024w"><figcaption>File Structure</figcaption></figure>
-</div>
-<div>This layout (and most of the code in the following gist) is simply set up the way that it is because it fits my current process. None of this is meant to be universal or overly generic, but it's a good starting point if you're looking for something similar.</div>
-<p> </p>
-<div>The tool can generate animator controllers + clips, or just clips from a folder or selection.</div>
-<div>
-<figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/4/animgenerator_menu.jpg" alt="" width="946" height="364" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://kpdwyer.github.io/media/posts/4/responsive/animgenerator_menu-xs.jpg 320w ,https://kpdwyer.github.io/media/posts/4/responsive/animgenerator_menu-sm.jpg 480w ,https://kpdwyer.github.io/media/posts/4/responsive/animgenerator_menu-md.jpg 768w ,https://kpdwyer.github.io/media/posts/4/responsive/animgenerator_menu-xl.jpg 1024w"><figcaption>Menu Hierarchy</figcaption></figure>
-</div>
-<div>I left in fairly basic `Debug.Log()` messages tracking (useful to track what has been done, rather than an actual progress display).</div>
-<div>
-<figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/4/animgenerator_output.jpg" alt="" width="1198" height="578" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://kpdwyer.github.io/media/posts/4/responsive/animgenerator_output-xs.jpg 320w ,https://kpdwyer.github.io/media/posts/4/responsive/animgenerator_output-sm.jpg 480w ,https://kpdwyer.github.io/media/posts/4/responsive/animgenerator_output-md.jpg 768w ,https://kpdwyer.github.io/media/posts/4/responsive/animgenerator_output-xl.jpg 1024w"><figcaption>Log Output</figcaption></figure>
-</div>
-<div>And it does it's best to organize the resulting Animator Controller - in my game the art is along 4 cardinal directions, so it places the output in columns of 4 States for the sake of organization.</div>
-<figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/4/animgenerator_controller.jpg" alt="" width="748" height="778" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://kpdwyer.github.io/media/posts/4/responsive/animgenerator_controller-xs.jpg 320w ,https://kpdwyer.github.io/media/posts/4/responsive/animgenerator_controller-sm.jpg 480w ,https://kpdwyer.github.io/media/posts/4/responsive/animgenerator_controller-md.jpg 768w ,https://kpdwyer.github.io/media/posts/4/responsive/animgenerator_controller-xl.jpg 1024w"><figcaption>Animation Controller Layout</figcaption></figure>
-<div>Obviously there's still a lot of work involved (timing individual frames, setting up transitions + parameters, etc), but this saves some time - especially if the default method of dragging batches of sprites onto a animation clip doesn't quite cover your bases.</div>
-<p>
-<script src="https://gist.github.com/KPDwyer/1c4a490e5d4e8eef7bbe0272126a2f20.js"></script>
-</p>
             ]]>
         </content>
     </entry>
