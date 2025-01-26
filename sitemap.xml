@@ -1,223 +1,486 @@
-<?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-	
-	<url>
-		<loc>https://kpdwyer.github.io/blog/beholdin/</loc>
-		<lastmod>2019-01-01</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/blog/PixelAnimator/</loc>
-		<lastmod>2019-01-17</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/blog/autotilepipeline/autotile/</loc>
-		<lastmod>2019-04-18</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/blog/nodemaps/</loc>
-		<lastmod>2020-01-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/blog/wfc/</loc>
-		<lastmod>2020-03-20</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/blog/markovjr/</loc>
-		<lastmod>2021-06-20</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/blog/swordsend/11-12-2021archive/</loc>
-		<lastmod>2021-12-11</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/blog/swordsend/18-12-2021archive/</loc>
-		<lastmod>2021-12-18</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/blog/swordsend/25-12-2021archive/</loc>
-		<lastmod>2021-12-25</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/blog/swordsend/01-01-2022archive/</loc>
-		<lastmod>2022-01-01</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/blog/swordsend/08-01-2022archive/</loc>
-		<lastmod>2022-01-08</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/blog/swordsend/2022/</loc>
-		<lastmod>2022-01-15</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/blog/swordsend/28-01-2022archive/</loc>
-		<lastmod>2022-01-28</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/blog/swordsend/30-07-2022archive/</loc>
-		<lastmod>2022-07-30</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/blog/swordsend/13-08-2022archive/</loc>
-		<lastmod>2022-08-13</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/blog/swordsend/01-10-2022archive/</loc>
-		<lastmod>2022-10-01</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/blog/swordsend/10-12-2022archive/</loc>
-		<lastmod>2022-12-10</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/blog/swordsend/30-12-2022archive/</loc>
-		<lastmod>2022-12-30</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/blog/swordsend/2023/</loc>
-		<lastmod>2023-01-15</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/blog/</loc>
-		<lastmod>2023-08-20</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/</loc>
-		<lastmod>2023-08-20</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/tags/</loc>
-		<lastmod>2023-08-20</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/tags/projects/</loc>
-		<lastmod>2023-08-20</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/tags/experiments/</loc>
-		<lastmod>2023-08-20</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/tags/godot/</loc>
-		<lastmod>2023-08-20</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/tags/swords-end/</loc>
-		<lastmod>2023-08-20</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/tags/reddit/</loc>
-		<lastmod>2023-08-20</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/tags/tools/</loc>
-		<lastmod>2023-08-20</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/tags/unity/</loc>
-		<lastmod>2023-08-20</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/tags/games/</loc>
-		<lastmod>2023-08-20</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/tags/art/</loc>
-		<lastmod>2023-08-20</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/tags/blender/</loc>
-		<lastmod>2023-08-20</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/tags/procreate/</loc>
-		<lastmod>2023-08-20</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/tags/jams/</loc>
-		<lastmod>2023-08-20</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/tags/real-life/</loc>
-		<lastmod>2023-08-20</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/tags/inktober/</loc>
-		<lastmod>2023-08-20</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/tags/krita/</loc>
-		<lastmod>2023-08-20</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/tags/pixsquare/</loc>
-		<lastmod>2023-08-20</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/about/</loc>
-		<lastmod>2023-08-20</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/blog/art/2023-09-12/art2023-09-12/</loc>
-		<lastmod>2023-09-12</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/blog/art/inktober-2023/</loc>
-		<lastmod>2023-10-31</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/blog/art/2024-01-26/art2024-01-26/</loc>
-		<lastmod>2024-01-26</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/blog/events/tojam-2024/</loc>
-		<lastmod>2024-05-13</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://kpdwyer.github.io/blog/art/2024-07-03/art2024-07-03/</loc>
-		<lastmod>2024-07-03</lastmod>
-	</url>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://kpdwyer.github.io/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+<loc>https://kpdwyer.github.io/</loc>
+</url>
+<url>
+<loc>https://kpdwyer.github.io/about.html</loc>
+<lastmod>2025-01-26T14:15:06-05:00</lastmod>
+</url>
+<url>
+<loc>https://kpdwyer.github.io/art-dump-january-2024.html</loc>
+<lastmod>2025-01-26T14:13:19-05:00</lastmod>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/12/bikerchick.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/12/gallery/bikerchick-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/12/gallery/crayonfrog-thumbnail.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/12/gallery/doodles1-thumbnail.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/12/gallery/doodles2-thumbnail.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/12/gallery/dungeon-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/12/gallery/fallingstars-thumbnail.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/12/gallery/Island-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/12/gallery/kingpin-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/12/gallery/tabledoodle-thumbnail.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/12/gallery/why-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://kpdwyer.github.io/art-dump-july-2024.html</loc>
+<lastmod>2025-01-26T14:13:41-05:00</lastmod>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/13/pixel-rats.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/13/gallery/car-doodle-thumbnail.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/13/gallery/dungeon-objects-thumbnail.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/13/gallery/em-rough-thumbnail.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/13/gallery/em-lines-thumbnail.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/13/gallery/kids-doodles-thumbnail.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/13/gallery/krita-pencil-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/13/gallery/pixel-rats-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://kpdwyer.github.io/art-dump-september-2023.html</loc>
+<lastmod>2025-01-26T14:13:04-05:00</lastmod>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/11/lizard.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/11/gallery/astroman-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/11/gallery/bugmanconcept-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/11/gallery/bugmanrig-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/11/gallery/lizard-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/11/gallery/ship-preview-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://kpdwyer.github.io/autotiling-in-unity.html</loc>
+<lastmod>2025-01-21T21:21:38-05:00</lastmod>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/9/Screen-Shot-2019-04-16-at-8.18.19-AM.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/9/01_A2Source_Output.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/9/02_RuleTile_Inspector.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/9/03_A2.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/9/04_MysteryTile.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/9/05_TileQuads.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/9/06_A2Quads.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/9/07_Tiling.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/9/17_subtilecoords.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/9/08_TileIndex.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/9/09_AutoTileInspector.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/9/10_Fullsized.gif</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/9/11_ScriptableAsset.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/9/12_FullsizedAtlas.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/9/13_Sliced.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/9/14_ModGrid.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/9/15_PaintingSubtiles.gif</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/9/17_PaintingModulo.gif</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/9/16_impossible.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://kpdwyer.github.io/beholdin.html</loc>
+<lastmod>2025-01-21T20:09:37-05:00</lastmod>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/8/beholdin.gif</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/8/beholdin1.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/8/beholdin2.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://kpdwyer.github.io/inkotober-2023.html</loc>
+<lastmod>2025-01-26T13:58:01-05:00</lastmod>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/10/030_Rush.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/10/gallery/001_dream-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/10/gallery/002_spiders-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/10/gallery/003_Path-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/10/gallery/004_dodge-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/10/gallery/005_Map-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/10/gallery/006_Golden-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/10/gallery/007_drip-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/10/gallery/008_Toad-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/10/gallery/009_bounce-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/10/gallery/010_fortune-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/10/gallery/011_wander-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/10/gallery/012_Spicey-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/10/gallery/013_rise-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/10/gallery/014_castle-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/10/gallery/015_Dagger-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/10/gallery/016_Angel-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/10/gallery/017_Demon-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/10/gallery/018_Saddle-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/10/gallery/019_Plump-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/10/gallery/020_Frost-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/10/gallery/021_Chains-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/10/gallery/022_Scratchy-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/10/gallery/023_Celestial-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/10/gallery/024_Shallow-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/10/gallery/025_Dangerous-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/10/gallery/026_Remove-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/10/gallery/027_Beast-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/10/gallery/028_Sparkle-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/10/gallery/029_Massive-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/10/gallery/030_Rush-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/10/gallery/031_Fire-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://kpdwyer.github.io/markov-jr.html</loc>
+<lastmod>2025-01-20T21:21:19-05:00</lastmod>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/6/mkjr_mazerules.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/6/gallery/mkjr_floodrules-thumbnail.png</image:loc>
+<image:title><![CDATA[A flood fill is a very simple markovjr ruleset w/ 2 rules.]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/6/gallery/mkjr_mazerules-thumbnail.png</image:loc>
+<image:title><![CDATA[With only 3 rules and no code changes, you can implement the entirety of a backtrack maze algorithm. ]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://kpdwyer.github.io/node-maps.html</loc>
+<lastmod>2025-01-20T21:47:22-05:00</lastmod>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/5/nodemap_scrubmaze.gif</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/5/gallery/cap_nodes-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/5/gallery/cap_play-thumbnail.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/5/gallery/cap_scene-thumbnail.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/5/gallery/nodemap_noisecell.gif</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/5/gallery/nodemap_scrubmaze.gif</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/5/gallery/nodemap_shapetweaks.gif</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://kpdwyer.github.io/page/2/</loc>
+</url>
+<url>
+<loc>https://kpdwyer.github.io/pixel-animation-importer.html</loc>
+<lastmod>2025-01-20T21:47:32-05:00</lastmod>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/4/animgenerator_controller-2.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/4/animgenerator_files.jpg</image:loc>
+<image:title><![CDATA[File Layout]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/4/animgenerator_menu.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/4/animgenerator_output.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/4/animgenerator_controller.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://kpdwyer.github.io/tojam-2024.html</loc>
+<lastmod>2025-01-20T21:42:05-05:00</lastmod>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/7/5-2.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/7/0.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/7/1.png</image:loc>
+<image:title><![CDATA[A quick end of day screen capture.]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/7/3.png</image:loc>
+<image:title><![CDATA[A Quick end of day screen capture]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/7/4.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/7/5.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/7/gallery/arcade0-thumbnail.jpeg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/7/gallery/arcade1-thumbnail.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/7/gallery/arcade2-thumbnail.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://kpdwyer.github.io/wave-function-collapse-2.html</loc>
+<lastmod>2025-01-20T20:36:15-05:00</lastmod>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/2/wfc_shape_thumb-2.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/2/gallery/wfc_simplegen_small.gif</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/2/gallery/wfc_shape_thumb-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kpdwyer.github.io/media/posts/2/gallery/wfc_kpd_thumb-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
 </urlset>

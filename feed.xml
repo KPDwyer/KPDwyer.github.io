@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>KPD</title>
+    <link href="https://kpdwyer.github.io/feed.xml" rel="self" />
+    <link href="https://kpdwyer.github.io" />
+    <updated>2025-01-26T14:13:41-05:00</updated>
+    <author>
+        <name>Kyle Dwyer</name>
+    </author>
+    <id>https://kpdwyer.github.io</id>
+
+    <entry>
+        <title>Art Dump July 2024</title>
+        <author>
+            <name>Kyle Dwyer</name>
+        </author>
+        <link href="https://kpdwyer.github.io/art-dump-july-2024.html"/>
+        <id>https://kpdwyer.github.io/art-dump-july-2024.html</id>
+        <media:content url="https://kpdwyer.github.io/media/posts/13/pixel-rats.png" medium="image" />
+            <category term="posts"/>
+            <category term="pixsquare"/>
+            <category term="krita"/>
+            <category term="art"/>
+
+        <updated>2024-07-03T14:07:00-04:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://kpdwyer.github.io/media/posts/13/pixel-rats.png" alt="" />
+                    Scuba Wife Dungeon Objects A doodle by Emery reinterpretation of "a doodle&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://kpdwyer.github.io/media/posts/13/pixel-rats.png" class="type:primaryImage" alt="" /></p>
+                <div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="3">
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/13/gallery/car-doodle.jpg" data-size="2209x3435"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/13/gallery/car-doodle-thumbnail.jpg" alt="" width="768" height="1194"></a>
+<figcaption>Scuba Wife</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/13/gallery/dungeon-objects.jpg" data-size="2898x3190"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/13/gallery/dungeon-objects-thumbnail.jpg" alt="" width="768" height="845"></a>
+<figcaption>Dungeon Objects</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/13/gallery/em-rough.jpg" data-size="2103x3118"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/13/gallery/em-rough-thumbnail.jpg" alt="" width="768" height="1139"></a>
+<figcaption>A doodle by Emery</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/13/gallery/em-lines.jpg" data-size="2116x3436"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/13/gallery/em-lines-thumbnail.jpg" alt="" width="768" height="1247"></a>
+<figcaption>reinterpretation of "a doodle by Emery" by me</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/13/gallery/kids-doodles.jpg" data-size="2132x3656"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/13/gallery/kids-doodles-thumbnail.jpg" alt="" width="768" height="1317"></a>
+<figcaption>Doodles of my kiddos</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/13/gallery/krita-pencil.png" data-size="628x661"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/13/gallery/krita-pencil-thumbnail.png" alt="" width="628" height="661"></a>
+<figcaption>Trying to get a pencil brush tweaked in Krita</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/13/gallery/pixel-rats.png" data-size="256x256"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/13/gallery/pixel-rats-thumbnail.png" alt="" width="256" height="256"></a>
+<figcaption>Pixel Rats</figcaption>
+</figure>
+</div></div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>TOJam 2024</title>
+        <author>
+            <name>Kyle Dwyer</name>
+        </author>
+        <link href="https://kpdwyer.github.io/tojam-2024.html"/>
+        <id>https://kpdwyer.github.io/tojam-2024.html</id>
+        <media:content url="https://kpdwyer.github.io/media/posts/7/5-2.png" medium="image" />
+            <category term="real life"/>
+            <category term="posts"/>
+            <category term="jams"/>
+            <category term="godot"/>
+            <category term="blender"/>
+
+        <updated>2024-05-13T21:30:00-04:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://kpdwyer.github.io/media/posts/7/5-2.png" alt="" />
+                    TOJam is the name of the Toronto Game jam, a jam that&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://kpdwyer.github.io/media/posts/7/5-2.png" class="type:primaryImage" alt="" /></p>
+                <h1></h1>
+<div>TOJam is the name of the Toronto Game jam, a jam that happens at some point in May pretty much every year. I was pretty consistent in attending in my early career years, but covid broke the streak and it never really recovered - 3 days in the city is a tall ask with little kiddos running around at home. Last year it didn't shake out for Landen and I so we vowed to make it work this time around.</div>
+<div> </div>
+<div>If you don't care about the process, thats cool - get some friends &amp; controllers &amp; you can play the game on my itch page right <a href="https://kpdwyer.itch.io/fishin-mission">here</a>.</div>
+<h1>Prework</h1>
+<div> </div>
+<div>I had prepared a Local Multiplayer lobby ahead of time a few weeks ago, because I've done Local MP in a jam before and nobody wants to be writing UI at the eleventh hour and mapping Device IDs to Player IDs with time crunch.</div>
+<div> </div>
+<div>We finished architecting how the match data gets populated from the menus on the Train ride to the venue, which also served as a quick git primer for Landen who - as far as I can tell - only uses git when he works with me. he'll learn!</div>
+<div> </div>
+<div><em>this includes a check in our GameManager class which checks for match data - if it exists, it uses that to set up the game, but if it doesn't it generates a debug match data. this way we can run the game from the gameplay scene without configuring multiple controllers / going through the local multiplayer lobby every time.</em></div>
+<div> </div>
+<div>We also knew we were making a boat game, so we nabbed Kenney's boat assets. My hope was to avoid animations and have lots of small things, rather than highly detailed "hero art" or similar.</div>
+<div><hr></div>
+<h1>Day 1</h1>
+<p> </p>
+<div>We sat down with a rough plan -&gt; Local Multiplayer fishing with a dash of Vampire Survivors. Basically the hordes of enemies become hordes of fish and each player drags a fishing bobber around behind their boat to hit the fish, thus catching them and levelling up in some way.</div>
+<p> </p>
+<div>The first step was getting the bobber to chase the ship. We ended up spending a couple of hours debugging Godot's 6DOF Physics joint, which I suppose was not up for our task because the ultimate solution was for me to write a made-for-purpose implementation of Hooke's Law so the bobber chases an ideal point behind the ship (with a deadone). Physics is not Godot's specialty.</div>
+<div>
+<figure class="post__image" ><img loading="lazy" src="https://kpdwyer.github.io/media/posts/7/0.png" alt="" width="906" height="596" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://kpdwyer.github.io/media/posts/7/responsive/0-xs.png 320w ,https://kpdwyer.github.io/media/posts/7/responsive/0-sm.png 480w ,https://kpdwyer.github.io/media/posts/7/responsive/0-md.png 768w ,https://kpdwyer.github.io/media/posts/7/responsive/0-xl.png 1024w">
+<figcaption >
+<div>It did not feel great to have only this after the first few hours...</div>
+</figcaption>
+</figure>
+</div>
+<div>I took a few minutes to wander the halls of TOJam and find some friends. Mostly folks I haven't seen (in person) for 5 years or longer!</div>
+<div> </div>
+<div>I then started focusing on fish - I wanted the fish to be visually simple but move in the organized chaos you see in flocks of birds. most of the time this would call for a flocking implementation, but worrying about performance I just set up a Fish Manager. The Fish manager generates a few schools of fish, and moves the fish towards an occasionally changing target. Since all the fish just rotate left or right (via the right vector's dot product with the target's position) and always swim forward, they always move in tandem(ish).</div>
+<div> </div>
+<div><em>I didn't need them to collide with each other - i guess they could be at different depths? it's not really gameplay relevant either way. Thus, there was no reason to worry about local avoidance within the schools/flocks.</em></div>
+<div> </div>
+<div>somewhere in here, we took our pre-packed lunches to Sugar Beach for lunch, chatting through design ideas</div>
+<div> </div>
+<div>While I had been solving fish, Landen bounced around tweaking the boat controls, getting score working and wiring up our initial UI - everything from design through implementation.</div>
+<div> </div>
+<div>Once we merged our work together, we had a fairly gnarly looking prototype - and a lead on a music floater who was interested in making some tunes for us.</div>
+<div> </div>
+<div>We were feeling a bit sluggish so nabbed an early dinner and walk. That was a great decision, because it felt like we had a surge of motivation. I managed to finalize the fish visuals &amp; the Bobber, while Landen took time to plan a dynamic camera, build out the rocks around the body of water and square away more UI. Things were looking up.</div>
+<div> </div>
+<div><a href="https://kpdwyer.github.io/media/files/clip.mp4">VIDEO - a clip we captured after finalizing the fish for the WIP channel on the TOJam discord.</a></div>
+<div> </div>
+<div>With the opening ceremonies delayed, and both of us keenly aware of the next 2 days of bus rides and jamming, we decided to bail a bit earlier than planned, hoping to retain some energy for the days to come.</div>
+<figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/7/1.png" alt="A quick end of day screen capture." width="960" height="540" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://kpdwyer.github.io/media/posts/7/responsive/1-xs.png 320w ,https://kpdwyer.github.io/media/posts/7/responsive/1-sm.png 480w ,https://kpdwyer.github.io/media/posts/7/responsive/1-md.png 768w ,https://kpdwyer.github.io/media/posts/7/responsive/1-xl.png 1024w"><figcaption>A quick end of day screen capture.</figcaption></figure>
+<div><hr></div>
+<h1>Day 2</h1>
+<p> </p>
+<div>Once again, Landen and I sat down with a rough plan: I would lay down the architecture that would enable us to add *artifacts* to the game, while Landen put in most of the game loop - such as the results screen &amp; title.</div>
+<div> </div>
+<div>We also managed to pick up another audio floater, Kate, to help us out with whatever simple SFX we could think of, and some ambience for our menus. More work to implement later!</div>
+<div> </div>
+<div>I was hoping to have artifacts running by the end of day with a few artifacts, but it was fairly slow going, as my UI updates would often conflict with Landen's. correctly packing each UI piece into its own scene helped us navigate this a lot, but we still stepped on each others toes a few times.</div>
+<div> </div>
+<div>By the end of the day you could level up and select an artifact, but we only had one, so it felt a bit sparse. hopefully more artifacts tomorrow!</div>
+<div> </div>
+<div>Landen did manage to get the game flow working: from Splash Screen -&gt; Title -&gt; Lobby -&gt; Gameplay -&gt; Results and back to Title. This involved a lot of UI, and Landen stopped and added shaders and polish as he went.</div>
+<div> </div>
+<div>At the end of the day we played a round with our composer Wilfred and decided to rework some core gameplay while we layered on game diversity via artifacts on day 3.</div>
+<div> </div>
+<div>Or so we thought! Landen was mega motivated and tackled some simple hanging tasks on the bus ride home and at night. we had credits, better looking water, and tons of tiny touchups.</div>
+<div> </div>
+<div> </div>
+<div>
+<figure class="post__image" ><img loading="lazy" src="https://kpdwyer.github.io/media/posts/7/3.png" alt="A Quick end of day screen capture" width="1621" height="895" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://kpdwyer.github.io/media/posts/7/responsive/3-xs.png 320w ,https://kpdwyer.github.io/media/posts/7/responsive/3-sm.png 480w ,https://kpdwyer.github.io/media/posts/7/responsive/3-md.png 768w ,https://kpdwyer.github.io/media/posts/7/responsive/3-xl.png 1024w">
+<figcaption >A quick end of day screen capture.</figcaption>
+</figure>
+<hr></div>
+<p> </p>
+<h1>Day 3</h1>
+<div> </div>
+<div>The plan for day 3 was Audio, Artifacts and Arcade. AAA gaming!</div>
+<div> </div>
+<div>In the morning I started getting the "multiple bobber" artifacts working, alongside the "Bobber Growth" artifacts. it turns out there are some wild gotchas around <code>duplicate()</code> and physics stuff in Godot, so it was a bigger rework than I planned. but eventually we got 5 new artifacts that add bobbers in different "slots", and 2 artifacts to scale the bobber up.</div>
+<div> </div>
+<div>Landen tackled some tutorial images and player boat selection in our multiplayer lobby. It was really moving!</div>
+<div>
+<figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/7/4.png" alt="" width="1920" height="1080" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://kpdwyer.github.io/media/posts/7/responsive/4-xs.png 320w ,https://kpdwyer.github.io/media/posts/7/responsive/4-sm.png 480w ,https://kpdwyer.github.io/media/posts/7/responsive/4-md.png 768w ,https://kpdwyer.github.io/media/posts/7/responsive/4-xl.png 1024w"><figcaption>people spent a lot of time choosing boats!</figcaption></figure>
+</div>
+<div>Landen and I sat down for a lunch away from our screens and discussed the game. The biggest take away was Landen convincing me to cut the entire "Artifact Selection" process, whereby each player levels up independently, and replace it with a global artifact system, where we introduce global gameplay twists as the game progresses. I was wary about ditching something we had put the effort into, but realized it would be better for the game to push harder into the "Party" genre, away from providing more "build agency" like you'd see in a roguelike.</div>
+<div> </div>
+<div>So we got back from lunch, and replaced the Player Artifact system with a Global Artifact system. All 7 artifacts just had to be updated to act on all players instead of whichever player they belonged to. Since our seven artifacts were just 2 scripts with different instance data, this was minor.</div>
+<div> </div>
+<div>In this time, Landen tackled the UI upgrades needed to change the artifact system, which he did in isolation pretty quickly. We wrestled with a few git and Godot related mishaps while we were in this final mad dash.</div>
+<div> </div>
+<div>I left to get my mind on other things by helping out another Godot team with some code issues, and when I got back Landen had added his own artifacts to the game and it was looking great!</div>
+<div> </div>
+<div>Kate &amp; Wilfred were both around, so I also did a pass at updating all the music &amp; getting most of our sound effects in. when we bailed for dinner at 5:30, we had played a match with Kate and Wilfred, and had a very minor set of bugs to fix up before the closing ceremony at 6!</div>
+<div> </div>
+<div>
+<figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/7/5.png" alt="" width="1920" height="1080" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://kpdwyer.github.io/media/posts/7/responsive/5-xs.png 320w ,https://kpdwyer.github.io/media/posts/7/responsive/5-sm.png 480w ,https://kpdwyer.github.io/media/posts/7/responsive/5-md.png 768w ,https://kpdwyer.github.io/media/posts/7/responsive/5-xl.png 1024w"><figcaption>Still very happy with my schools of fish</figcaption></figure>
+</div>
+<h1>The Arcade</h1>
+<div> </div>
+<div>At the end of TOJam, everybody sets up their game to be playable in a big room and we all host players &amp; browse the games. Our first 2 or three games with people showed us a few big flaws:</div>
+<div> </div>
+<ul>
+<li>the dynamic camera zoom was a bit too wide / tight with different player counts</li>
+<li>the timer was a bit too long</li>
+<li>players earned 6 or 7 levels very rapidly, then spent a minute or two progressing through the next.</li>
+</ul>
+<div> </div>
+<div>Luckily all of these were fixable with some number tweaks, so we shut down our game a few times, tweaked some numbers and kicked out new builds. this was very quick to do with Godot!</div>
+<div> </div>
+<div>We had a great time playing the game with a bunch of people, and we were on the big screen for a long time! The game sounded great pumping through the room's speakers.</div>
+<div> </div>
+<h1>Gallery</h1>
+<p> </p>
+<div>Here are some pictures I've sourced from attendees. I've blurred the faces for the sake of things like AI and general privacy - I've got no real defense against those things on this site.</div>
+<div> </div>
+<div>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="3">
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/7/gallery/arcade0.jpeg" data-size="4080x3072"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/7/gallery/arcade0-thumbnail.jpeg" alt="" width="720" height="542"></a></figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/7/gallery/arcade1.jpg" data-size="1600x1200"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/7/gallery/arcade1-thumbnail.jpg" alt="" width="720" height="540"></a></figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/7/gallery/arcade2.jpg" data-size="1600x1200"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/7/gallery/arcade2-thumbnail.jpg" alt="" width="720" height="540"></a></figure>
+</div></div>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Art Dump January 2024</title>
+        <author>
+            <name>Kyle Dwyer</name>
+        </author>
+        <link href="https://kpdwyer.github.io/art-dump-january-2024.html"/>
+        <id>https://kpdwyer.github.io/art-dump-january-2024.html</id>
+        <media:content url="https://kpdwyer.github.io/media/posts/12/bikerchick.png" medium="image" />
+            <category term="procreate"/>
+            <category term="posts"/>
+            <category term="godot"/>
+            <category term="blender"/>
+            <category term="art"/>
+
+        <updated>2024-01-26T14:04:00-05:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://kpdwyer.github.io/media/posts/12/bikerchick.png" alt="" />
+                    BIker Chick Frog Doodles 1 Doodles 2 Dungeon Generation Falling Stars Island&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://kpdwyer.github.io/media/posts/12/bikerchick.png" class="type:primaryImage" alt="" /></p>
+                <div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="3">
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/12/gallery/bikerchick.png" data-size="1312x1409"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/12/gallery/bikerchick-thumbnail.png" alt="" width="768" height="825"></a>
+<figcaption>BIker Chick</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/12/gallery/crayonfrog.jpg" data-size="713x947"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/12/gallery/crayonfrog-thumbnail.jpg" alt="" width="713" height="947"></a>
+<figcaption>Frog</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/12/gallery/doodles1.jpg" data-size="713x947"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/12/gallery/doodles1-thumbnail.jpg" alt="" width="713" height="947"></a>
+<figcaption>Doodles 1</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/12/gallery/doodles2.jpg" data-size="1258x947"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/12/gallery/doodles2-thumbnail.jpg" alt="" width="768" height="578"></a>
+<figcaption>Doodles 2</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/12/gallery/dungeon.png" data-size="256x256"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/12/gallery/dungeon-thumbnail.png" alt="" width="256" height="256"></a>
+<figcaption>Dungeon Generation</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/12/gallery/fallingstars.jpg" data-size="713x947"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/12/gallery/fallingstars-thumbnail.jpg" alt="" width="713" height="947"></a>
+<figcaption>Falling Stars</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/12/gallery/Island.png" data-size="256x256"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/12/gallery/Island-thumbnail.png" alt="" width="256" height="256"></a>
+<figcaption>Island Generation</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/12/gallery/kingpin.png" data-size="2732x2048"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/12/gallery/kingpin-thumbnail.png" alt="" width="768" height="576"></a>
+<figcaption>Kingpin</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/12/gallery/tabledoodle.jpg" data-size="713x947"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/12/gallery/tabledoodle-thumbnail.jpg" alt="" width="713" height="947"></a>
+<figcaption>Ninja Turtle</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/12/gallery/why.png" data-size="512x512"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/12/gallery/why-thumbnail.png" alt="" width="512" height="512"></a>
+<figcaption>Noise Pattern</figcaption>
+</figure>
+</div></div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Inkotober 2023</title>
+        <author>
+            <name>Kyle Dwyer</name>
+        </author>
+        <link href="https://kpdwyer.github.io/inkotober-2023.html"/>
+        <id>https://kpdwyer.github.io/inkotober-2023.html</id>
+        <media:content url="https://kpdwyer.github.io/media/posts/10/030_Rush.png" medium="image" />
+            <category term="procreate"/>
+            <category term="posts"/>
+            <category term="inktober"/>
+            <category term="art"/>
+
+        <updated>2023-10-31T13:56:00-04:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://kpdwyer.github.io/media/posts/10/030_Rush.png" alt="" />
+                    I managed to complete Inktober this year. Its tough to commit to&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://kpdwyer.github.io/media/posts/10/030_Rush.png" class="type:primaryImage" alt="" /></p>
+                <div>
+<div>I managed to complete Inktober this year. Its tough to commit to an hour (approximately) every day to draw, but I started off with a day's lead time, and managed to do 2 in one day about mid month, so I kept pace pretty good. I ended up doing a good chunk of these with my daughter and younger son either watching, or sitting with me while they worked on their own coloring pages &amp; art. It was a lot of fun to spend some time drawing with them: something I feel my older son and I spent a lot of time doing, but I haven't made as much time for in recent years.</div>
+<br>
+<div>I used procreate on an old gen 2 iPad Pro, and bought <a href="https://frankentoonstudio.com/product/pocket-inker-procreate/">this brush pack</a> to hype myself up (and prevent myself from taking forever choosing which brushes to use every day).</div>
+<br>
+<div>My personal favourite is Day 30 - Rush. I don't think I managed to convey speed or anything very well with the picture, but I enjoyed drawing a roller skate from that perspective without reference. My least favourite is probably Day 29 - Massive. I just feel like it was rushed: I ended up spiralling while trying to make the silhouettes look good and rushed the actual massive monster.</div>
+<br>
+<div>Anyways, here they are:</div>
+</div>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="3">
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/10/gallery/001_dream.png" data-size="1317x1317"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/10/gallery/001_dream-thumbnail.png" alt="" width="768" height="768"></a>
+<figcaption>01 - Dream</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/10/gallery/002_spiders.png" data-size="1362x1363"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/10/gallery/002_spiders-thumbnail.png" alt="" width="768" height="769"></a>
+<figcaption>02 -Spiders</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/10/gallery/003_Path.png" data-size="2048x2048"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/10/gallery/003_Path-thumbnail.png" alt="" width="768" height="768"></a>
+<figcaption>03 - Path</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/10/gallery/004_dodge.png" data-size="1475x1475"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/10/gallery/004_dodge-thumbnail.png" alt="" width="768" height="768"></a>
+<figcaption>04 - Dodge</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/10/gallery/005_Map.png" data-size="1211x1211"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/10/gallery/005_Map-thumbnail.png" alt="" width="768" height="768"></a>
+<figcaption>05 - Map</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/10/gallery/006_Golden.png" data-size="1026x1026"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/10/gallery/006_Golden-thumbnail.png" alt="" width="768" height="768"></a>
+<figcaption>06 - Golden</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/10/gallery/007_drip.png" data-size="1149x1149"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/10/gallery/007_drip-thumbnail.png" alt="" width="768" height="768"></a>
+<figcaption>07 - Drip</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/10/gallery/008_Toad.png" data-size="1510x1510"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/10/gallery/008_Toad-thumbnail.png" alt="" width="768" height="768"></a>
+<figcaption>08 - Toad</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/10/gallery/009_bounce.png" data-size="1821x1821"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/10/gallery/009_bounce-thumbnail.png" alt="" width="768" height="768"></a>
+<figcaption>09 - Bounce</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/10/gallery/010_fortune.png" data-size="1565x1565"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/10/gallery/010_fortune-thumbnail.png" alt="" width="768" height="768"></a>
+<figcaption>10 - Fortune</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/10/gallery/011_wander.png" data-size="1630x1630"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/10/gallery/011_wander-thumbnail.png" alt="" width="768" height="768"></a>
+<figcaption>11 - Wander</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/10/gallery/012_Spicey.png" data-size="963x962"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/10/gallery/012_Spicey-thumbnail.png" alt="" width="768" height="767"></a>
+<figcaption>12 - Spicy</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/10/gallery/013_rise.png" data-size="1412x1412"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/10/gallery/013_rise-thumbnail.png" alt="" width="768" height="768"></a>
+<figcaption>13 - Rise</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/10/gallery/014_castle.png" data-size="1464x1464"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/10/gallery/014_castle-thumbnail.png" alt="" width="768" height="768"></a>
+<figcaption>14 - Castle</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/10/gallery/015_Dagger.png" data-size="1366x1366"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/10/gallery/015_Dagger-thumbnail.png" alt="" width="768" height="768"></a>
+<figcaption>15 - Dagger</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/10/gallery/016_Angel.png" data-size="1426x1426"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/10/gallery/016_Angel-thumbnail.png" alt="" width="768" height="768"></a>
+<figcaption>16 - Angel</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/10/gallery/017_Demon.png" data-size="1299x1299"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/10/gallery/017_Demon-thumbnail.png" alt="" width="768" height="768"></a>
+<figcaption>17 - Demon</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/10/gallery/018_Saddle.png" data-size="1314x1314"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/10/gallery/018_Saddle-thumbnail.png" alt="" width="768" height="768"></a>
+<figcaption>18 - Saddle</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/10/gallery/019_Plump.png" data-size="1369x1369"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/10/gallery/019_Plump-thumbnail.png" alt="" width="768" height="768"></a>
+<figcaption>19 - Plump</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/10/gallery/020_Frost.png" data-size="1395x1395"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/10/gallery/020_Frost-thumbnail.png" alt="" width="768" height="768"></a>
+<figcaption>20 - Frost</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/10/gallery/021_Chains.png" data-size="1787x1787"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/10/gallery/021_Chains-thumbnail.png" alt="" width="768" height="768"></a>
+<figcaption>21 - Chains</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/10/gallery/022_Scratchy.png" data-size="1350x1350"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/10/gallery/022_Scratchy-thumbnail.png" alt="" width="768" height="768"></a>
+<figcaption>22 - Scratchy</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/10/gallery/023_Celestial.png" data-size="1450x1450"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/10/gallery/023_Celestial-thumbnail.png" alt="" width="768" height="768"></a>
+<figcaption>23 - Celestial</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/10/gallery/024_Shallow.png" data-size="1434x1434"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/10/gallery/024_Shallow-thumbnail.png" alt="" width="768" height="768"></a>
+<figcaption>24 - Shallow</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/10/gallery/025_Dangerous.png" data-size="1279x1279"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/10/gallery/025_Dangerous-thumbnail.png" alt="" width="768" height="768"></a>
+<figcaption>25 - Dangerous</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/10/gallery/026_Remove.png" data-size="1709x1709"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/10/gallery/026_Remove-thumbnail.png" alt="" width="768" height="768"></a>
+<figcaption>26 - Remove</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/10/gallery/027_Beast.png" data-size="1139x1139"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/10/gallery/027_Beast-thumbnail.png" alt="" width="768" height="768"></a>
+<figcaption>27 - Beast</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/10/gallery/028_Sparkle.png" data-size="1373x1373"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/10/gallery/028_Sparkle-thumbnail.png" alt="" width="768" height="768"></a>
+<figcaption>28 - Sparkle</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/10/gallery/029_Massive.png" data-size="1327x1327"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/10/gallery/029_Massive-thumbnail.png" alt="" width="768" height="768"></a>
+<figcaption>29 - Massive</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/10/gallery/030_Rush.png" data-size="1263x1263"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/10/gallery/030_Rush-thumbnail.png" alt="" width="768" height="768"></a>
+<figcaption>30 - Rush</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/10/gallery/031_Fire.png" data-size="1783x1783"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/10/gallery/031_Fire-thumbnail.png" alt="" width="768" height="768"></a>
+<figcaption>31 - Fire</figcaption>
+</figure>
+</div></div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Art Dump September 2023</title>
+        <author>
+            <name>Kyle Dwyer</name>
+        </author>
+        <link href="https://kpdwyer.github.io/art-dump-september-2023.html"/>
+        <id>https://kpdwyer.github.io/art-dump-september-2023.html</id>
+        <media:content url="https://kpdwyer.github.io/media/posts/11/lizard.png" medium="image" />
+            <category term="procreate"/>
+            <category term="posts"/>
+            <category term="blender"/>
+            <category term="art"/>
+
+        <updated>2023-09-12T14:01:00-04:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://kpdwyer.github.io/media/posts/11/lizard.png" alt="" />
+                    Pixel Spaceman Bug Character Concept Bug Character Rig Lizard Spaceship
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://kpdwyer.github.io/media/posts/11/lizard.png" class="type:primaryImage" alt="" /></p>
+                <div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="3">
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/11/gallery/astroman.png" data-size="512x512"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/11/gallery/astroman-thumbnail.png" alt="" width="512" height="512"></a>
+<figcaption>Pixel Spaceman</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/11/gallery/bugmanconcept.png" data-size="1440x1440"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/11/gallery/bugmanconcept-thumbnail.png" alt="" width="768" height="768"></a>
+<figcaption>Bug Character Concept</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/11/gallery/bugmanrig.png" data-size="1008x1737"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/11/gallery/bugmanrig-thumbnail.png" alt="" width="768" height="1323"></a>
+<figcaption>Bug Character Rig</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/11/gallery/lizard.png" data-size="1305x1305"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/11/gallery/lizard-thumbnail.png" alt="" width="768" height="768"></a>
+<figcaption>Lizard</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/11/gallery/ship-preview.png" data-size="398x293"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/11/gallery/ship-preview-thumbnail.png" alt="" width="398" height="293"></a>
+<figcaption>Spaceship</figcaption>
+</figure>
+</div></div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Markov Jr</title>
+        <author>
+            <name>Kyle Dwyer</name>
+        </author>
+        <link href="https://kpdwyer.github.io/markov-jr.html"/>
+        <id>https://kpdwyer.github.io/markov-jr.html</id>
+        <media:content url="https://kpdwyer.github.io/media/posts/6/mkjr_mazerules.png" medium="image" />
+            <category term="projects"/>
+            <category term="posts"/>
+            <category term="godot"/>
+            <category term="experiments"/>
+
+        <updated>2021-05-20T21:18:00-04:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://kpdwyer.github.io/media/posts/6/mkjr_mazerules.png" alt="" />
+                    Inspired by mxgmn, I implemented a simple set of rules of Markov&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://kpdwyer.github.io/media/posts/6/mkjr_mazerules.png" class="type:primaryImage" alt="" /></p>
+                <div>
+<div>Inspired by <a href="https://github.com/mxgmn/MarkovJunior">mxgmn</a>, I implemented a simple set of rules of Markov Jr in Godot. Markov Jr needs some boilerplate work to make nodes operate in any nonlinear way (hiearchies, subgraphs, etc). I opted out of doing this work unless I could complete the work to make <code>inference</code> work, which allows user to enforce constraints on a sequence to varying effects. I never got that far, but my implementation was enough to generate mazes and flood fills.</div>
+<br>
+<div>It is my hope to revisit Markov Jr as part of the Godot port of my <a href="https://kpdwyer.github.io/node-maps.html">Node Map</a> project.</div>
+<div> </div>
+<div><a href="https://kpdwyer.github.io/media/files/mkjr_flood.mp4">VIDEO - flood output</a></div>
+<div> </div>
+<div><a href="https://kpdwyer.github.io/media/files/mkjr_maze.mp4">VIDEO - maze output</a></div>
+<div> </div>
+<div>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="3">
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/6/gallery/mkjr_floodrules.png" data-size="1226x803"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/6/gallery/mkjr_floodrules-thumbnail.png" alt="A flood fill is a very simple markovjr ruleset w/ 2 rules." width="720" height="472"></a>
+<figcaption>A flood fill is a very simple markovjr ruleset w/ 2 rules.</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/6/gallery/mkjr_mazerules.png" data-size="1222x1144"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/6/gallery/mkjr_mazerules-thumbnail.png" alt="With only 3 rules and no code changes, you can implement the entirety of a backtrack maze algorithm. " width="720" height="674"></a>
+<figcaption>With only 3 rules and no code changes, you can implement the entirety of a backtrack maze algorithm.</figcaption>
+</figure>
+</div></div>
+</div>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Wave Function Collapse</title>
+        <author>
+            <name>Kyle Dwyer</name>
+        </author>
+        <link href="https://kpdwyer.github.io/wave-function-collapse-2.html"/>
+        <id>https://kpdwyer.github.io/wave-function-collapse-2.html</id>
+        <media:content url="https://kpdwyer.github.io/media/posts/2/wfc_shape_thumb-2.png" medium="image" />
+            <category term="unity"/>
+            <category term="projects"/>
+            <category term="posts"/>
+            <category term="experiments"/>
+
+        <updated>2020-03-20T20:17:00-04:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://kpdwyer.github.io/media/posts/2/wfc_shape_thumb-2.png" alt="" />
+                    Inspired by mxgmn &amp; Oskar Stålberg, I spent a bunch of time&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://kpdwyer.github.io/media/posts/2/wfc_shape_thumb-2.png" class="type:primaryImage" alt="" /></p>
+                <div>
+<div>Inspired by <a href="https://github.com/mxgmn/WaveFunctionCollapse" target="_blank" rel="noopener noreferrer">mxgmn</a> &amp; <a href="https://twitter.com/OskSta" target="_blank" rel="noopener noreferrer">Oskar Stålberg,</a> I spent a bunch of time building out a Unity implementation for WFC using tilemaps. This was a fun exercising in optimization, and taught me a lot about how procedural generation can still leave room for authored editing: to me, the strength of WFC is allowing both the designer and the algorithm to "collapse" any of the nodes, opening up myriad ways to collaborate with the machine.</div>
+<br>
+<div>Source for WFC is closed. The code is not documented well enough to be of any use to anyone, but interested parties can reach out if they want to learn more. As usual, it's worth noting that performance in these clips is often bound by screen capture / streaming, and staggered execution is an intentional choice to make the videos more interesting!</div>
+<br>
+<div><a href="https://www.youtube.com/watch?v=AfUS6-QcaNw" target="_blank" rel="noopener noreferrer">Staggered Fill on YouTube </a>- In this clip, each contiguous island can be clicked on to destroy the island, and then refill via WFC. each new island is covered based on it's center point's distance to the middle of the square.</div>
+<div> </div>
+<div><a href="https://kpdwyer.github.io/media/files/radial_sample.mp4">VIDEO - Radial Sample</a></div>
+<div> </div>
+<div><a href="https://kpdwyer.github.io/media/files/gameplay_destruction.mp4">VIDEO - Gameplay Destruction</a></div>
+</div>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="3">
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/2/gallery/wfc_simplegen_small.gif" data-size="414x458"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/2/gallery/wfc_simplegen_small.gif" alt=""></a>
+<figcaption>I started off with a simple generator using a basic pipe tileset</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/2/gallery/wfc_shape_thumb.png" data-size="400x400"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/2/gallery/wfc_shape_thumb-thumbnail.png" alt="" width="400" height="400"></a>
+<figcaption>But ended up making a more complex pipes set with overpasses, endings and other features. I fell in love with the pictures I could find in the chaos.</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/2/gallery/wfc_kpd_thumb.png" data-size="400x400"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/2/gallery/wfc_kpd_thumb-thumbnail.png" alt="" width="400" height="400"></a>
+<figcaption>I began constraining the generation within shapes by selectively allowing regions.</figcaption>
+</figure>
+</div></div>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Node Maps</title>
+        <author>
+            <name>Kyle Dwyer</name>
+        </author>
+        <link href="https://kpdwyer.github.io/node-maps.html"/>
+        <id>https://kpdwyer.github.io/node-maps.html</id>
+        <media:content url="https://kpdwyer.github.io/media/posts/5/nodemap_scrubmaze.gif" medium="image" />
+            <category term="unity"/>
+            <category term="tooling"/>
+            <category term="projects"/>
+            <category term="posts"/>
+
+        <updated>2020-01-03T21:00:00-05:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://kpdwyer.github.io/media/posts/5/nodemap_scrubmaze.gif" alt="" />
+                    I built a node-based mapping library for Unity, using the xNode plugin&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://kpdwyer.github.io/media/posts/5/nodemap_scrubmaze.gif" class="type:primaryImage" alt="" /></p>
+                <div>
+<div>I built a node-based mapping library for Unity, using the xNode plugin for the graph tooling. I build a lot of grid-based games and was hoping to create a Shader-Graph-like solution for generating tile maps. This tool is open sourced <a href="https://github.com/KPDwyer/rlbits-mapping">here</a>.</div>
+<h2>Needs</h2>
+</div>
+<div>
+<div> </div>
+<div>When generating maps in a code-driven way, you often need to layer and combine noise patterns in a variety of ways, testing and tweaking as you go. This iterative process can be slow when changing code every test - or time consuming and unwieldy to expose all of the appropriate elements to the inspector. Compounding this is that rather than a singular result, you are often building something robust that can be generated in a multitude of ways, so each iteration needs to be tested with some set of changing parameters: often `seed`, but also `map_size` and other elements.</div>
+<h2>Solution</h2>
+<div> </div>
+<div>The Node Graph workflow lends itself well to these needs: you can preview your map generator at multiple steps in the generation, as well as across multiple seeds. Live Preview can be made to react to scrubbing of value, and pieces of the genreator can be detached from others to isolate elements that need fixing.</div>
+<h3>Present &amp; Future</h3>
+<div> </div>
+<div>The tool is open sourced <a href="https://github.com/KPDwyer/rlbits-mapping">here</a>. I intend to rebuild it in Godot 4, as the <code>GraphEdit</code> and <code>Noise</code> nodes are slated to be refactored.</div>
+<div> </div>
+<div> </div>
+<div><a href="https://kpdwyer.github.io/media/files/nodemap_noisecell.mp4">VIDEO - Scrubbing Node Seed</a></div>
+<div>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="3">
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/5/gallery/cap_nodes.png" data-size="1620x1525"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/5/gallery/cap_nodes-thumbnail.png" alt="" width="720" height="678"></a></figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/5/gallery/cap_play.jpg" data-size="3840x1830"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/5/gallery/cap_play-thumbnail.jpg" alt="" width="720" height="343"></a></figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/5/gallery/cap_scene.jpg" data-size="1620x1525"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/5/gallery/cap_scene-thumbnail.jpg" alt="" width="720" height="678"></a></figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/5/gallery/nodemap_noisecell.gif" data-size="2014x1204"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/5/gallery/nodemap_noisecell.gif" alt=""></a></figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/5/gallery/nodemap_scrubmaze.gif" data-size="964x964"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/5/gallery/nodemap_scrubmaze.gif" alt=""></a></figure>
+<figure class="gallery__item"><a href="https://kpdwyer.github.io/media/posts/5/gallery/nodemap_shapetweaks.gif" data-size="1995x1580"><img loading="lazy" src="https://kpdwyer.github.io/media/posts/5/gallery/nodemap_shapetweaks.gif" alt=""></a></figure>
+</div></div>
+</div>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Autotiling in Unity</title>
+        <author>
+            <name>Kyle Dwyer</name>
+        </author>
+        <link href="https://kpdwyer.github.io/autotiling-in-unity.html"/>
+        <id>https://kpdwyer.github.io/autotiling-in-unity.html</id>
+        <media:content url="https://kpdwyer.github.io/media/posts/9/Screen-Shot-2019-04-16-at-8.18.19-AM.png" medium="image" />
+            <category term="unity"/>
+            <category term="projects"/>
+            <category term="posts"/>
+            <category term="experiments"/>
+
+        <updated>2019-08-18T21:20:00-04:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://kpdwyer.github.io/media/posts/9/Screen-Shot-2019-04-16-at-8.18.19-AM.png" alt="" />
+                    Overview + Quick Start I created some tools to reduce the friction&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://kpdwyer.github.io/media/posts/9/Screen-Shot-2019-04-16-at-8.18.19-AM.png" class="type:primaryImage" alt="" /></p>
+                <h1>Overview + Quick Start</h1>
+<div> </div>
+<div>I created some tools to reduce the friction of importing AutoTile assets into Unity. If the art is made in a specific format (in this case RPGMaker's A2 sheet), using one of these tools will remove all or most of the user interaction required to make a RuleTile for use in your game.</div>
+<p> </p>
+<div>The easiest starting point is <a href="https://github.com/KPDwyer/FullsizedAutoTIle" target="_blank" rel="noopener noreferrer">Implementation 1 - Fullsized Tiles</a>, so if all you want is what I've described, check out the Github README for basic usage.</div>
+<p> </p>
+<div>However, if you find that The Fullsized Tiles generate a bit too many textures for your liking, take a look at <a href="https://github.com/KPDwyer/SubTileAutoTile">Implementation 2 - Subtiles</a>, which perhaps requires a bit more effort to setup, but won't generate any textures beyond the source asset.</div>
+<p> </p>
+<div>If you're interested in the project as a whole: Take a look at the <a href="https://github.com/KPDwyer/AutoTileImporter">Working Project</a> and read on.</div>
+<h1>Goal</h1>
+<div> </div>
+<div>RPG Maker has a real nice "auto tile" system, whereby you load in a fairly simple asset and when you use the tile generated by that asset to draw on the Tilemap, it automatically renders each tile such that it is aware of its local neighbors.</div>
+<div>
+<figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/9/01_A2Source_Output.png" alt="" width="1126" height="560" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://kpdwyer.github.io/media/posts/9/responsive/01_A2Source_Output-xs.png 320w ,https://kpdwyer.github.io/media/posts/9/responsive/01_A2Source_Output-sm.png 480w ,https://kpdwyer.github.io/media/posts/9/responsive/01_A2Source_Output-md.png 768w ,https://kpdwyer.github.io/media/posts/9/responsive/01_A2Source_Output-xl.png 1024w"><figcaption>On Left, A2 Source Asset. On right, the output in tilemap editor</figcaption></figure>
+</div>
+<div>This is generally known as AutoTiling, and will be referred to as such in this article.</div>
+<p> </p>
+<div>I set out to duplicate the functionality of RPGMaker's AutoTiling - specifically what is commonly known as their A2 sheet, shown above. I was surprised to find that while Unity accommodates the creation of these AutoTiles, a few layers of complexity prevent it from being as smooth as RPGMaker's UX.</div>
+<p> </p>
+<div>My goal was to familiarize myself with the Tilemap pipeline by making it as low-effort as possible to convert an RPG Maker A2 Tileset PNG into a Unity RuleTile.</div>
+<h1>Obstacles</h1>
+<h2>Obstacle 1: 2D-Extras</h2>
+<div> </div>
+<div>Unity introduced its 2D Tilemap system some time ago, and it comes with very customizable tiles and brushes. It's a great system, but it doesn't come with everything out of the box - you have to find their `2D-extras` <a href="https://github.com/Unity-Technologies/2d-extras">repository on GitHub</a> to really dig in to the common use cases for the flexibility it provides. This is a pain, as it seems like most of the demos of this system I've seen have centered around the RuleTile, which isn't even in the core feature set. Odd.</div>
+<h2>Obstacle 2: RuleTile's Interface</h2>
+<div>
+<figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/9/02_RuleTile_Inspector.png" alt="" width="400" height="689" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://kpdwyer.github.io/media/posts/9/responsive/02_RuleTile_Inspector-xs.png 320w ,https://kpdwyer.github.io/media/posts/9/responsive/02_RuleTile_Inspector-sm.png 480w ,https://kpdwyer.github.io/media/posts/9/responsive/02_RuleTile_Inspector-md.png 768w ,https://kpdwyer.github.io/media/posts/9/responsive/02_RuleTile_Inspector-xl.png 1024w"><figcaption>Vanilla RuleTile inspector</figcaption></figure>
+</div>
+<div>This is an obstacle I expected to find. Based on previous reading, I knew that to use Unity's RuleTile meant to use their custom inspector. While the inspector is very pretty, manually creating each rule takes an unreasonable amount of time - there are 256 possible combinations with 2 states in 8 directions. That assumes we are using 2 states (we are!) but Unity throws a curve ball by adding a "don't care" state on top! The total possible permutations rises to 6561 - but actually "don't care" is more of a catch-all. We only care about 2 states, but even 256 permutations is too many: RPGMaker's AutoTiler only actually cares about 48 of these permutations.</div>
+<p> </p>
+<div>Once those rules are set, we need to assign a sprite to each rule. That means having a folder of several sprites, and manually dragging them to the Sprite Field on the inspector. This is a lot of friction between `finishing the art` and `being able to paint tiles with the art`, and it must be done for each unique Tileset. The crux of this exercise was, given a known Tileset layout, remove all of the friction of turning a Tileset into a RuleTile.</div>
+<p> </p>
+<div>If you're interested in reading further about how AutoTiling works, check out these links: <a href="http://www.angryfishstudios.com/2011/04/adventures-in-bitmasking/">Adventures in Bitmasking</a> and <a href="https://gamedevelopment.tutsplus.com/tutorials/how-to-use-tile-bitmasking-to-auto-tile-your-level-layouts--cms-25673">How to Use Tile Bitmasking to Auto Tile Your Level Layouts</a>. There is a lot of literature on the bit masking involved in AutoTiling, but this exercise pertains specifically to replicating RPGMaker's functionality in Unity.</div>
+<h2>Obstacle 3: RPGMaker's Filthy Lies</h2>
+<p> </p>
+<div>{% image "./03_A2.png", " %}</div>
+<div>
+<figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/9/03_A2.png" alt="" width="256" height="384" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://kpdwyer.github.io/media/posts/9/responsive/03_A2-xs.png 320w ,https://kpdwyer.github.io/media/posts/9/responsive/03_A2-sm.png 480w ,https://kpdwyer.github.io/media/posts/9/responsive/03_A2-md.png 768w ,https://kpdwyer.github.io/media/posts/9/responsive/03_A2-xl.png 1024w"><figcaption>A2 Source Asset"</figcaption></figure>
+</div>
+<div>Keen readers may have already perceived 6 tiles total on the A2 sheet, yet the AutoTile process calls for 48 unique tiles! RPGMaker is doing something fishy here... I used a sample Tileset - what appears to be 6 32x32 tiles in a 2x3 grid (thus a resolution of 64x96). Note the highlighted Tile in the example screenshot.</div>
+<p> </p>
+<div>
+<figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/9/04_MysteryTile.png" alt="" width="1126" height="560" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://kpdwyer.github.io/media/posts/9/responsive/04_MysteryTile-xs.png 320w ,https://kpdwyer.github.io/media/posts/9/responsive/04_MysteryTile-sm.png 480w ,https://kpdwyer.github.io/media/posts/9/responsive/04_MysteryTile-md.png 768w ,https://kpdwyer.github.io/media/posts/9/responsive/04_MysteryTile-xl.png 1024w"><figcaption>A Nefarious Tile</figcaption></figure>
+</div>
+<div>The highlighted tile doesn't actually exist in the base atlas! Now, I don't know the implementation details of how RPGMaker actually performs this, but my mental model suggests that while the UX + Source asset of RPGMaker treats these tiles as 32x32, the tiling engine actually paints them as 16x16 tiles - each full-sized tile is actually 4 Subtiles. I refer to these with cardinal shorthand - NW,NE,SW,SE.</div>
+<div>
+<figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/9/05_TileQuads.png" alt="" width="575" height="339" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://kpdwyer.github.io/media/posts/9/responsive/05_TileQuads-xs.png 320w ,https://kpdwyer.github.io/media/posts/9/responsive/05_TileQuads-sm.png 480w ,https://kpdwyer.github.io/media/posts/9/responsive/05_TileQuads-md.png 768w ,https://kpdwyer.github.io/media/posts/9/responsive/05_TileQuads-xl.png 1024w"><figcaption>A TileQuad</figcaption></figure>
+</div>
+<div>This means the A2 Tileset actually generates 48 usable full-size tiles from a pool of 20 subtiles. The top left full-size tile is actually just a preview for RPGMaker's palette window, it remains unused in the actual tile painting and rendering at runtime as it's 4 subtiles are contained within the bottom 4 tiles.</div>
+<div>
+<figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/9/06_A2Quads.png" alt="" width="256" height="384" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://kpdwyer.github.io/media/posts/9/responsive/06_A2Quads-xs.png 320w ,https://kpdwyer.github.io/media/posts/9/responsive/06_A2Quads-sm.png 480w ,https://kpdwyer.github.io/media/posts/9/responsive/06_A2Quads-md.png 768w ,https://kpdwyer.github.io/media/posts/9/responsive/06_A2Quads-xl.png 1024w"><figcaption>A2 with tiles broken into TileQuad</figcaption></figure>
+</div>
+<div>I knew early on I'd have to manually assign the quads to each rule, as there are too many layers in the translation to do it smoothly / mathematically.</div>
+<p> </p>
+<div>
+<figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/9/07_Tiling.png" alt="" width="512" height="385" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://kpdwyer.github.io/media/posts/9/responsive/07_Tiling-xs.png 320w ,https://kpdwyer.github.io/media/posts/9/responsive/07_Tiling-sm.png 480w ,https://kpdwyer.github.io/media/posts/9/responsive/07_Tiling-md.png 768w ,https://kpdwyer.github.io/media/posts/9/responsive/07_Tiling-xl.png 1024w"><figcaption>SubTile Indices + TilingEdges</figcaption></figure>
+</div>
+<div>I also discovered that the tiling edges matter: in the first tile set shown above, there is no discernible difference between Subtiles 9,10,5 &amp; 6. However if you simply cut the four of them out of the set and used them like that, it would be fail to adhere to the tiling edges. In the case of this example, the carpet may line up, but the flagstones in the other set would fail to align correctly.</div>
+<div>
+<figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/9/17_subtilecoords.png" alt="" width="600" height="192" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://kpdwyer.github.io/media/posts/9/responsive/17_subtilecoords-xs.png 320w ,https://kpdwyer.github.io/media/posts/9/responsive/17_subtilecoords-sm.png 480w ,https://kpdwyer.github.io/media/posts/9/responsive/17_subtilecoords-md.png 768w ,https://kpdwyer.github.io/media/posts/9/responsive/17_subtilecoords-xl.png 1024w"><figcaption>Subtile edges</figcaption></figure>
+</div>
+<div>Subtiles 5 &amp; 6 should be at the Top Right and Top Left respectively of any tile they are a part of, and the same goes for 9 &amp; 10 on the bottom Right and Bottom Left respectively. If we are listing them clockwise from the NW, `[9,10,5,6]` should actually be rendered as `[6,5,10,9]`. The blue lines help visualize the outward facing edges of each subtile.</div>
+<p> </p>
+<div>Since we know each subtile needs to appear in its target tile in the same local quadrant it occupies in the Tileset atlas, we can simplify the mapping to the following for the sake of manually assigning quads.</div>
+<p> </p>
+<div>
+<figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/9/08_TileIndex.png" alt="" width="256" height="384" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://kpdwyer.github.io/media/posts/9/responsive/08_TileIndex-xs.png 320w ,https://kpdwyer.github.io/media/posts/9/responsive/08_TileIndex-sm.png 480w ,https://kpdwyer.github.io/media/posts/9/responsive/08_TileIndex-md.png 768w ,https://kpdwyer.github.io/media/posts/9/responsive/08_TileIndex-xl.png 1024w"><figcaption>Tile Indices</figcaption></figure>
+</div>
+<div>Now that we understand the functionality reasonably well, the most straightforward solution presents itself to us: lets generate these 48 full-sized tiles from our pool of 20 subtiles.</div>
+<p> </p>
+<h1>Implementation 1: Full-sized Tiles</h1>
+<h2>Target Output</h2>
+<div>The Ideal result of the full-sized tiles implementation is that a developer should be able to perform a single action (ideally a right-click menu item) on an A2 PNG and immediately be served a RuleTile generated from that asset. Spoilers: I did it. Double Spoilers: I hate it.</div>
+<p> </p>
+<h2>Step by Step</h2>
+<div>The first step for any of these solutions is simply to generate the rules for the RuleTile. This is sort of an inversion of the standard AutoTiling bit mask: while looping through 0-255, given an integer value, which tiles should be occupied for this rule? We have some real ugly code for removing the rules we don't care about, but code elegance is just a small cost for reducing our total rule count by over 200 redundant rules. This is the `GetRule(int neighbourMask)` function in `ImportAutotile.cs`, and it is used in both implementations.</div>
+<p> </p>
+<div>We then need to generate a sprite for each rule, using a lookup table. I've made my lookup tables ScriptableObjects for a few reasons - most importantly, a custom inspector ensures I can make the job of setting up the subtile indices as painless as possible. Ultimately, the actual object is just an array of integers for subtile indices and a list of TilingRules for nicely visualizing what rule + quad each indices belongs too. Users of this tool for an A2 Tileset don't need to edit this ScriptableObject at all, but if you were to make a lookup table for a different style of Tileset, it may be handy.</div>
+<p> </p>
+<div>
+<figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/9/09_AutoTileInspector.png" alt="" width="270" height="521" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://kpdwyer.github.io/media/posts/9/responsive/09_AutoTileInspector-xs.png 320w ,https://kpdwyer.github.io/media/posts/9/responsive/09_AutoTileInspector-sm.png 480w ,https://kpdwyer.github.io/media/posts/9/responsive/09_AutoTileInspector-md.png 768w ,https://kpdwyer.github.io/media/posts/9/responsive/09_AutoTileInspector-xl.png 1024w"><figcaption>AutoTile Inspector</figcaption></figure>
+</div>
+<div>So as we generate a sprite for each rule (see `GenerateSprite(int neighbourMask, int res, Texture2D source, AutoTileLookup lookup, string folderPath)` in `ImportAutotile.cs`), we grab the values from our lookup table, convert them from Tile indices to Subtile indices based on their quadrant, then we generate a new Texture2D, grab the pixels from the appropriate quads and use `SetPixels` to write the new texture. we save this texture with the mask value in the filename.</div>
+<p> </p>
+<div>We do a quick save and refresh of our asset datatbase to be sure the files are imported correctly and have their metadata populated, then we simply iterate through the rules, loading the sprite we generated based on the tilemask for each rule. Once we've assigned the sprites to the rules we save the RuleTile and voila! - a functioning RuleTile from our source atlas.</div>
+<div>
+<figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/9/10_Fullsized.gif" alt="" width="483" height="268"><figcaption>Caption</figcaption></figure>
+</div>
+<h2>Problems</h2>
+<h3>Usage</h3>
+<div>First of all, you'll notice this operation is performed upon a PNG but also requires the lookup table data. The nature of my role as someone who will have to make a few different lookup tables meant I didn't want to make this a simple `Right Click -&gt; Generate Autotile` script, as I want to provide 2 pieces of information to the function: the actual PNG, and the lookup table. Thus, I actually trigger the operation with a Sprite Field on the lookup table's ScriptableObject which then triggers the function when you drag a sprite to it. This is a minor detail though, and should require very little legwork to make it work with a right click.</div>
+<div>
+<figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/9/11_ScriptableAsset.png" alt="" width="820" height="386" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://kpdwyer.github.io/media/posts/9/responsive/11_ScriptableAsset-xs.png 320w ,https://kpdwyer.github.io/media/posts/9/responsive/11_ScriptableAsset-sm.png 480w ,https://kpdwyer.github.io/media/posts/9/responsive/11_ScriptableAsset-md.png 768w ,https://kpdwyer.github.io/media/posts/9/responsive/11_ScriptableAsset-xl.png 1024w"><figcaption>ScriptableObject Inspector</figcaption></figure>
+</div>
+<h3>Texture Memory</h3>
+<div>This is the big con. At best, this method results in a new 256x256 texture atlas full of all 48 fullsize tiles. This is a lot larger than the 64x96 atlas we started with. It also means we need to do something with this smaller source asset we used to generate all these tiles. It irked me to delete this smaller source file once i had generated the behemoth atlas used to drive this RuleTile.</div>
+<div>
+<figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/9/12_FullsizedAtlas.png" alt="" width="600" height="415" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://kpdwyer.github.io/media/posts/9/responsive/12_FullsizedAtlas-xs.png 320w ,https://kpdwyer.github.io/media/posts/9/responsive/12_FullsizedAtlas-sm.png 480w ,https://kpdwyer.github.io/media/posts/9/responsive/12_FullsizedAtlas-md.png 768w ,https://kpdwyer.github.io/media/posts/9/responsive/12_FullsizedAtlas-xl.png 1024w"><figcaption>FullSized Atlas</figcaption></figure>
+</div>
+<div>Surely, I thought, there must be a better way. if this giant atlas came from these 32x32 tiles generated from a smaller atlas' 16x16 subtiles, couldn't we use the same source atlas to drive our AutoTile?</div>
+<p> </p>
+<h1>Implementation 2: Subtiles</h1>
+<h2>Target Output</h2>
+<div>Rather than view the solution through the lens of the full-sized tiles that we perceive, what if we saw the solution through the lens of the smaller subtiles that we actually use in our implementation? if we could somehow paint each subtile individually while conforming to the rules + position needs of the full-sized tiles, we'd have nearly the same functionality without generating a large atlas - in fact, we could use the source asset.</div>
+<div>Our goal for this implementation is to generate a brush at subtile scale - in this case that's a 16x16 tile - that gives us the same visual output as the initial implementation without generating any new textures.</div>
+<h2>Step by Step</h2>
+<div>First of all, if we aren't generating new textures, we need to import the source texture properly. we do this in `ProcessSubtileTexture(Texture2D _texture, AutoTileLookup _lookup)` of `ImportAutotile.cs`. we make sure to import the Texture2D as containing multiple sprites, then use our known measurement to slice the sprite in code based on the size of the Subtiles.</div>
+<p> </p>
+<div>{% image "./13_Sliced.png", "Fullsized Atlas" %}</div>
+<div>
+<figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/9/13_Sliced.png" alt="" width="2885" height="1252" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://kpdwyer.github.io/media/posts/9/responsive/13_Sliced-xs.png 320w ,https://kpdwyer.github.io/media/posts/9/responsive/13_Sliced-sm.png 480w ,https://kpdwyer.github.io/media/posts/9/responsive/13_Sliced-md.png 768w ,https://kpdwyer.github.io/media/posts/9/responsive/13_Sliced-xl.png 1024w"><figcaption>Caption</figcaption></figure>
+</div>
+<div>In this case I name them based on which Quadrant they are in and their Subtile ID. After assigning the sliced metadata to the sprite sheet of the Texture2D, I re-import the whole thing and use `LoadAllAssetsAtPath(path)` to make sure I load the individual Sprite assets at that path. I sort them by name because the naming scheme used above means each subtile will be stored in it's own part of the list, from lowest Subtile ID to highest. I then generate the RuleTile and it's TilingRules exactly as was done previously.</div>
+<p> </p>
+<div>Each Rule now needs 4 tiles, though: one for each Quadrant. At this point I realized I hadn't thought this through at all, but remembered that the RuleTIle supports multiple sprites for animation, or random placement. poking into the source code for `RuleTile.cs` in the `2d-extras` repository, I discovered `SpriteOutput`, an enum that you can use to determine which tile in the List of Sprites gets placed for each rule. Since `GetTileData(Vector3Int position, ITilemap Tilemap, ref TileData tileData)` receives the tile's `world` position, we can return which ever tile we want dependent on world position. using a couple of `mod` operations, we can sample from the list of tiles based on whether the world grid index is even or not.</div>
+<div>
+<figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/9/14_ModGrid.png" alt="" width="1766" height="998" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://kpdwyer.github.io/media/posts/9/responsive/14_ModGrid-xs.png 320w ,https://kpdwyer.github.io/media/posts/9/responsive/14_ModGrid-sm.png 480w ,https://kpdwyer.github.io/media/posts/9/responsive/14_ModGrid-md.png 768w ,https://kpdwyer.github.io/media/posts/9/responsive/14_ModGrid-xl.png 1024w"><figcaption>Mod Grid World</figcaption></figure>
+</div>
+<div>So we throw some custom inspectors in there, and now each TilingRule in our RuleTile accepts 4 images: SW, SE, NW, NE. With these additions to the `RuleTile.cs` (and some niceties in `RuleTileEditor.cs`), we can create and paint with a Modulo `SpriteOutput`.</div>
+<p> </p>
+<div>Now our `AddSpritesToRule(ref RuleTile.TilingRule _rule, List&lt;Sprite&gt; _sprites, int _ruleID, AutoTileLookup _lookup)` merely has to transform its tile indices to subtile indices based on which quadrant of the TilingRule it applies too. We add these TilingRules to our RuleTile, and woosh! - processing an A2 PNG file slices the atlas for you and generates a RuleTile ready to be used on a subtile-scale grid.</div>
+<p> </p>
+<h2>Problems</h2>
+<h3>Usage</h3>
+<div>This is the same as Implementation 1. First of all, you'll notice this operation is performed upon a PNG but also requires the lookup table data. The nature of my role as someone who will have to make a few different lookup tables meant I didn't want to make this a simple `Right Click -&gt; Generate Autotile` script, as I want to provide 2 pieces of information to the function: the actual PNG, and the lookup table. Thus, I actually trigger the operation with a Sprite Field on the lookup table's ScriptableObject which then triggers the function when you drag a sprite to it. This is a minor detail though, and should require very little legwork to make it work with a right click.</div>
+<p> </p>
+<h3>Setup</h3>
+<div>There's a minor bit of friction when setting up, your Tilemap needs to have half-scale tiles - so if your pixel-per-unit is 32 and your tiles are 32, then you'll need your Grid Component's cell size to be 0.5.</div>
+<p> </p>
+<h3>Painting the AutoTile</h3>
+<div>Initially, this adds some operational friction to the act of actually painting with the RuleTile. Namely, you'd be able to paint a quarter, half or three-quarter fractional tile that will look terrible, as it's meant to be painted alongside its entire tile. Since the Tilemap is at subtile resolution, painting is at subtile resolution as well. Also, even when painting with full tiles, you need to make sure you are not painting offset to the global modulo grid. That is too say, if you are trying to place a NW or SW tile at an odd global grid index, it will try to paint the NE or SE variant of that tile's current rule. See the gif below for some of the problem one might run into.</div>
+<div> </div>
+<div>
+<figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/9/15_PaintingSubtiles.gif" alt="" width="483" height="268"><figcaption>Subtile Painting</figcaption></figure>
+</div>
+<div>Luckily, Unity's Tilemaps also let you write custom brushes, so it's minimal work to write a brush that forces the tiles you paint to adhere to the modulo grid as if you were painting fullscale tiles rather than subtiles.</div>
+<div> </div>
+<div>
+<figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/9/17_PaintingModulo.gif" alt="" width="483" height="268"><figcaption>Painting Modulo</figcaption></figure>
+</div>
+<div>Having the tilemap at half res has runtime concerns though, especially for games with things like destructible terrain. The other flaw here is that using the modulo brush means you can't use other types of brushes (unless you make a modulo version...). Likewise for the RuleTile's Modulo SpriteOutput, which prevents you from painting with `Random` or `Animated` Tiles (Again, unless you write a modulo variant of these).</div>
+<div> </div>
+<div>I thought I had these problems solved as well, but Unity's `Sprite` implementation lacks a critical feature.</div>
+<div> </div>
+<h1>Failed Attempt: The Impossible Dream</h1>
+<h2>Target Output</h2>
+<div>I'd assume it is possible to generate a single Sprite that contains a mesh, split into four quads, that each sample from the source texture as necessary - this way we can paint at full-size resolution without generating a ton of texture bloat. We know that Unity's Sprites support some level of custom mesh, because you can edit it in the editor, so I thought this would be the ideal solution.</div>
+<h2>Custom Mesh</h2>
+<div>This seems doable: Unity's Sprite documentation shows a function called `OverrideGeometry(Vector2[] vertices, ushort[] triangles)`, which should allow us to set up the mesh as we need. However, a line in [The Documentation](https://docs.unity3d.com/ScriptReference/Sprite.OverrideGeometry.html) scared me: `Sprite UV's are calculated automatically by mapping the provided geometry onto the sprite texture.`</div>
+<div>
+<figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/9/16_impossible.png" alt="" width="512" height="384" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://kpdwyer.github.io/media/posts/9/responsive/16_impossible-xs.png 320w ,https://kpdwyer.github.io/media/posts/9/responsive/16_impossible-sm.png 480w ,https://kpdwyer.github.io/media/posts/9/responsive/16_impossible-md.png 768w ,https://kpdwyer.github.io/media/posts/9/responsive/16_impossible-xl.png 1024w"><figcaption>Impossible Dream<br><br></figcaption></figure>
+</div>
+<h2>Custom UVs</h2>
+<div>I had hoped that those auto-generated UVs could be overridden somewhere, but it seems that they can't. Without custom UVs on the Sprites custom geometry, this idea is sort of a dead end - barring some custom shader work that I wanted to avoid.</div>
+<h1>In Closing</h1>
+<div>I'm not super jazzed about any of this, really. It seems like we should be able to feed our own UVs into a Sprite's mesh to manually sample from the atlas in a more flexible way, but here we are: 2 solutions for rapid AutoTile generation in Unity. One favors simplicity, and one favors texture memory. Thanks for reading! Thanks <a href="https://mastodon.gamedev.place/@macktimus">Mack</a>, for proofreading + editing!</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Pixel Animation Importer</title>
+        <author>
+            <name>Kyle Dwyer</name>
+        </author>
+        <link href="https://kpdwyer.github.io/pixel-animation-importer.html"/>
+        <id>https://kpdwyer.github.io/pixel-animation-importer.html</id>
+        <media:content url="https://kpdwyer.github.io/media/posts/4/animgenerator_controller-2.jpg" medium="image" />
+            <category term="unity"/>
+            <category term="tooling"/>
+            <category term="projects"/>
+            <category term="posts"/>
+            <category term="experiments"/>
+
+        <updated>2019-01-17T20:58:00-05:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://kpdwyer.github.io/media/posts/4/animgenerator_controller-2.jpg" alt="" />
+                    I finished off writing a basic animation generator, given a very specific&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://kpdwyer.github.io/media/posts/4/animgenerator_controller-2.jpg" class="type:primaryImage" alt="" /></p>
+                <div>I finished off writing a basic animation generator, given a very specific folder layout:</div>
+<div>
+<figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/4/animgenerator_files.jpg" alt="File Layout" width="1200" height="423" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://kpdwyer.github.io/media/posts/4/responsive/animgenerator_files-xs.jpg 320w ,https://kpdwyer.github.io/media/posts/4/responsive/animgenerator_files-sm.jpg 480w ,https://kpdwyer.github.io/media/posts/4/responsive/animgenerator_files-md.jpg 768w ,https://kpdwyer.github.io/media/posts/4/responsive/animgenerator_files-xl.jpg 1024w"><figcaption>File Structure</figcaption></figure>
+</div>
+<div>This layout (and most of the code in the following gist) is simply set up the way that it is because it fits my current process. None of this is meant to be universal or overly generic, but it's a good starting point if you're looking for something similar.</div>
+<p> </p>
+<div>The tool can generate animator controllers + clips, or just clips from a folder or selection.</div>
+<div>
+<figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/4/animgenerator_menu.jpg" alt="" width="946" height="364" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://kpdwyer.github.io/media/posts/4/responsive/animgenerator_menu-xs.jpg 320w ,https://kpdwyer.github.io/media/posts/4/responsive/animgenerator_menu-sm.jpg 480w ,https://kpdwyer.github.io/media/posts/4/responsive/animgenerator_menu-md.jpg 768w ,https://kpdwyer.github.io/media/posts/4/responsive/animgenerator_menu-xl.jpg 1024w"><figcaption>Menu Hierarchy</figcaption></figure>
+</div>
+<div>I left in fairly basic `Debug.Log()` messages tracking (useful to track what has been done, rather than an actual progress display).</div>
+<div>
+<figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/4/animgenerator_output.jpg" alt="" width="1198" height="578" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://kpdwyer.github.io/media/posts/4/responsive/animgenerator_output-xs.jpg 320w ,https://kpdwyer.github.io/media/posts/4/responsive/animgenerator_output-sm.jpg 480w ,https://kpdwyer.github.io/media/posts/4/responsive/animgenerator_output-md.jpg 768w ,https://kpdwyer.github.io/media/posts/4/responsive/animgenerator_output-xl.jpg 1024w"><figcaption>Log Output</figcaption></figure>
+</div>
+<div>And it does it's best to organize the resulting Animator Controller - in my game the art is along 4 cardinal directions, so it places the output in columns of 4 States for the sake of organization.</div>
+<figure class="post__image"><img loading="lazy"  src="https://kpdwyer.github.io/media/posts/4/animgenerator_controller.jpg" alt="" width="748" height="778" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://kpdwyer.github.io/media/posts/4/responsive/animgenerator_controller-xs.jpg 320w ,https://kpdwyer.github.io/media/posts/4/responsive/animgenerator_controller-sm.jpg 480w ,https://kpdwyer.github.io/media/posts/4/responsive/animgenerator_controller-md.jpg 768w ,https://kpdwyer.github.io/media/posts/4/responsive/animgenerator_controller-xl.jpg 1024w"><figcaption>Animation Controller Layout</figcaption></figure>
+<div>Obviously there's still a lot of work involved (timing individual frames, setting up transitions + parameters, etc), but this saves some time - especially if the default method of dragging batches of sprites onto a animation clip doesn't quite cover your bases.</div>
+<p>
+<script src="https://gist.github.com/KPDwyer/1c4a490e5d4e8eef7bbe0272126a2f20.js"></script>
+</p>
+            ]]>
+        </content>
+    </entry>
+</feed>
